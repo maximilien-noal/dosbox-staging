@@ -143,7 +143,41 @@ void increaseticks();
 
 bool mono_cga=false;
 
-static Bitu Normal_Loop(void) {
+// Start with a sane default based on a 60 Hz display.
+// SDL main will keep this up-to-date on mode changes.
+uint32_t frame_period_ms = 1000 / 60;
+
+// As recommended by SDL, this function pumps the SDL video renderer and event
+// handler once-per-video-frame (when called from the 'Normal_Loop'). This
+// eliminates the overhead of excessive polling (previously up to 4000/s) and
+// defers the event handling to the last momement before rendering, which
+// minimizes input latency.
+static bool pump_events()
+{
+	static uint32_t elapsed_ms = 0;
+	static uint32_t pump_cost_ms = 1;
+
+	// it it time to general another host frame yet?
+	elapsed_ms += ticksAdded;
+	if (elapsed_ms + pump_cost_ms < frame_period_ms)
+		return true;
+
+	// measure the time spent rendering and querying the host.
+	// On some systems, this can be several milliseconds which
+	// is why we take its cost (in time) into account above.
+	const auto start = GetTicks();
+	const bool result = GFX_Events();
+	const auto stop = GetTicks();
+	assert(start <= stop);
+
+	// Update our timers
+	elapsed_ms = 0;
+	pump_cost_ms = stop - start;
+	return result;
+}
+
+static Bitu Normal_Loop(void)
+{
 	Bits ret;
 	while (1) {
 		if (PIC_RunQueue()) {
@@ -158,12 +192,15 @@ static Bitu Normal_Loop(void) {
 			if (DEBUG_ExitLoop()) return 0;
 #endif
 		} else {
-			if (!GFX_Events())
+			if (!pump_events())
 				return 0;
 			if (ticksRemain > 0) {
 				TIMER_AddTick();
 				ticksRemain--;
-			} else {increaseticks();return 0;}
+			} else {
+				increaseticks();
+				return 0;
+			}
 		}
 	}
 }

@@ -73,6 +73,7 @@ extern SVGACards svgaCard;
 extern MachineType machine;
 extern bool SDLNetInited;
 extern bool mono_cga;
+extern uint32_t frame_period_ms;
 
 #define IS_TANDY_ARCH ((machine==MCH_TANDY) || (machine==MCH_PCJR))
 #define IS_EGAVGA_ARCH ((machine==MCH_EGA) || (machine==MCH_VGA))

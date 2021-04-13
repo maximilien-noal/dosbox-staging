@@ -592,12 +592,23 @@ check_surface:
 	return flags;
 }
 
+void UpdateFramePeriod()
+{
+	assert(sdl.window);
+	SDL_DisplayMode display_mode;
+	SDL_GetWindowDisplayMode(sdl.window, &display_mode);
+	const uint32_t refresh_rate = display_mode.refresh_rate > 0
+	                                      ? display_mode.refresh_rate
+	                                      : 60;
+	frame_period_ms = 1000 / refresh_rate;
+}
 
 void GFX_ResetScreen(void) {
 	GFX_Stop();
 	if (sdl.draw.callback)
 		(sdl.draw.callback)( GFX_CallBackReset );
 	GFX_Start();
+	UpdateFramePeriod();
 	CPU_Reset_AutoAdjust();
 }
 
