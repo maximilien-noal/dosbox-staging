@@ -155,11 +155,12 @@ uint32_t frame_period_ms = 1000 / 60;
 static bool pump_events()
 {
 	static uint32_t elapsed_ms = 0;
-	static uint32_t pump_cost_ms = 1;
+	static uint32_t host_latency_ms = 1;
+	constexpr uint32_t warn_above_latency_ms = 50;
 
 	// it it time to general another host frame yet?
 	elapsed_ms += ticksAdded;
-	if (elapsed_ms + pump_cost_ms < frame_period_ms)
+	if (elapsed_ms + host_latency_ms < frame_period_ms)
 		return true;
 
 	// measure the time spent rendering and querying the host.
@@ -172,7 +173,12 @@ static bool pump_events()
 
 	// Update our timers
 	elapsed_ms = 0;
-	pump_cost_ms = stop - start;
+	host_latency_ms = stop - start;
+
+	// Notify the user on excessive lag
+	if (host_latency_ms > warn_above_latency_ms)
+		LOG_MSG("SDL: host polling took %u ms (lag-detected)", host_latency_ms);
+
 	return result;
 }
 
