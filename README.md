@@ -171,7 +171,7 @@ is bootstrapped, open PowerShell and run:
 
 ``` powershell
 PS:\> .\vcpkg integrate install
-PS:\> .\vcpkg install --triplet x64-windows libpng sdl2 sdl2-net opusfile fluidsynth
+PS:\> .\vcpkg install --triplet x64-windows libpng sdl2 sdl2-net opusfile fluidsynth pdcurses
 ```
 
 These two steps will ensure that MSVC finds and links all dependencies.
