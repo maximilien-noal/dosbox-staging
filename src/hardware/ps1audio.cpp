@@ -247,7 +247,7 @@ void Ps1Dac::Update(uint16_t samples)
 		// Excessive?
 		Reset(false);
 	}
-	uint8_t *buffer = (uint8_t *)MixTemp;
+	uint8_t *buffer = MixTemp;
 
 	int32_t pending = 0;
 	uint32_t add = 0;
@@ -256,7 +256,7 @@ void Ps1Dac::Update(uint16_t samples)
 
 	if (is_playing) {
 		regs.status = CalcStatus();
-		pending = (Bits)bytes_pending;
+		pending = static_cast<int32_t>(bytes_pending);
 		add = adder;
 		if ((regs.status & fifo_nearly_empty_flag) && (can_trigger_irq)) {
 			// More bytes needed.
@@ -278,8 +278,8 @@ void Ps1Dac::Update(uint16_t samples)
 		} else {
 			out = fifo[pos >> frac_shift];
 			pos += add;
-			pos &= ((fifo_size << frac_shift) - 1);
-			pending -= (Bits)add;
+			pos &= (fifo_size << frac_shift) - 1;
+			pending -= static_cast<int32_t>(add);
 		}
 
 		*(buffer++) = out;
@@ -287,10 +287,10 @@ void Ps1Dac::Update(uint16_t samples)
 	}
 	// Update positions and see if we can clear the fifo_full_flag
 	read_index_high = pos;
-	read_index = (uint16_t)(pos >> frac_shift);
+	read_index = static_cast<uint16_t>(pos >> frac_shift);
 	if (pending < 0)
 		pending = 0;
-	bytes_pending = (Bitu)pending;
+	bytes_pending = static_cast<uint32_t>(pending);
 
 	channel->AddSamples_m8(samples, MixTemp);
 }
