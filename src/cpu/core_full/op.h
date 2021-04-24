@@ -183,11 +183,11 @@ switch (inst.code.op) {
 		inst_op1_d=lf_resd=0-inst_op1_d;
 		lflags.type=t_NEGd;
 		break;
-	
+
 	case O_NOT:
 		inst_op1_d=~inst_op1_d;
-		break;	
-		
+		break;
+
 	/* Special instructions */
 	case O_IMULRw:
 		DIMULW(inst_op1_ws,inst_op1_ws,inst_op2_ws,LoadD,SaveD);
@@ -288,7 +288,7 @@ switch (inst.code.op) {
 	case O_SEGSS:
 		inst.code.extra=ss;
 		break;
-	
+
 	case O_LOOP:
 		if (inst.prefix & PREFIX_ADDR) {
 			if (--reg_ecx) break;
@@ -358,9 +358,9 @@ switch (inst.code.op) {
 	case O_INT:
 #if C_DEBUG
 		FillFlags();
-		if (((inst.entry & 0xFF)==0xcc) && DEBUG_Breakpoint()) 
+		if (((inst.entry & 0xFF)==0xcc) && DEBUG_Breakpoint() || DEBUG_IntBreakpoint(3))
 			return debugCallback;
-		else if (DEBUG_IntBreakpoint(inst_op1_b)) 
+		else if (DEBUG_IntBreakpoint(inst_op1_b))
 			return debugCallback;
 #endif
 		CPU_SW_Interrupt(inst_op1_b,GetIP());
@@ -663,5 +663,5 @@ switch (inst.code.op) {
 		break;
 	default:
 		LOG(LOG_CPU,LOG_ERROR)("OP:Unhandled code %d entry %X",inst.code.op,inst.entry);
-		
+
 }

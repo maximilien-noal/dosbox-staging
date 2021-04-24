@@ -690,6 +690,8 @@ void DOSBOX_Init(void) {
 
 #if C_DEBUG
 	secprop=control->AddSection_prop("debug",&DEBUG_Init);
+	Pstring = secprop->Add_string("autoexec",Property::Changeable::WhenIdle,"debug-autoexec.txt");
+	Pstring->Set_help("Automatically run commands on debug startup from the file specified.");
 #endif
 
 	secprop = control->AddSection_prop("sblaster", &SBLASTER_Init, true);

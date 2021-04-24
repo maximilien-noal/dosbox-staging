@@ -100,7 +100,7 @@ class DEBUG;
 
 DEBUG*	pDebugcom	= 0;
 bool	exitLoop	= false;
-
+std::string autoexec = "";
 
 // Heavy Debugging Vars for logging
 #if C_HEAVY_DEBUG
@@ -473,7 +473,7 @@ bool CBreakpoint::CheckBreakpoint(Bitu seg, Bitu off)
 	for(i=BPoints.begin(); i != BPoints.end(); ++i) {
 		bp = (*i);
 		if ((bp->GetType()==BKPNT_PHYSICAL) && bp->IsActive() && (bp->GetSegment()==seg) && (bp->GetOffset()==off)) {
-			// Found, 
+			// Found,
 			if (bp->GetOnce()) {
 				// delete it, if it should only be used once
 				(BPoints.erase)(i);
@@ -489,7 +489,7 @@ bool CBreakpoint::CheckBreakpoint(Bitu seg, Bitu off)
 				}
 			}
 			return true;
-		} 
+		}
 #if C_HEAVY_DEBUG
 		// Memory breakpoint support
 		else if (bp->IsActive()) {
@@ -504,7 +504,7 @@ bool CBreakpoint::CheckBreakpoint(Bitu seg, Bitu off)
 					if (desc.GetLimit()==0) return false;
 				}
 
-				Bitu address; 
+				Bitu address;
 				if (bp->GetType()==BKPNT_MEMORY_LINEAR) address = bp->GetOffset();
 				else address = GetAddress(bp->GetSegment(),bp->GetOffset());
 				Bit8u value=0;
@@ -695,7 +695,7 @@ static bool StepOver()
 		debugging=false;
 		DrawCode();
 		return true;
-	} 
+	}
 	return false;
 };
 
@@ -721,7 +721,7 @@ static void DrawData(void) {
 	Bit8u ch;
 	Bit32u add = dataOfs;
 	Bit32u address;
-	/* Data win */	
+	/* Data win */
 	for (int y=0; y<8; y++) {
 		// Address
 		if (add<0x10000) mvwprintw (dbg.win_data,y,0,"%04X:%04X     ",dataSeg,add);
@@ -1244,7 +1244,7 @@ bool ParseCommand(char* str) {
 
 		debugging = false;
 		CBreakpoint::ActivateBreakpointsExceptAt(SegPhys(cs)+reg_eip);
-		DOSBOX_SetNormalLoop();	
+		DOSBOX_SetNormalLoop();
 		return true;
 	};
 
@@ -1318,7 +1318,7 @@ bool ParseCommand(char* str) {
 	};
 
 	if(command == "TIMERIRQ") { //Start a timer irq
-		DEBUG_RaiseTimerIrq(); 
+		DEBUG_RaiseTimerIrq();
 		DEBUG_ShowMsg("Debug: Timer Int started.\n");
 		return true;
 	};
@@ -1533,7 +1533,7 @@ char* AnalyzeInstruction(char* inst, bool saveSelector) {
 		case 'M' :	{	jmp = true; // JMP
 					}	break;
 		case 'N' :	{	switch (instu[2]) {
-						case 'B' :	
+						case 'B' :
 						case 'C' :	{	jmp = get_CF()?false:true;	// JNB / JNC
 									}	break;
 						case 'E' :	{	jmp = get_ZF()?false:true;	// JNE
@@ -1640,7 +1640,7 @@ Bit32u DEBUG_CheckKeys(void) {
 			break;
 		}
 #endif
-		switch (toupper(key)) {
+		switch ((key)) {
 		case 27:	// escape (a bit slow): Clears line. and processes alt commands.
 			key=getch();
 			if(key < 0) { //Purely escape Clear line
@@ -1681,11 +1681,11 @@ Bit32u DEBUG_CheckKeys(void) {
 		case KEY_PPAGE :	dataOfs -= 16;	break;
 		case KEY_NPAGE :	dataOfs += 16;	break;
 
-		case KEY_DOWN:	// down 
+		case KEY_DOWN:	// down
 				if (codeViewData.cursorPos<9) codeViewData.cursorPos++;
 				else codeViewData.useEIP += codeViewData.firstInstSize;
 				break;
-		case KEY_UP:	// up 
+		case KEY_UP:	// up
 				if (codeViewData.cursorPos>0) codeViewData.cursorPos--;
 				else {
 					Bitu bytes = 0;
@@ -1793,7 +1793,7 @@ Bit32u DEBUG_CheckKeys(void) {
 				break;
 		case KEY_BACKSPACE: //backspace (linux)
 		case 0x7f:	// backspace in some terminal emulators (linux)
-		case 0x08:	// delete 
+		case 0x08:	// delete
 				if (codeViewData.inputPos == 0) break;
 				codeViewData.inputPos--;
 				// fallthrough
@@ -1863,15 +1863,39 @@ Bitu DEBUG_Loop(void) {
 	return DEBUG_CheckKeys();
 }
 
+#ifndef MAXCMDLEN
+        #define MAXCMDLEN 254
+#endif
+bool DEBUG_LoadAutoExec(const char *name)
+{
+	ifstream in(name);
+	if (!in) return false;
+	char c[MAXCMDLEN + 1];
+	string line;
+	DEBUG_ShowMsg("Executing autoexec file %s...", name);
+	while (getline(in, line))
+	{
+		strcpy(c, line.c_str());
+		ParseCommand(c);
+	}
+	in.close();
+	return true;
+}
+
 void DEBUG_Enable(bool pressed) {
 	if (!pressed)
 		return;
 	static bool showhelp=false;
+	static bool runautoexec = true;
 	debugging=true;
 	SetCodeWinStart();
+	if (runautoexec) {
+		runautoexec = false;
+		DEBUG_LoadAutoExec(autoexec.c_str());
+	}
 	DEBUG_DrawScreen();
 	DOSBOX_SetLoop(&DEBUG_Loop);
-	if(!showhelp) { 
+	if(!showhelp) {
 		showhelp=true;
 		DEBUG_ShowMsg("***| TYPE HELP (+ENTER) TO GET AN OVERVIEW OF ALL COMMANDS |***\n");
 	}
@@ -2240,8 +2264,8 @@ void DEBUG_ShutDown(Section * /*sec*/) {
 Bitu debugCallback;
 
 void DEBUG_Init(Section* sec) {
-
-//	MSG_Add("DEBUG_CONFIGFILE_HELP","Debugger related options.\n");
+	Section_prop *section = static_cast<Section_prop *>(sec);
+	//	MSG_Add("DEBUG_CONFIGFILE_HELP","Debugger related options.\n");
 	DEBUG_DrawScreen();
 	/* Add some keyhandlers */
 	MAPPER_AddHandler(DEBUG_Enable, SDL_SCANCODE_PAUSE, MMOD2, "debugger",
@@ -2255,6 +2279,8 @@ void DEBUG_Init(Section* sec) {
 	CALLBACK_Setup(debugCallback,DEBUG_EnableDebugger,CB_RETF,"debugger");
 	/* shutdown function */
 	sec->AddDestroyFunction(&DEBUG_ShutDown);
+	/* Setup Debug Autoexec from file */
+	autoexec = section->Get_string("autoexec");
 }
 
 // DEBUGGING VAR STUFF

@@ -19,7 +19,7 @@
 	CASE_B(0x00)												/* ADD Eb,Gb */
 		RMEbGb(ADDB);break;
 	CASE_W(0x01)												/* ADD Ew,Gw */
-		RMEwGw(ADDW);break;	
+		RMEwGw(ADDW);break;
 	CASE_B(0x02)												/* ADD Gb,Eb */
 		RMGbEb(ADDB);break;
 	CASE_W(0x03)												/* ADD Gw,Ew */
@@ -28,7 +28,7 @@
 		ALIb(ADDB);break;
 	CASE_W(0x05)												/* ADD AX,Iw */
 		AXIw(ADDW);break;
-	CASE_W(0x06)												/* PUSH ES */		
+	CASE_W(0x06)												/* PUSH ES */
 		Push_16(SegValue(es));break;
 	CASE_W(0x07)												/* POP ES */
 		if (CPU_PopSeg(es,false)) RUNEXCEPTION();
@@ -45,16 +45,16 @@
 		ALIb(ORB);break;
 	CASE_W(0x0d)												/* OR AX,Iw */
 		AXIw(ORW);break;
-	CASE_W(0x0e)												/* PUSH CS */		
+	CASE_W(0x0e)												/* PUSH CS */
 		Push_16(SegValue(cs));break;
-	CASE_B(0x0f)												/* 2 byte opcodes*/		
+	CASE_B(0x0f)												/* 2 byte opcodes*/
 		core.opcode_index|=OPCODE_0F;
 		goto restart_opcode;
 		break;
 	CASE_B(0x10)												/* ADC Eb,Gb */
 		RMEbGb(ADCB);break;
 	CASE_W(0x11)												/* ADC Ew,Gw */
-		RMEwGw(ADCW);break;	
+		RMEwGw(ADCW);break;
 	CASE_B(0x12)												/* ADC Gb,Eb */
 		RMGbEb(ADCB);break;
 	CASE_W(0x13)												/* ADC Gw,Ew */
@@ -63,9 +63,9 @@
 		ALIb(ADCB);break;
 	CASE_W(0x15)												/* ADC AX,Iw */
 		AXIw(ADCW);break;
-	CASE_W(0x16)												/* PUSH SS */		
+	CASE_W(0x16)												/* PUSH SS */
 		Push_16(SegValue(ss));break;
-	CASE_W(0x17)												/* POP SS */		
+	CASE_W(0x17)												/* POP SS */
 		if (CPU_PopSeg(ss,false)) RUNEXCEPTION();
 		CPU_Cycles++; //Always do another instruction
 		break;
@@ -81,7 +81,7 @@
 		ALIb(SBBB);break;
 	CASE_W(0x1d)												/* SBB AX,Iw */
 		AXIw(SBBW);break;
-	CASE_W(0x1e)												/* PUSH DS */		
+	CASE_W(0x1e)												/* PUSH DS */
 		Push_16(SegValue(ds));break;
 	CASE_W(0x1f)												/* POP DS */
 		if (CPU_PopSeg(ds,false)) RUNEXCEPTION();
@@ -89,7 +89,7 @@
 	CASE_B(0x20)												/* AND Eb,Gb */
 		RMEbGb(ANDB);break;
 	CASE_W(0x21)												/* AND Ew,Gw */
-		RMEwGw(ANDW);break;	
+		RMEwGw(ANDW);break;
 	CASE_B(0x22)												/* AND Gb,Eb */
 		RMGbEb(ANDB);break;
 	CASE_W(0x23)												/* AND Gw,Ew */
@@ -117,11 +117,11 @@
 	CASE_B(0x2e)												/* SEG CS: */
 		DO_PREFIX_SEG(cs);break;
 	CASE_B(0x2f)												/* DAS */
-		DAS();break;  
+		DAS();break;
 	CASE_B(0x30)												/* XOR Eb,Gb */
 		RMEbGb(XORB);break;
 	CASE_W(0x31)												/* XOR Ew,Gw */
-		RMEwGw(XORW);break;	
+		RMEwGw(XORW);break;
 	CASE_B(0x32)												/* XOR Gb,Eb */
 		RMGbEb(XORB);break;
 	CASE_W(0x33)												/* XOR Gw,Ew */
@@ -133,7 +133,7 @@
 	CASE_B(0x36)												/* SEG SS: */
 		DO_PREFIX_SEG(ss);break;
 	CASE_B(0x37)												/* AAA */
-		AAA();break;  
+		AAA();break;
 	CASE_B(0x38)												/* CMP Eb,Gb */
 		RMEbGb(CMPB);break;
 	CASE_W(0x39)												/* CMP Ew,Gw */
@@ -413,21 +413,21 @@
 		RMEwGw(TESTW);
 		break;
 	CASE_B(0x86)												/* XCHG Eb,Gb */
-		{	
+		{
 			GetRMrb;Bit8u oldrmrb=*rmrb;
 			if (rm >= 0xc0 ) {GetEArb;*rmrb=*earb;*earb=oldrmrb;}
 			else {GetEAa;*rmrb=LoadMb(eaa);SaveMb(eaa,oldrmrb);}
 			break;
 		}
 	CASE_W(0x87)												/* XCHG Ew,Gw */
-		{	
+		{
 			GetRMrw;Bit16u oldrmrw=*rmrw;
 			if (rm >= 0xc0 ) {GetEArw;*rmrw=*earw;*earw=oldrmrw;}
 			else {GetEAa;*rmrw=LoadMw(eaa);SaveMw(eaa,oldrmrw);}
 			break;
 		}
 	CASE_B(0x88)												/* MOV Eb,Gb */
-		{	
+		{
 			GetRMrb;
 			if (rm >= 0xc0 ) {GetEArb;*earb=*rmrb;}
 			else {
@@ -446,21 +446,21 @@
 			break;
 		}
 	CASE_W(0x89)												/* MOV Ew,Gw */
-		{	
+		{
 			GetRMrw;
 			if (rm >= 0xc0 ) {GetEArw;*earw=*rmrw;}
 			else {GetEAa;SaveMw(eaa,*rmrw);}
 			break;
 		}
 	CASE_B(0x8a)												/* MOV Gb,Eb */
-		{	
+		{
 			GetRMrb;
 			if (rm >= 0xc0 ) {GetEArb;*rmrb=*earb;}
 			else {GetEAa;*rmrb=LoadMb(eaa);}
 			break;
 		}
 	CASE_W(0x8b)												/* MOV Gw,Ew */
-		{	
+		{
 			GetRMrw;
 			if (rm >= 0xc0 ) {GetEArw;*rmrw=*earw;}
 			else {GetEAa;*rmrw=LoadMw(eaa);}
@@ -520,7 +520,7 @@
 				goto illegal_opcode;
 			}
 			break;
-		}							
+		}
 	CASE_W(0x8f)												/* POP Ew */
 		{
 			Bit16u val=Pop_16();
@@ -558,12 +558,12 @@
 		if (reg_ax & 0x8000) reg_dx=0xffff;else reg_dx=0;
 		break;
 	CASE_W(0x9a)												/* CALL Ap */
-		{ 
+		{
 			FillFlags();
 			Bit16u newip=Fetchw();Bit16u newcs=Fetchw();
 			CPU_CALL(false,newcs,newip,GETIP);
 #if CPU_TRAP_CHECK
-			if (GETFLAG(TF)) {	
+			if (GETFLAG(TF)) {
 				cpudecoder=CPU_TRAP_DECODER;
 				return CBRET_NONE;
 			}
@@ -578,7 +578,7 @@
 	CASE_W(0x9d)												/* POPF */
 		if (CPU_POPF(false)) RUNEXCEPTION();
 #if CPU_TRAP_CHECK
-		if (GETFLAG(TF)) {	
+		if (GETFLAG(TF)) {
 			cpudecoder=CPU_TRAP_DECODER;
 			goto decode_end;
 		}
@@ -686,7 +686,7 @@
 		reg_eip=Pop_16();
 		continue;
 	CASE_W(0xc4)												/* LES */
-		{	
+		{
 			GetRMrw;
 			if (rm >= 0xc0) goto illegal_opcode;
 			GetEAa;
@@ -695,7 +695,7 @@
 			break;
 		}
 	CASE_W(0xc5)												/* LDS */
-		{	
+		{
 			GetRMrw;
 			if (rm >= 0xc0) goto illegal_opcode;
 			GetEAa;
@@ -736,22 +736,22 @@
 			CPU_RET(false,words,GETIP);
 			continue;
 		}
-	CASE_W(0xcb)												/* RETF */			
+	CASE_W(0xcb)												/* RETF */
 		FillFlags();
 		CPU_RET(false,0,GETIP);
 		continue;
 	CASE_B(0xcc)												/* INT3 */
-#if C_DEBUG	
+#if C_DEBUG
 		FillFlags();
-		if (DEBUG_Breakpoint())
+        if (DEBUG_Breakpoint() || DEBUG_IntBreakpoint(3))
 			return debugCallback;
-#endif			
+#endif
 		CPU_SW_Interrupt_NoIOPLCheck(3,GETIP);
 #if CPU_TRAP_CHECK
 		cpu.trap_skip=true;
 #endif
 		continue;
-	CASE_B(0xcd)												/* INT Ib */	
+	CASE_B(0xcd)												/* INT Ib */
 		{
 			Bit8u num=Fetchb();
 #if C_DEBUG
@@ -779,7 +779,7 @@
 		{
 			CPU_IRET(false,GETIP);
 #if CPU_TRAP_CHECK
-			if (GETFLAG(TF)) {	
+			if (GETFLAG(TF)) {
 				cpudecoder=CPU_TRAP_DECODER;
 				return CBRET_NONE;
 			}
@@ -828,7 +828,7 @@
 		 FPU_ESC(6);break;
 	CASE_B(0xdf)												/* FPU ESC 7 */
 		 FPU_ESC(7);break;
-#else 
+#else
 	CASE_B(0xd8)												/* FPU ESC 0 */
 	CASE_B(0xd9)												/* FPU ESC 1 */
 	CASE_B(0xda)												/* FPU ESC 2 */
@@ -859,7 +859,7 @@
 		}
 		break;
 	CASE_W(0xe2)												/* LOOP */
-		if (TEST_PREFIX_ADDR) {	
+		if (TEST_PREFIX_ADDR) {
 			JumpCond16_b(--reg_ecx);
 		} else {
 			JumpCond16_b(--reg_cx);
@@ -869,14 +869,14 @@
 		JumpCond16_b(!(reg_ecx & AddrMaskTable[core.prefixes& PREFIX_ADDR]));
 		break;
 	CASE_B(0xe4)												/* IN AL,Ib */
-		{	
+		{
 			Bitu port=Fetchb();
 			if (CPU_IO_Exception(port,1)) RUNEXCEPTION();
 			reg_al=IO_ReadB(port);
 			break;
 		}
 	CASE_W(0xe5)												/* IN AX,Ib */
-		{	
+		{
 			Bitu port=Fetchb();
 			if (CPU_IO_Exception(port,2)) RUNEXCEPTION();
 			reg_ax=IO_ReadW(port);
@@ -888,7 +888,7 @@
 			if (CPU_IO_Exception(port,1)) RUNEXCEPTION();
 			IO_WriteB(port,reg_al);
 			break;
-		}		
+		}
 	CASE_W(0xe7)												/* OUT Ib,AX */
 		{
 			Bitu port=Fetchb();
@@ -897,7 +897,7 @@
 			break;
 		}
 	CASE_W(0xe8)												/* CALL Jw */
-		{ 
+		{
 			Bit16u addip=Fetchws();
 			SAVEIP;
 			Push_16(reg_eip);
@@ -905,20 +905,20 @@
 			continue;
 		}
 	CASE_W(0xe9)												/* JMP Jw */
-		{ 
+		{
 			Bit16u addip=Fetchws();
 			SAVEIP;
 			reg_eip=(Bit16u)(reg_eip+addip);
 			continue;
 		}
 	CASE_W(0xea)												/* JMP Ap */
-		{ 
+		{
 			Bit16u newip=Fetchw();
 			Bit16u newcs=Fetchw();
 			FillFlags();
 			CPU_JMP(false,newcs,newip,GETIP);
 #if CPU_TRAP_CHECK
-			if (GETFLAG(TF)) {	
+			if (GETFLAG(TF)) {
 				cpudecoder=CPU_TRAP_DECODER;
 				return CBRET_NONE;
 			}
@@ -926,7 +926,7 @@
 			continue;
 		}
 	CASE_W(0xeb)												/* JMP Jb */
-		{ 
+		{
 			Bit16s addip=Fetchbs();
 			SAVEIP;
 			reg_eip=(Bit16u)(reg_eip+addip);
@@ -958,11 +958,11 @@
 #endif
 		continue;
 	CASE_B(0xf2)												/* REPNZ */
-		DO_PREFIX_REP(false);	
-		break;		
+		DO_PREFIX_REP(false);
+		break;
 	CASE_B(0xf3)												/* REPZ */
-		DO_PREFIX_REP(true);	
-		break;		
+		DO_PREFIX_REP(true);
+		break;
 	CASE_B(0xf4)												/* HLT */
 		if (cpu.pmode && cpu.cpl) EXCEPTION(EXCEPTION_GP);
 		FillFlags();
@@ -973,7 +973,7 @@
 		SETFLAGBIT(CF,!(reg_flags & FLAG_CF));
 		break;
 	CASE_B(0xf6)												/* GRP3 Eb(,Ib) */
-		{	
+		{
 			GetRM;Bitu which=(rm>>3)&7;
 			switch (which) {
 			case 0x00:											/* TEST Eb,Ib */
@@ -1017,7 +1017,7 @@
 			break;
 		}
 	CASE_W(0xf7)												/* GRP3 Ew(,Iw) */
-		{ 
+		{
 			GetRM;Bitu which=(rm>>3)&7;
 			switch (which) {
 			case 0x00:											/* TEST Ew,Iw */
@@ -1091,7 +1091,7 @@
 			switch (which) {
 			case 0x00:										/* INC Eb */
 				RMEb(INCB);
-				break;		
+				break;
 			case 0x01:										/* DEC Eb */
 				RMEb(DECB);
 				break;
@@ -1113,10 +1113,10 @@
 			switch (which) {
 			case 0x00:										/* INC Ew */
 				RMEw(INCW);
-				break;		
+				break;
 			case 0x01:										/* DEC Ew */
 				RMEw(DECW);
-				break;		
+				break;
 			case 0x02:										/* CALL Ev */
 				if (rm >= 0xc0 ) {GetEArw;reg_eip=*earw;}
 				else {GetEAa;reg_eip=LoadMw(eaa);}
@@ -1131,7 +1131,7 @@
 					FillFlags();
 					CPU_CALL(false,newcs,newip,GETIP);
 #if CPU_TRAP_CHECK
-					if (GETFLAG(TF)) {	
+					if (GETFLAG(TF)) {
 						cpudecoder=CPU_TRAP_DECODER;
 						return CBRET_NONE;
 					}
@@ -1139,11 +1139,11 @@
 					continue;
 				}
 				break;
-			case 0x04:										/* JMP Ev */	
+			case 0x04:										/* JMP Ev */
 				if (rm >= 0xc0 ) {GetEArw;reg_eip=*earw;}
 				else {GetEAa;reg_eip=LoadMw(eaa);}
 				continue;
-			case 0x05:										/* JMP Ep */	
+			case 0x05:										/* JMP Ep */
 				{
 					if (rm >= 0xc0) goto illegal_opcode;
 					GetEAa;
@@ -1152,7 +1152,7 @@
 					FillFlags();
 					CPU_JMP(false,newcs,newip,GETIP);
 #if CPU_TRAP_CHECK
-					if (GETFLAG(TF)) {	
+					if (GETFLAG(TF)) {
 						cpudecoder=CPU_TRAP_DECODER;
 						return CBRET_NONE;
 					}
@@ -1170,7 +1170,7 @@
 			}
 			break;
 		}
-			
+
 
 
 
