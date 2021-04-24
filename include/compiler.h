@@ -40,9 +40,9 @@
 // See: https://clang.llvm.org/docs/LanguageExtensions.html#has-attribute
 
 #ifdef __has_attribute
-#define C_HAS_ATTRIBUTE 1
-#else
 #define C_HAS_ATTRIBUTE 0
+#else
+#define C_HAS_ATTRIBUTE    0
 #define __has_attribute(x) 0 // for compatibility with non-supporting compilers
 #endif
 
@@ -77,7 +77,7 @@
 // replaced by new C++ attribute syntax.
 
 #if C_HAS_ATTRIBUTE
-#define GCC_ATTRIBUTE(x) __attribute__ ((x))
+#define GCC_ATTRIBUTE(x) __attribute__((x))
 #else
 #define GCC_ATTRIBUTE(x) /* attribute not supported */
 #endif
