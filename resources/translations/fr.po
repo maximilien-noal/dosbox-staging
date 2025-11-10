@@ -27,7 +27,7 @@ msgstr "Latin"
 
 
 #: src/gui/sdlmain.cpp:3966
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP"
 msgid ""
 "Usage: %s [OPTION]... [PATH]\n"
@@ -105,50 +105,145 @@ msgid ""
 "\n"
 "  -V, --version            Print version information and exit.\n"
 msgstr ""
+"Utilisation : %s [OPTION]... [CHEMIN]\n"
+"\n"
+"CHEMIN                     Si CHEMIN est un répertoire, il est monté en C:.\n"
+"                           Si CHEMIN est une image disque amorçable (IMA/IMG),\n"
+"                           elle est démarrée.\n"
+"                           Si CHEMIN est une image CD-ROM (CUE/ISO), elle est\n"
+"                           montée en D:.\n"
+"                           Si CHEMIN est un exécutable DOS (BAT/COM/EXE), son\n"
+"                           chemin parent est monté en C: et l'exécutable est\n"
+"                           lancé. Lorsque l'exécutable se termine, DOSBox Staging\n"
+"                           se ferme.\n"
+"\n"
+"Liste des options disponibles :\n"
+"\n"
+"  --conf <fichier_config>  Démarre avec les options spécifiées dans\n"
+"                           <fichier_config>. Plusieurs fichiers de configuration\n"
+"                           peuvent être spécifiés.\n"
+"                           Exemple : --conf conf1.conf --conf conf2.conf\n"
+"\n"
+"  --printconf              Affiche l'emplacement du fichier de configuration\n"
+"                           principal.\n"
+"\n"
+"  --editconf               Ouvre le fichier de configuration principal dans un\n"
+"                           éditeur de texte.\n"
+"\n"
+"  --eraseconf              Supprime le fichier de configuration principal.\n"
+"\n"
+"  --noprimaryconf          Ne charge ni ne crée le fichier de configuration\n"
+"                           principal.\n"
+"\n"
+"  --nolocalconf            Ne charge pas le fichier de configuration local\n"
+"                           'dosbox.conf' s'il est présent dans le répertoire de\n"
+"                           travail actuel.\n"
+"\n"
+"  --set <paramètre>=<valeur>\n"
+"                           Définit un paramètre de configuration. Plusieurs\n"
+"                           paramètres de configuration peuvent être spécifiés.\n"
+"                           Exemple :\n"
+"                           --set mididevice=fluidsynth --set soundfont=mysoundfont.sf2\n"
+"\n"
+"  --working-dir <chemin>   Définit le répertoire de travail sur <chemin>. DOSBox\n"
+"                           agira comme s'il était démarré depuis ce répertoire.\n"
+"\n"
+"  --list-countries         Liste tous les pays pris en charge avec leurs codes\n"
+"                           numériques. Les codes doivent être utilisés dans le\n"
+"                           paramètre de configuration 'country'.\n"
+"\n"
+"  --list-layouts           Liste toutes les dispositions de clavier prises en\n"
+"                           charge avec leurs codes. Les codes doivent être\n"
+"                           utilisés dans le paramètre de configuration\n"
+"                           'keyboard_layout'.\n"
+"\n"
+"  --list-code-pages        Liste toutes les pages de codes (polices d'écran)\n"
+"                           intégrées.\n"
+"\n"
+"  --list-glshaders         Liste tous les shaders OpenGL disponibles et leurs\n"
+"                           chemins. Les shaders doivent être utilisés dans le\n"
+"                           paramètre de configuration 'glshader'.\n"
+"\n"
+"  --fullscreen             Démarre en mode plein écran.\n"
+"\n"
+"  --lang <fichier_langue>  Démarre avec la langue spécifiée dans\n"
+"                           <fichier_langue>. Si défini sur 'auto', essaie de\n"
+"                           détecter la langue depuis le système d'exploitation\n"
+"                           hôte.\n"
+"\n"
+"  --machine <type>         Émule un type spécifique de machine. Le type de machine\n"
+"                           a une influence sur les cartes vidéo et son émulées.\n"
+"                           Choix valides : hercules, cga, cga_mono, tandy,\n"
+"                           pcjr, ega, svga_s3 (par défaut), svga_et3000,\n"
+"                           svga_et4000, svga_paradise, vesa_nolfb, vesa_oldvbe.\n"
+"\n"
+"  -c <commande>            Exécute la commande DOS spécifiée avant de traiter le\n"
+"                           CHEMIN. Plusieurs commandes peuvent être spécifiées.\n"
+"\n"
+"  --noautoexec             N'exécute pas les commandes DOS des sections\n"
+"                           [autoexec].\n"
+"\n"
+"  --exit                   Quitte après avoir exécuté '-c <commande>' et les\n"
+"                           sections [autoexec].\n"
+"\n"
+"  --startmapper            Lance l'interface graphique du mappeur.\n"
+"\n"
+"  --erasemapper            Supprime le fichier de mappeur par défaut.\n"
+"\n"
+"  --securemode             Active le mode sécurisé en désactivant les commandes\n"
+"                           MOUNT et IMGMOUNT.\n"
+"\n"
+"  --socket <num>           Exécute nullmodem sur le numéro de socket spécifié.\n"
+"\n"
+"  -h, -?, --help           Affiche le message d'aide et quitte.\n"
+"\n"
+"  -V, --version            Affiche les informations de version et quitte.\n"
 
 #: src/gui/sdlmain.cpp:4045
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DISPLAY_INVALID_VSYNC_SETTING"
 msgid ""
 "Invalid [color=light-green]'vsync'[reset] setting: [color=white]'%s'[reset];\n"
 "vsync cannot be enabled in [color=white]'dos-rate'[reset] presentation mode, using [color=white]'off'[reset]"
 msgstr ""
+"Paramètre [color=light-green]'vsync'[reset] invalide : [color=white]'%s'[reset] ;\n"
+"vsync ne peut pas être activé en mode de présentation [color=white]'dos-rate'[reset], utilisation de [color=white]'off'[reset]"
 
 #: src/dos/dos_locale.cpp:1693
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_1"
 msgid "List of available country codes (mostly same as telephone call codes)"
-msgstr ""
+msgstr "Liste des codes de pays disponibles (généralement identiques aux indicatifs téléphoniques)"
 
 #: src/dos/dos_locale.cpp:1695
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_2"
 msgid "The above codes can be used in the 'country' config setting."
-msgstr ""
+msgstr "Les codes ci-dessus peuvent être utilisés dans le paramètre de configuration 'country'."
 
 #: src/dos/dos_locale.cpp:1698
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_1"
 msgid "List of available keyboard layout codes"
-msgstr ""
+msgstr "Liste des codes de disposition de clavier disponibles"
 
 #: src/dos/dos_locale.cpp:1700
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_2"
 msgid "The above codes can be used in the 'keyboard_layout' config setting."
-msgstr ""
+msgstr "Les codes ci-dessus peuvent être utilisés dans le paramètre de configuration 'keyboard_layout'."
 
 #: src/dos/dos_locale.cpp:1703
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_1"
 msgid "List of available code pages"
-msgstr ""
+msgstr "Liste des pages de codes disponibles"
 
 #: src/dos/dos_locale.cpp:1705
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_2"
 msgid "The above code pages can be used in the 'keyboard_layout' config setting."
-msgstr ""
+msgstr "Les pages de codes ci-dessus peuvent être utilisées dans le paramètre de configuration 'keyboard_layout'."
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -427,52 +522,52 @@ msgid "India"
 msgstr "Inde"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PAK"
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_XAE"
 msgid "Asia (English)"
-msgstr ""
+msgstr "Asie (Anglais)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MAR"
 msgid "Morocco"
-msgstr ""
+msgstr "Maroc"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_DZA"
 msgid "Algeria"
-msgstr ""
+msgstr "Algérie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TUN"
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NER"
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BEN"
 msgid "Benin"
-msgstr ""
+msgstr "Bénin"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NGA"
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigéria"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -547,10 +642,10 @@ msgid "Estonia"
 msgstr "Estonie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ARM"
 msgid "Armenia"
-msgstr ""
+msgstr "Arménie"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -571,10 +666,10 @@ msgid "Serbia"
 msgstr "Serbie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MNE"
 msgid "Montenegro"
-msgstr ""
+msgstr "Monténégro"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -613,22 +708,22 @@ msgid "Slovakia"
 msgstr "Slovaquie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_GTM"
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SLV"
 msgid "El Salvador"
-msgstr ""
+msgstr "Salvador"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_HND"
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -637,16 +732,16 @@ msgid "Nicaragua"
 msgstr "Nicaragua"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CRI"
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PAN"
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -673,10 +768,10 @@ msgid "Uruguay"
 msgstr "Uruguay"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_XME"
 msgid "Arabic (Middle East)"
-msgstr ""
+msgstr "Arabe (Moyen-Orient)"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -691,70 +786,70 @@ msgid "Taiwan"
 msgstr "Taïwan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LBN"
 msgid "Lebanon"
-msgstr ""
+msgstr "Liban"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_JOR"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordanie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SYR"
 msgid "Syria"
-msgstr ""
+msgstr "Syrie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KWT"
 msgid "Kuwait"
-msgstr ""
+msgstr "Koweït"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SAU"
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Arabie saoudite"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_YEM"
 msgid "Yemen"
-msgstr ""
+msgstr "Yémen"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_OMN"
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ARE"
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Émirats arabes unis"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ISR"
 msgid "Israel"
-msgstr ""
+msgstr "Israël"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BHR"
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahreïn"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_QAT"
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -763,142 +858,142 @@ msgid "Mongolia"
 msgstr "Mongolie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TJK"
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tadjikistan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TKM"
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkménistan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_AZE"
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaïdjan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_GEO"
 msgid "Georgia"
-msgstr ""
+msgstr "Géorgie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KGZ"
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kirghizistan"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_UZB"
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Ouzbékistan"
 
 #: src/dos/dos_locale.cpp:1718
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_437"
 msgid "United States"
-msgstr ""
+msgstr "États-Unis"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_113"
 msgid "Yugoslavian"
-msgstr ""
+msgstr "Yougoslave"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_667"
 msgid "Polish, Mazovia encoding"
-msgstr ""
+msgstr "Polonais, encodage Mazovia"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_668"
 msgid "Polish, 852-compatible"
-msgstr ""
+msgstr "Polonais, compatible 852"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_737"
 msgid "Greek-2"
-msgstr ""
+msgstr "Grec-2"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_770"
 msgid "Baltic, RST 1095:89 encoding"
-msgstr ""
+msgstr "Baltique, encodage RST 1095:89"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_771"
 msgid "Lithuanian and Russian, KBL encoding"
-msgstr ""
+msgstr "Lituanien et russe, encodage KBL"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_773"
 msgid "Baltic, KBL encoding"
-msgstr ""
+msgstr "Baltique, encodage KBL"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_775"
 msgid "Latin-7 (Baltic)"
-msgstr ""
+msgstr "Latin-7 (Baltique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_777"
 msgid "Lithuanian, accented, KBL encoding"
-msgstr ""
+msgstr "Lituanien, accentué, encodage KBL"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_778"
 msgid "Lithuanian, accented, LST 1590-2 encoding"
-msgstr ""
+msgstr "Lituanien, accentué, encodage LST 1590-2"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_808"
 msgid "Russian, with EUR symbol"
-msgstr ""
+msgstr "Russe, avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_848"
 msgid "Ukrainian, with EUR symbol"
-msgstr ""
+msgstr "Ukrainien, avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_849"
 msgid "Belarusian, with EUR symbol"
-msgstr ""
+msgstr "Biélorusse, avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_850"
 msgid "Latin-1 (Western European)"
-msgstr ""
+msgstr "Latin-1 (Europe occidentale)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_851"
 msgid "Greek, old encoding"
-msgstr ""
+msgstr "Grec, ancien encodage"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_852"
 msgid "Latin-2 (Central European), with EUR symbol"
-msgstr ""
+msgstr "Latin-2 (Europe centrale), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -922,13 +1017,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_857"
 msgid "Latin-5 (Turkish), with EUR symbol"
-msgstr ""
+msgstr "Latin-5 (Turc), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_858"
 msgid "Latin-1 (Western European), with EUR symbol"
-msgstr ""
+msgstr "Latin-1 (Europe occidentale), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -940,13 +1035,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_860"
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugais"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_861"
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandais"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -964,19 +1059,19 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_864"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabe"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_865"
 msgid "Nordic"
-msgstr ""
+msgstr "Nordique"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_866"
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1036,13 +1131,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_1125"
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrainien"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_1131"
 msgid "Belarusian"
-msgstr ""
+msgstr "Biélorusse"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1066,7 +1161,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_3846"
 msgid "Turkish"
-msgstr ""
+msgstr "Turc"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1324,13 +1419,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_59234"
 msgid "Tatar"
-msgstr ""
+msgstr "Tatar"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_59829"
 msgid "Georgian"
-msgstr ""
+msgstr "Géorgien"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1732,13 +1827,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_ARAB"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabe"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_ARMN"
 msgid "Armenian"
-msgstr ""
+msgstr "Arménien"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
@@ -1750,25 +1845,25 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_CYRL"
 msgid "Cyrillic"
-msgstr ""
+msgstr "Cyrillique"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_GEOR"
 msgid "Georgian"
-msgstr ""
+msgstr "Géorgien"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_GREK"
 msgid "Greek"
-msgstr ""
+msgstr "Grec"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_HEBR"
 msgid "Hebrew"
-msgstr ""
+msgstr "Hébreu"
 
 #: src/dos/dos_locale.cpp:1728
 #, fuzzy, c-format, no-wrap
@@ -2590,13 +2685,13 @@ msgstr ""
 "Utilisez texture_renderer=auto pour un choix automatique.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DISPLAY"
 msgid "Number of display to use; values depend on OS and user settings (0 by default)."
 msgstr "Nombre d'écrans à utiliser ; les valeurs dépendent de l'OS et des paramètres utilisateur."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FULLSCREEN"
 msgid "Start in fullscreen mode ('off' by default)."
 msgstr "Démarrer DOSBox directement en mode plein écran."
@@ -2695,7 +2790,7 @@ msgstr ""
 "             0,0 is the top-left corner of the screen.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WINDOW_DECORATIONS"
 msgid "Enable window decorations in windowed mode ('on' by default)."
 msgstr "Controls whether to display window decorations in windowed mode."
@@ -2752,7 +2847,7 @@ msgstr ""
 "From 0 (no transparency) to 90 (high transparency).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MAX_RESOLUTION"
 msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
 msgstr "This setting has been renamed to viewport_resolution."
@@ -2829,7 +2924,7 @@ msgstr ""
 "en [color=white]capture[reset]\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SENSITIVITY"
 msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_sensitivity'[reset]."
 msgstr "Sensibilité de la souris. Le second paramètre optionnel spécifie la sensibilité verticale (ex. 100,-50)."
@@ -2843,7 +2938,7 @@ msgstr ""
 "en [color=white]raw_input[reset]\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WAITONERROR"
 msgid "Keep the console open if an error has occurred ('on' by default)."
 msgstr "Attend avant de fermer la console si DOSBox a une erreur."
@@ -2860,13 +2955,13 @@ msgstr ""
 "pause n'est valable que pour la seconde entrée.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MUTE_WHEN_INACTIVE"
 msgid "Mute the sound when the window is inactive ('off' by default)."
 msgstr "Mute the sound when the window is inactive."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PAUSE_WHEN_INACTIVE"
 msgid "Pause emulation when the window is inactive ('off' by default)."
 msgstr "Pause emulation when the window is inactive."
@@ -2952,7 +3047,7 @@ msgid ""
 msgstr "Type de machine que DOSBox essaye d'émuler."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CAPTURES"
 msgid "Moved to [capture] section and renamed to 'capture_dir'."
 msgstr "Répertoire où les objets comme les sons WAVE, musiques MIDI, et captures d'écran sont enregistrés."
@@ -2989,7 +3084,7 @@ msgstr ""
 "The default (deny) is recommended unless a game is failing with MCB corruption errors.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VMEMSIZE"
 msgid ""
 "Video memory in MB (1-8) or KB (256 to 8192). 'auto' uses the default for\n"
@@ -3448,7 +3543,7 @@ msgstr ""
 "      Then read the new settings from your console and enter them here.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ERA"
 msgid ""
 "Era of composite technology ('auto' by default).\n"
@@ -3456,7 +3551,7 @@ msgid ""
 msgstr "Era of composite technology. When 'auto', PCjr uses new and CGA/Tandy use old."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_HUE"
 msgid ""
 "Hue of the RGB palette (0 by default).\n"
@@ -3464,25 +3559,25 @@ msgid ""
 msgstr "Appearance of RGB palette. For example, adjust until sky is blue."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SATURATION"
 msgid "Intensity of colors, from washed out to vivid (100 by default)."
 msgstr "Intensity of colors, from washed out to vivid."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CONTRAST"
 msgid "Ratio between the dark and light area (100 by default)."
 msgstr "Ratio between the dark and light area."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BRIGHTNESS"
 msgid "Luminosity of the image, from dark to light (0 by default)."
 msgstr "Luminosity of the image, from dark to light."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CONVERGENCE"
 msgid "Convergence of subpixel elements, from blurry to sharp (0 by default)."
 msgstr "Convergence of subpixel elements, from blurry to sharp (CGA and Tandy-only)."
@@ -3618,7 +3713,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CYCLEUP"
 msgid ""
 "Number of cycles to add with the 'Inc Cycles' hotkey (10 by default).\n"
@@ -3626,7 +3721,7 @@ msgid ""
 msgstr "Nombre de cycles à ajouter/soustraire avec la combinaison de touches."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CYCLEDOWN"
 msgid ""
 "Number of cycles to subtract with the 'Dec Cycles' hotkey (20 by default).\n"
@@ -3905,7 +4000,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_NOSOUND"
 msgid ""
 "Enable silent mode ('off' by default).\n"
@@ -3914,7 +4009,7 @@ msgid ""
 msgstr "Activer le mode silencieux, le son étant cependant toujours émulé."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_RATE"
 msgid ""
 "Sample rate of DOSBox's internal audio mixer in Hz (%s by default).\n"
@@ -3925,7 +4020,7 @@ msgid ""
 msgstr "Taux d'échantillonnage du mixer, paramétrer tout taux d'un périphérique plus haut que cela va probablement détériorer sa qualité sonore."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BLOCKSIZE"
 msgid ""
 "Block size of the host audio device in sample frames (%s by default).\n"
@@ -3935,7 +4030,7 @@ msgid ""
 msgstr "Taille de bloc du mixer, des blocs plus grands peuvent aider pour les saccades de son mais il sera aussi moins en phase."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PREBUFFER"
 msgid ""
 "How many milliseconds of sound to render in advance on top of 'blocksize'\n"
@@ -3944,7 +4039,7 @@ msgid ""
 msgstr "Nombre de millisecondes de données à garder en amont du paramètre blocksize."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_NEGOTIATE"
 msgid ""
 "Negotiate a possibly better 'blocksize' setting (%s by default).\n"
@@ -4342,7 +4437,7 @@ msgid "Active model  "
 msgstr ""
 
 #: src/midi/mt32.cpp:404
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MT32_SOURCE_DIR_LABEL"
 msgid "ROM path      "
 msgstr "Loaded From : "
@@ -4514,7 +4609,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MPU401"
 msgid "MPU-401 mode to emulate ('intelligent' by default)."
 msgstr "Type de MPU-401 à émuler."
@@ -4535,13 +4630,13 @@ msgid ""
 msgstr ""
 
 #: src/midi/midi.cpp:929
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MIDI_DEVICE_LIST_NOT_SUPPORTED"
 msgid "Listing not supported"
 msgstr "listing not supported"
 
 #: src/midi/midi.cpp:930
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MIDI_DEVICE_NOT_CONFIGURED"
 msgid "Device not configured"
 msgstr "device not configured"
@@ -4588,25 +4683,25 @@ msgid ""
 msgstr "Type de Sound Blaster à émuler. 'gb' pour Game Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SBBASE"
 msgid "The IO address of the Sound Blaster (220 by default)."
 msgstr "Adresse IO de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_IRQ"
 msgid "The IRQ number of the Sound Blaster (7 by default)."
 msgstr "Numéro d'IRQ de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DMA"
 msgid "The DMA channel of the Sound Blaster (1 by default)."
 msgstr "Numéro DMA de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_HDMA"
 msgid "The High DMA channel of the Sound Blaster 16 (5 by default)."
 msgstr "Numéro High DMA de la Sound Blaster."
@@ -4835,19 +4930,19 @@ msgid ""
 msgstr "Activer l'émulation Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSBASE"
 msgid "The IO base address of the Gravis UltraSound (240 by default)."
 msgstr "Adresse de base IO de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSIRQ"
 msgid "The IRQ number of the Gravis UltraSound (5 by default)."
 msgstr "Numéro d'IRQ de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSDMA"
 msgid "The DMA channel of the Gravis UltraSound (3 by default)."
 msgstr "Canal DMA de la Gravis UltraSound."
@@ -4947,7 +5042,7 @@ msgstr ""
 " - hardsid: uses 1.000 MHz, available on the DuoSID.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SIDPORT"
 msgid "The IO port address of the Innovation SSI-2001 (280 by default)."
 msgstr "The IO port address of the Innovation SSI-2001."
@@ -4964,7 +5059,7 @@ msgstr ""
 "Adjusts the 6581's filtering strength as a percent from 0 to 100.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_8580FILTER"
 msgid ""
 "Adjusts the 8580's filtering strength as a percentage from 0 to 100\n"
@@ -5124,13 +5219,13 @@ msgstr ""
 "  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DISNEY"
 msgid "Use 'lpt_dac = disney' to enable the Disney Sound Source."
 msgstr "Activer l'émulation Disney Sound Source. (compatible Covox Voice Master et Speech Thing)."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PS1AUDIO"
 msgid "Enable IBM PS/1 Audio emulation ('off' by default)."
 msgstr "Enable IBM PS/1 Audio emulation."
@@ -5223,7 +5318,7 @@ msgstr ""
 "(Rappelez-vous de réinitialiser le fichier de correspondance des touches DOSBox si vous l'avez sauvé plus tôt)\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TIMED"
 msgid ""
 "Enable timed intervals for axis ('on' by default).\n"
@@ -5231,13 +5326,13 @@ msgid ""
 msgstr "Activer des intervalles de temps pour les axes. Tester cette option si votre manette dérive."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_AUTOFIRE"
 msgid "Fire continuously as long as the button is pressed ('off' by default)"
 msgstr "Tirer continuellement tant que le bouton est pressé."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SWAP34"
 msgid ""
 "Swap the 3rd and the 4th axis ('off' by default). Can be useful for certain\n"
@@ -5245,7 +5340,7 @@ msgid ""
 msgstr "Échanger les 3ème et 4ème axes. Peut être utile avec certaines manettes."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BUTTONWRAP"
 msgid "Enable button wrapping at the number of emulated buttons ('off' by default)."
 msgstr "Activer l'inversion de bouton pour le nombre de boutons émulés."
@@ -5261,7 +5356,7 @@ msgstr ""
 "Essayez d'activer ceci si votre stick analogique gauche peut seulement bouger dans un cercle.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DEADZONE"
 msgid ""
 "Percentage of motion to ignore (10 by default).\n"
@@ -5300,13 +5395,13 @@ msgstr ""
 "quit the game, switch this setting back to false, and populate the reported calibration parameters.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_JOY_X_CALIBRATION"
 msgid "Apply X-axis calibration parameters from the hotkeys ('auto' by default)."
 msgstr "Apply x-axis calibration parameters from the hotkeys. Default is 'auto'."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_JOY_Y_CALIBRATION"
 msgid "Apply Y-axis calibration parameters from the hotkeys ('auto' by default)."
 msgstr "Apply Y-axis calibration parameters from the hotkeys. Default is 'auto'."
@@ -5341,25 +5436,25 @@ msgstr ""
 "Exemple : 'serial1=modem listenport:5000'.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL2"
 msgid "See 'serial1' ('dummy' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL3"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL4"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PHONEBOOKFILE"
 msgid ""
 "File used to map fake phone numbers to addresses\n"
@@ -5367,7 +5462,7 @@ msgid ""
 msgstr "Fichier utilisé pour relier de faux numéros de téléphone à des adresses."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_XMS"
 msgid "Enable XMS support ('on' by default)."
 msgstr "Activer la prise en charge de mémoire XMS (ou étendue)."
@@ -5386,7 +5481,7 @@ msgstr ""
 "pour fonctionner.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_UMB"
 msgid "Enable UMB support ('on' by default)."
 msgstr "Activer la prise en charge des UMB (bloc mémoire supérieure)."
@@ -5445,7 +5540,7 @@ msgstr ""
 "selected keyboard layout will be used.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_KEYBOARDLAYOUT"
 msgid "Renamed to 'keyboard_layout'."
 msgstr "Code langue pour la disposition du clavier (ou aucun)."
@@ -5602,7 +5697,7 @@ msgstr ""
 "\n"
 
 #: src/dos/programs.cpp:924
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_NOCONFIGFILE"
 msgid "No config file loaded\n"
 msgstr "Aucun fichier de configuration chargé !\n"
@@ -5619,7 +5714,7 @@ msgstr ""
 "\n"
 
 #: src/dos/programs.cpp:929
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_ADDITIONAL_CONF"
 msgid ""
 "\n"
@@ -5652,7 +5747,7 @@ msgstr ""
 "\n"
 
 #: src/dos/programs.cpp:937
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_FILE_WHICH"
 msgid "Writing current config to '%s'\n"
 msgstr "Écriture du fichier de configuration %s\n"
@@ -5787,19 +5882,19 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs.cpp:1020
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_NOCHANGE"
 msgid "[color=yellow]This setting cannot be changed at runtime.[reset]\n"
 msgstr "Cette propriété ne peut jamais être changée.\n"
 
 #: src/dos/programs.cpp:1023
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_POSINT"
 msgid "positive integer"
 msgstr "nombre entier positif"
 
 #: src/dos/programs.cpp:1025
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_SECTHLP"
 msgid "[color=white]List of settings in the [color=light-cyan][%s][color=white] section:[reset]\n"
 msgstr "La section %s contient les propriétés suivantes :\n"
@@ -5814,25 +5909,25 @@ msgstr ""
 "\n"
 
 #: src/dos/programs.cpp:1032
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SECURE_ON"
 msgid "Secure mode enabled.\n"
 msgstr "Basculé en mode sécurisé.\n"
 
 #: src/dos/programs.cpp:1034
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SECURE_DISALLOW"
 msgid "This operation is not permitted in secure mode.\n"
 msgstr "Cette opération n'est pas permise en mode sécurisé.\n"
 
 #: src/dos/programs.cpp:1037
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SECTION_ERROR"
 msgid "Section [color=light-cyan][%s][reset] doesn't exist.\n"
 msgstr "La section \"%s\" n'existe pas.\n"
 
 #: src/dos/programs.cpp:1040
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_GET_SYNTAX"
 msgid "Usage: [color=light-green]config[reset] -get [color=light-cyan][SECTION][reset] [color=white]PROPERTY[reset]\n"
 msgstr "Syntaxe correcte : config -get \"section propriété\".\n"
@@ -5851,25 +5946,25 @@ msgstr ""
 "\n"
 
 #: src/dos/programs.cpp:1048
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_MISSINGPARAM"
 msgid "Missing parameter.\n"
 msgstr "Paramètre manquant.\n"
 
 #: src/dos/programs.cpp:1050
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_PATH_TOO_LONG"
 msgid "The path '%s' exceeds the DOS limit of %d characters.\n"
 msgstr "The path \"%s\" exceeds the DOS maximum length of %d characters\n"
 
 #: src/dos/programs.cpp:1053
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_EXECUTABLE_MISSING"
 msgid "Executable file not found: '%s'\n"
 msgstr "Executable file not found: %s\n"
 
 #: src/dos/programs.cpp:1055
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONJUNCTION_AND"
 msgid "and"
 msgstr "et"
@@ -5892,19 +5987,19 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs.cpp:1068
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_NO_PROPERTY"
 msgid "There is no property [color=light-green]'%s'[reset] in section [color=light-cyan][%s][reset]\n"
 msgstr "Il n'y a aucune propriété \"%s\" dans la section \"%s\".\n"
 
 #: src/dos/programs.cpp:1072
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SET_SYNTAX"
 msgid "Usage: [color=light-green]config [reset]-set [color=light-cyan][SECTION][reset] [color=white]PROPERTY[reset][=][color=white]VALUE[reset]\n"
 msgstr "Syntaxe correcte : config -set \"section propriété\".\n"
 
 #: src/dos/programs.cpp:1076
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_INVALID_SETTING"
 msgid "Invalid [color=light-green]'%s'[reset] setting: [color=white]'%s'[reset]; using [color=white]'%s'[reset]"
 msgstr "\"%s\" n'est pas une valeur correcte pour la propriété \"%s\".\n"
@@ -5928,7 +6023,7 @@ msgid "No help available for the setting [color=light-green]'%s'[reset]."
 msgstr ""
 
 #: src/dos/programs.cpp:1091
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SECTION_OR_SETTING_NOT_FOUND"
 msgid "No config section or setting exists with the name [color=light-green]'%s'[reset]\n"
 msgstr "Aucune section ou propriété..\n"
@@ -5940,7 +6035,7 @@ msgid "Deprecated setting [color=light-green]'%s'[reset]"
 msgstr ""
 
 #: src/dos/programs.cpp:1097
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_VALID_VALUES"
 msgid "Possible values"
 msgstr "Valeurs possibles"
@@ -6027,49 +6122,49 @@ msgid "Rebooting in 1 second..."
 msgstr ""
 
 #: src/dos/programs/mount_common.cpp:81
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_LOCAL_DIRECTORY"
 msgid "Local directory"
 msgstr "Local directory"
 
 #: src/dos/programs/mount_common.cpp:82
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_CDROM"
 msgid "CD-ROM drive"
 msgstr "CD-ROM drive"
 
 #: src/dos/programs/mount_common.cpp:83
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_FAT"
 msgid "FAT image"
 msgstr "FAT image"
 
 #: src/dos/programs/mount_common.cpp:84
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_ISO"
 msgid "ISO image"
 msgstr "ISO image"
 
 #: src/dos/programs/mount_common.cpp:85
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_VIRTUAL"
 msgid "Internal virtual drive"
 msgstr "Internal virtual drive"
 
 #: src/dos/programs/mount_common.cpp:86
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MOUNT_TYPE_UNKNOWN"
 msgid "unknown drive"
 msgstr "unknown drive"
 
 #: src/dos/dos_programs.cpp:100
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "WIKI_ADD_UTILITIES_ARTICLE"
 msgid "https://github.com/dosbox-staging/dosbox-staging/wiki/Adding-utilities"
 msgstr "https://github.com/dosbox-staging/dosbox-staging/wiki/Add-Utilities"
 
 #: src/dos/dos_programs.cpp:101
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "WIKI_URL"
 msgid "https://github.com/dosbox-staging/dosbox-staging/wiki"
 msgstr "https://github.com/dosbox-staging/dosbox-staging/wiki"
@@ -6171,19 +6266,19 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/boot.cpp:553
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_NOT_EXIST"
 msgid "Bootdisk file does not exist. Failing.\n"
 msgstr "Le fichier de disque de démarrage n'existe pas.  Échec.\n"
 
 #: src/dos/programs/boot.cpp:554
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_NOT_OPEN"
 msgid "Cannot open bootdisk file. Failing.\n"
 msgstr "Impossible d'ouvrir le fichier de disque de démarrage.  Échec.\n"
 
 #: src/dos/programs/boot.cpp:555
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_WRITE_PROTECTED"
 msgid "Image file is read-only! Might create problems.\n"
 msgstr "Le fichier image est en lecture seule ! Cela peut créer des problèmes.\n"
@@ -6217,49 +6312,49 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/boot.cpp:564
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_UNABLE"
 msgid "Unable to boot off of drive %c.\n"
 msgstr "Impossible de démarrer à partir du lecteur %c"
 
 #: src/dos/programs/boot.cpp:565
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_IMAGE_OPEN"
 msgid "Opening image file: %s\n"
 msgstr "Ouverture du fichier image : %s\n"
 
 #: src/dos/programs/boot.cpp:566
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_IMAGE_MOUNTED"
 msgid "Floppy image(s) already mounted.\n"
 msgstr "Floppy image(s) already mounted.\n"
 
 #: src/dos/programs/boot.cpp:567
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_IMAGE_NOT_OPEN"
 msgid "Cannot open %s\n"
 msgstr "Ne peut pas ouvrir %s"
 
 #: src/dos/programs/boot.cpp:568
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_BOOT"
 msgid "Booting from drive %c...\n"
 msgstr "Démarrage depuis le lecteur %c...\n"
 
 #: src/dos/programs/boot.cpp:569
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_CART_WO_PCJR"
 msgid "PCjr cartridge found, but machine is not PCjr.\n"
 msgstr "Cartouche PCjr trouvée, mais la machine n'est pas un PCjr"
 
 #: src/dos/programs/boot.cpp:570
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_CART_LIST_CMDS"
 msgid "Available PCjr cartridge commands: %s\n"
 msgstr "Cartouche de commandes PCjr disponible :%s"
 
 #: src/dos/programs/boot.cpp:571
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_CART_NO_CMDS"
 msgid "No PCjr cartridge commands found.\n"
 msgstr "Pas de cartouche PCjr de commande trouvée"
@@ -6298,103 +6393,103 @@ msgid "Error reading input stream.\n"
 msgstr ""
 
 #: src/dos/programs/mount_common.cpp:59
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_SUCCESS"
 msgid "MSCDEX installed.\n"
 msgstr "MSCDEX installé.\n"
 
 #: src/dos/programs/mount_common.cpp:60
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_ERROR_MULTIPLE_CDROMS"
 msgid "MSCDEX: Failure: Drive-letters of multiple CD-ROM drives have to be continuous.\n"
 msgstr "MSCDEX : Échec : Les lettres de lecteur d'unités CD-ROM multiples doivent être continues.\n"
 
 #: src/dos/programs/mount_common.cpp:61
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_ERROR_NOT_SUPPORTED"
 msgid "MSCDEX: Failure: Not yet supported.\n"
 msgstr "MSCDEX : Échec : Pas encore supporté.\n"
 
 #: src/dos/programs/mount_common.cpp:62
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_ERROR_PATH"
 msgid "MSCDEX: Specified location is not a CD-ROM drive.\n"
 msgstr "MSCDEX : La localisation spécifiée n'est pas un lecteur CD-ROM.\n"
 
 #: src/dos/programs/mount_common.cpp:63
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_ERROR_OPEN"
 msgid "MSCDEX: Failure: Invalid file or unable to open.\n"
 msgstr "MSCDEX : Échec : Fichier non valide ou impossible à ouvrir.\n"
 
 #: src/dos/programs/mount_common.cpp:64
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_TOO_MANY_DRIVES"
 msgid "MSCDEX: Failure: Too many CD-ROM drives (max: 5). MSCDEX Installation failed.\n"
 msgstr "MSCDEX : Échec : Trop de lecteurs CD-ROM (max. : 5). L'installation de MSCDEX a échouée.\n"
 
 #: src/dos/programs/mount_common.cpp:65
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_LIMITED_SUPPORT"
 msgid "MSCDEX: Mounted subdirectory: limited support.\n"
 msgstr "MSCDEX : Sous-répertoire monté : support limité.\n"
 
 #: src/dos/programs/mount_common.cpp:66
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_INVALID_FILEFORMAT"
 msgid "MSCDEX: Failure: File is either no ISO/CUE image or contains errors.\n"
 msgstr "MSCDEX : Échec : Le fichier n'est pas une image ISO/CUE ou contient des erreurs.\n"
 
 #: src/dos/programs/mount_common.cpp:67
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_UNKNOWN_ERROR"
 msgid "MSCDEX: Failure: Unknown error.\n"
 msgstr "MSCDEX : Échec : Erreur inconnue.\n"
 
 #: src/dos/programs/mount_common.cpp:68
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "MSCDEX_WARNING_NO_OPTION"
 msgid "MSCDEX: Warning: Ignoring unsupported option '%s'.\n"
 msgstr "MSCDEX : Attention : Option '%s' non supportée et ignorée.\n"
 
 #: src/dos/programs/mount_common.cpp:70
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_DRIVE"
 msgid "Drive"
 msgstr "Lecteur"
 
 #: src/dos/programs/mount_common.cpp:71
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_TYPE"
 msgid "Type"
 msgstr "Type"
 
 #: src/dos/programs/mount_common.cpp:72
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_LABEL"
 msgid "Label"
 msgstr "Nom de volume"
 
 #: src/dos/programs/mount_common.cpp:73
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_NAME"
 msgid "Image name"
 msgstr "Image name"
 
 #: src/dos/programs/mount_common.cpp:74
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_SLOT"
 msgid "Swap slot"
 msgstr "Swap slot"
 
 #: src/dos/programs/mount_common.cpp:75
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_2"
 msgid "%s mounted as %c drive\n"
 msgstr "%s monté en tant que lecteur %c\n"
 
 #: src/dos/programs/mount_common.cpp:76
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_STATUS_1"
 msgid "The currently mounted drives are:\n"
 msgstr "Les lecteurs montés actuellement sont :\n"
@@ -6487,13 +6582,13 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs/imgmount.cpp:631
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
 msgid "Must specify drive letter to mount image at.\n"
 msgstr "Vous devez spécifier la lettre de lecteur sur laquelle monter l'image.\n"
 
 #: src/dos/programs/imgmount.cpp:634
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_SPECIFY2"
 msgid "Must specify drive number (0 or 3) to mount image at (0,1=fda,fdb; 2,3=hda,hdb).\n"
 msgstr "Vous devez spécifier le numéro de lecteur (0 ou 3) sur lequel monter l'image (0,1=fda,fdb;2,3=hda,hdb).\n"
@@ -6516,13 +6611,13 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/imgmount.cpp:644
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_STATUS_NONE"
 msgid "No drive available.\n"
 msgstr "No drive available\n"
 
 #: src/dos/programs/imgmount.cpp:646
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_IDE_CONTROLLERS_UNAVAILABLE"
 msgid "No available IDE controllers. Drive will not have IDE emulation.\n"
 msgstr "No available IDE controllers. Drive will not have IDE emulation.\n"
@@ -6550,61 +6645,61 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/imgmount.cpp:657
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
 msgid "Type '%s' is unsupported. Specify 'floppy', 'hdd', 'cdrom', or 'iso'.\n"
 msgstr "Type '%s' non supporté. Spécifiez 'floppy' (disquette), 'hdd' (disque dur), 'cdrom', ou 'iso'.\n"
 
 #: src/dos/programs/imgmount.cpp:660
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
 msgid "Format '%s' is unsupported. Specify 'fat', 'iso', or 'none'.\n"
 msgstr "Format \"%s\" non supporté. Spécifiez 'fat' ou 'iso' ou 'none' (aucun).\n"
 
 #: src/dos/programs/imgmount.cpp:663
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_SPECIFY_FILE"
 msgid "Must specify file-image to mount.\n"
 msgstr "Vous devez spécifier un fichier image à monter.\n"
 
 #: src/dos/programs/imgmount.cpp:666
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
 msgid "Image file not found.\n"
 msgstr "Fichier image non trouvé.\n"
 
 #: src/dos/programs/imgmount.cpp:668
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_MOUNT"
 msgid "To mount directories, use the [color=light-green]MOUNT[reset] command, not the [color=light-green]IMGMOUNT[reset] command.\n"
 msgstr "Pour monter des répertoires, utilisez la commande [color=light-blue]MOUNT[reset], pas la commande [color=light-blue]IMGMOUNT[reset].\n"
 
 #: src/dos/programs/imgmount.cpp:671
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
 msgid "Drive already mounted at that letter.\n"
 msgstr "Lecteur déjà monté avec cette lettre.\n"
 
 #: src/dos/programs/imgmount.cpp:674
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_CANT_CREATE"
 msgid "Can't create drive from file.\n"
 msgstr "Ne peut pas créer de lecteur depuis un fichier.\n"
 
 #: src/dos/programs/imgmount.cpp:675
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
 msgid "Drive number %d mounted as %s.\n"
 msgstr "Lecteur numéro %d monté comme %s\n"
 
 #: src/dos/programs/imgmount.cpp:677
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
 msgid "The image must be on a host or local drive.\n"
 msgstr "L'image doit être sur un hôte ou sur un disque local.\n"
 
 #: src/dos/programs/intro.cpp:94
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_HELP"
 msgid "Display a full-screen introduction to DOSBox Staging.\n"
 msgstr "Displays a full-screen introduction to DOSBox Staging.\n"
@@ -7085,25 +7180,25 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/loadfix.cpp:100
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADFIX_ALLOC"
 msgid "%d kB allocated.\n"
 msgstr "%d kb alloués.\n"
 
 #: src/dos/programs/loadfix.cpp:101
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADFIX_DEALLOC"
 msgid "%d kB freed.\n"
 msgstr "%d kb libérés.\n"
 
 #: src/dos/programs/loadfix.cpp:102
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADFIX_DEALLOCALL"
 msgid "Used memory freed.\n"
 msgstr "Mémoire utilisée libérée.\n"
 
 #: src/dos/programs/loadfix.cpp:103
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADFIX_ERROR"
 msgid "Memory allocation error.\n"
 msgstr "Erreur d'allocation mémoire.\n"
@@ -7144,37 +7239,37 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/loadrom.cpp:122
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_SPECIFY_FILE"
 msgid "Must specify ROM file to load.\n"
 msgstr "Vous devez spécifier le fichier ROM à charger.\n"
 
 #: src/dos/programs/loadrom.cpp:123
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_CANT_OPEN"
 msgid "ROM file not accessible.\n"
 msgstr "Fichier ROM non accessible.\n"
 
 #: src/dos/programs/loadrom.cpp:124
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_TOO_LARGE"
 msgid "ROM file too large.\n"
 msgstr "Fichier ROM trop large.\n"
 
 #: src/dos/programs/loadrom.cpp:125
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_INCOMPATIBLE"
 msgid "Video BIOS not supported by machine type.\n"
 msgstr "BIOS vidéo non supporté par ce type de machine.\n"
 
 #: src/dos/programs/loadrom.cpp:127
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_UNRECOGNIZED"
 msgid "ROM file not recognized.\n"
 msgstr "Fichier ROM non reconnu.\n"
 
 #: src/dos/programs/loadrom.cpp:128
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_BASIC_LOADED"
 msgid "BASIC ROM loaded.\n"
 msgstr "ROM BASIC chargé.\n"
@@ -7245,25 +7340,25 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/mem.cpp:111
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MEM_CONVEN"
 msgid "%10d KB free conventional memory\n"
 msgstr "%10d kB de mémoire conventionnelle libres\n"
 
 #: src/dos/programs/mem.cpp:112
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MEM_EXTEND"
 msgid "%10d KB free extended memory\n"
 msgstr "%10d kB de mémoire étendue (XMS) libres\n"
 
 #: src/dos/programs/mem.cpp:113
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MEM_EXPAND"
 msgid "%10d KB free expanded memory\n"
 msgstr "%10d kB de mémoire paginée (EMS) libres\n"
 
 #: src/dos/programs/mem.cpp:114
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MEM_UPPER"
 msgid "%10d KB free upper memory in %d blocks (largest UMB %d KB)\n"
 msgstr "%10d kB de mémoire supérieure (UMB) libres dans %d bloc(s) (plus gros bloc UMB %d kB)\n"
@@ -7327,25 +7422,25 @@ msgstr ""
 "  [color=light-green]mixer[reset] [color=white]x30[reset] [color=light-cyan]fm[reset] [color=white]150 r50 c30[reset] [color=light-cyan]sb[reset] [color=white]x10[reset]\n"
 
 #: src/dos/programs/mixer.cpp:820
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_HEADER_LAYOUT"
 msgid "%-22s %4.0f:%-4.0f %+6.2f:%-+6.2f  %-8s %5s %7s %7s"
 msgstr "%-22s %4.0f:%-4.0f %+6.2f:%-+6.2f  %-8s %5s %7s %7s"
 
 #: src/dos/programs/mixer.cpp:823
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_HEADER_LABELS"
 msgid "[color=white]Channel      Volume    Volume (dB)   Mode     Xfeed  Reverb  Chorus[reset]"
 msgstr "[color=white]Channel      Volume    Volume (dB)   Mode     Xfeed  Reverb  Chorus[reset]"
 
 #: src/dos/programs/mixer.cpp:826
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_CHANNEL_OFF"
 msgid "off"
 msgstr "off"
 
 #: src/dos/programs/mixer.cpp:827
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_CHANNEL_STEREO"
 msgid "Stereo"
 msgstr "Stereo"
@@ -7357,7 +7452,7 @@ msgid "Reverse"
 msgstr ""
 
 #: src/dos/programs/mixer.cpp:829
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_CHANNEL_MONO"
 msgid "Mono"
 msgstr "Mono"
@@ -7686,7 +7781,7 @@ msgid "[reset][color=brown]how many lines?[reset]"
 msgstr ""
 
 #: src/dos/programs/mount.cpp:399
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_HELP"
 msgid "Map physical folders or drives to a virtual drive letter.\n"
 msgstr "relie les dossiers ou lecteurs physiques à une lettre de lecteur virtuel.\n"
@@ -7767,79 +7862,79 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs/mount.cpp:434
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_CDROMS_FOUND"
 msgid "CD-ROMs found: %d\n"
 msgstr "CDROMs trouvés : %d\n"
 
 #: src/dos/programs/mount.cpp:435
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_ERROR_1"
 msgid "Directory %s doesn't exist.\n"
 msgstr "Le répertoire %s n'existe pas.\n"
 
 #: src/dos/programs/mount.cpp:436
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_ERROR_2"
 msgid "%s isn't a directory.\n"
 msgstr "%s n'est pas un répertoire\n"
 
 #: src/dos/programs/mount.cpp:437
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_ILL_TYPE"
 msgid "Illegal type %s\n"
 msgstr "Type illégal %s\n"
 
 #: src/dos/programs/mount.cpp:438
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_ALREADY_MOUNTED"
 msgid "Drive %c already mounted with %s\n"
 msgstr "Lecteur %c déjà monté en tant que %s\n"
 
 #: src/dos/programs/mount.cpp:439
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
 msgid "Drive %c isn't mounted.\n"
 msgstr "Le lecteur %c n'est pas monté.\n"
 
 #: src/dos/programs/mount.cpp:440
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_UMOUNT_SUCCESS"
 msgid "Drive %c has successfully been removed.\n"
 msgstr "Le lecteur %c a été enlevé avec succès.\n"
 
 #: src/dos/programs/mount.cpp:441
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
 msgid "Virtual Drives can not be unMOUNTed.\n"
 msgstr "Les lecteurs virtuels ne peuvent pas être démontés.\n"
 
 #: src/dos/programs/mount.cpp:442
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_DRIVEID_ERROR"
 msgid "'%c' is not a valid drive identifier.\n"
 msgstr "'%c' n'est pas un identifiant de lecteur valide.\n"
 
 #: src/dos/programs/mount.cpp:443
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_WARNING_WIN"
 msgid "[color=light-red]Mounting c:\\ is NOT recommended. Please mount a (sub)directory next time.[reset]\n"
 msgstr "[color=light-red]Monter c:\\ n'est PAS recommandé. Veuillez monter un (sous-)répertoire la prochaine fois.[reset]\n"
 
 #: src/dos/programs/mount.cpp:444
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_WARNING_OTHER"
 msgid "[color=light-red]Mounting / is NOT recommended. Please mount a (sub)directory next time.[reset]\n"
 msgstr "[color=light-red]Monter / n'est PAS recommandé. Veuillez monter un (sous-)répertoire la prochaine fois.[reset]\n"
 
 #: src/dos/programs/mount.cpp:445
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_NO_OPTION"
 msgid "Warning: Ignoring unsupported option '%s'.\n"
 msgstr "Attention: option '%s' non supportée et ignorée.\n"
 
 #: src/dos/programs/mount.cpp:446
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_NO_BASE"
 msgid ""
 "A normal directory needs to be MOUNTed first before an overlay can be added on\n"
@@ -7847,13 +7942,13 @@ msgid ""
 msgstr "Un répertoire normal doit être monté d'abord avant qu'une redirection soit possible.\n"
 
 #: src/dos/programs/mount.cpp:449
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
 msgid "The overlay is NOT compatible with the drive that is specified.\n"
 msgstr "Cette redirection n'est PAS compatible avec le lecteur spécifié.\n"
 
 #: src/dos/programs/mount.cpp:450
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
 msgid ""
 "The overlay needs to be specified using the same addressing as the underlying\n"
@@ -7861,19 +7956,19 @@ msgid ""
 msgstr "La redirection doit être spécifiée en utilisant le même adressage que le disque sous-jacent. Pas de mélange de chemins relatifs et absolus."
 
 #: src/dos/programs/mount.cpp:453
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
 msgid "The overlay directory can not be the same as underlying drive.\n"
 msgstr "Le répertoire de redirection ne peut pas être le même que celui du lecteur sous-jacent.\n"
 
 #: src/dos/programs/mount.cpp:454
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_GENERIC_ERROR"
 msgid "Something went wrong.\n"
 msgstr "Quelque chose s'est mal déroulé.\n"
 
 #: src/dos/programs/mount.cpp:455
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_OVERLAY_STATUS"
 msgid "Overlay %s on drive %c mounted.\n"
 msgstr "Redirection %s sur lecteur %c montée.\n"
@@ -8165,7 +8260,7 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/rescan.cpp:66
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_RESCAN_SUCCESS"
 msgid "Drive re-scanned.\n"
 msgstr "Cache de lecteur vidé.\n"
@@ -8226,25 +8321,25 @@ msgstr ""
 "\n"
 
 #: src/dos/programs/serial.cpp:203
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_SERIAL_SHOW_PORT"
 msgid "COM%d: %s %s\n"
 msgstr "COM%d: %s %s\n"
 
 #: src/dos/programs/serial.cpp:204
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_SERIAL_BAD_PORT"
 msgid "Must specify a numeric port value between 1 and %d, inclusive.\n"
 msgstr "Must specify a numeric port value between 1 and %d, inclusive.\n"
 
 #: src/dos/programs/serial.cpp:206
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_SERIAL_BAD_TYPE"
 msgid "Type must be one of the following:\n"
 msgstr "Type must be one of the following:\n"
 
 #: src/dos/programs/serial.cpp:207
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_SERIAL_INDENTED_LIST"
 msgid "  %s\n"
 msgstr "  %s\n"
@@ -8415,7 +8510,7 @@ msgid "from [autoexec] section"
 msgstr "Fichier de commandes généré automatiquement"
 
 #: src/shell/shell.cpp:540
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_ILLEGAL_PATH"
 msgid "Illegal path.\n"
 msgstr "Chemin incorrect.\n"
@@ -8427,7 +8522,7 @@ msgid "Illegal filename.\n"
 msgstr "Nom de fichier illégal."
 
 #: src/shell/shell.cpp:542
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_ILLEGAL_SWITCH"
 msgid "Illegal switch: %s\n"
 msgstr "Paramètre incorrect : %s.\n"
@@ -8439,7 +8534,7 @@ msgid "Illegal switch combination.\n"
 msgstr "Combinaison d'options illégale."
 
 #: src/shell/shell.cpp:544
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_MISSING_PARAMETER"
 msgid "Required parameter missing.\n"
 msgstr "Paramètre requis manquant.\n"
@@ -8457,37 +8552,37 @@ msgid "Expected a file, not a directory.\n"
 msgstr "Fichier attendu, pas un répertoire."
 
 #: src/shell/shell.cpp:547
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_SYNTAX_ERROR"
 msgid "Incorrect command syntax.\n"
 msgstr "La syntaxe de la commande est incorrecte.\n"
 
 #: src/shell/shell.cpp:548
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_ACCESS_DENIED"
 msgid "Access denied - '%s'\n"
 msgstr "Access denied - '%s'\n"
 
 #: src/shell/shell.cpp:549
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_FILE_CREATE_ERROR"
 msgid "File creation error - '%s'\n"
 msgstr "File creation error - '%s'\n"
 
 #: src/shell/shell.cpp:550
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_FILE_OPEN_ERROR"
 msgid "File open error - '%s'\n"
 msgstr "File open error - '%s'\n"
 
 #: src/shell/shell.cpp:551
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_FILE_NOT_FOUND"
 msgid "File not found - '%s'\n"
 msgstr "Fichier '%s' non trouvé.\n"
 
 #: src/shell/shell.cpp:552
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_FILE_EXISTS"
 msgid "File '%s' already exists.\n"
 msgstr "Fichier '%s' déjà existant.\n"
@@ -8587,25 +8682,25 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:586
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ECHO_ON"
 msgid "Echo is on.\n"
 msgstr "ECHO est activé.\n"
 
 #: src/shell/shell.cpp:587
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ECHO_OFF"
 msgid "Echo is off.\n"
 msgstr "ECHO est désactivé.\n"
 
 #: src/shell/shell.cpp:589
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_ERROR"
 msgid "Unable to change to: %s\n"
 msgstr "Impossible de CHanger vers : %s.\n"
 
 #: src/shell/shell.cpp:590
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_HINT"
 msgid "Hint: To change to a different drive, run [color=yellow]%c:[reset]\n"
 msgstr "Astuce : pour changer de lecteur, tapez [color=red]%c:[reset]\n"
@@ -8622,37 +8717,37 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:595
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_HINT_3"
 msgid "You are still on drive Z:; change to a mounted drive with [color=yellow]C:[reset].\n"
 msgstr "Vous êtes encore sur le lecteur Z:, changez pour un lecteur monté avec [color=red]C:[reset].\n"
 
 #: src/shell/shell.cpp:597
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_HELP"
 msgid "Display or change the internal date.\n"
 msgstr "Affiche ou change la date interne.\n"
 
 #: src/shell/shell.cpp:598
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_ERROR"
 msgid "The specified date is not correct.\n"
 msgstr "La date spécifiée est incorrecte.\n"
 
 #: src/shell/shell.cpp:599
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_DAYS"
 msgid "3SunMonTueWedThuFriSat"
 msgstr "3DimLunMarMerJeuVenSam"
 
 #: src/shell/shell.cpp:600
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_NOW"
 msgid "Current date: "
 msgstr "Date actuelle : "
 
 #: src/shell/shell.cpp:601
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_SETHLP"
 msgid "Run [color=yellow]date %s[reset] to change the current date.\n"
 msgstr "Tapez 'date MM-JJ-AAAA' pour changer\n"
@@ -8688,25 +8783,25 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:622
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TIME_HELP"
 msgid "Display or change the internal time.\n"
 msgstr "Affiche l'heure interne.\n"
 
 #: src/shell/shell.cpp:623
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TIME_ERROR"
 msgid "The specified time is not correct.\n"
 msgstr "The specified time is not correct.\n"
 
 #: src/shell/shell.cpp:624
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TIME_NOW"
 msgid "Current time: "
 msgstr "Heure courante : "
 
 #: src/shell/shell.cpp:625
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TIME_SETHLP"
 msgid "Run [color=yellow]time %s[reset] to change the current time.\n"
 msgstr "Type 'time %s' to change.\n"
@@ -8739,31 +8834,31 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:645
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MKDIR_ERROR"
 msgid "Unable to make: %s.\n"
 msgstr "Impossible de créer : %s.\n"
 
 #: src/shell/shell.cpp:646
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_RMDIR_ERROR"
 msgid "Unable to remove: %s.\n"
 msgstr "Impossible de supprimer : %s.\n"
 
 #: src/shell/shell.cpp:648
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DEL_ERROR"
 msgid "Unable to delete: %s.\n"
 msgstr "Impossible d'effacer : %s.\n"
 
 #: src/shell/shell.cpp:650
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SET_NOT_SET"
 msgid "Environment variable '%s' not defined.\n"
 msgstr "La variable d'environnement %s n'est pas définie.\n"
 
 #: src/shell/shell.cpp:651
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SET_OUT_OF_SPACE"
 msgid "Not enough environment space left.\n"
 msgstr "Pas assez d'espace d'environnement disponible.\n"
@@ -8775,37 +8870,37 @@ msgid "Option /P is not supported; please use the CHOICE command.\n"
 msgstr ""
 
 #: src/shell/shell.cpp:655
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
 msgid "IF EXIST: Missing filename.\n"
 msgstr "IF EXIST : Nom de fichier manquant.\n"
 
 #: src/shell/shell.cpp:656
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
 msgid "IF ERRORLEVEL: Missing number.\n"
 msgstr "IF ERRORLEVEL : Nombre manquant.\n"
 
 #: src/shell/shell.cpp:657
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
 msgid "IF ERRORLEVEL: Invalid number.\n"
 msgstr "IF ERRORLEVEL : Numéro non valide.\n"
 
 #: src/shell/shell.cpp:659
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_GOTO_MISSING_LABEL"
 msgid "No label supplied to GOTO command.\n"
 msgstr "Aucune étiquette indiquée pour la commande GOTO.\n"
 
 #: src/shell/shell.cpp:660
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
 msgid "GOTO: Label '%s' not found.\n"
 msgstr "GOTO : Étiquette %s non trouvée.\n"
 
 #: src/shell/shell.cpp:662
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DUPLICATE_REDIRECTION"
 msgid "Duplicate redirection: %s\n"
 msgstr "Duplicate redirection - %s\n"
@@ -8822,25 +8917,25 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:666
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_VOLUME"
 msgid " Volume in drive %c is %s\n"
 msgstr " Le volume dans le lecteur %c est %s\n"
 
 #: src/shell/shell.cpp:667
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_INTRO"
 msgid " Directory of %s\n"
 msgstr " Arborescence de %s\n"
 
 #: src/shell/shell.cpp:668
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_BYTES_USED"
 msgid "%17d file(s) %21s bytes\n"
 msgstr "%17d fichier(s) %21s bytes\n"
 
 #: src/shell/shell.cpp:669
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_BYTES_FREE"
 msgid "%17d dir(s)  %21s bytes free\n"
 msgstr "%17d répertoire(s)  %21s bytes libres\n"
@@ -8857,19 +8952,19 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:674
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_EXECUTE_ILLEGAL_COMMAND"
 msgid "Illegal command: %s\n"
 msgstr "Commande invalide : %s.\n"
 
 #: src/shell/shell.cpp:675
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_PAUSE"
 msgid "Press any key to continue..."
 msgstr "Appuyer sur une touche pour continuer..."
 
 #: src/shell/shell.cpp:676
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_PAUSE_HELP"
 msgid "Wait for a keystroke to continue.\n"
 msgstr "Attendre l'appui sur 1 touche pour continuer.\n"
@@ -8908,19 +9003,19 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:693
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_COPY_FAILURE"
 msgid "Copy failure: %s.\n"
 msgstr "Échec de la copie : %s.\n"
 
 #: src/shell/shell.cpp:694
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_COPY_SUCCESS"
 msgid "   %d File(s) copied.\n"
 msgstr "   %d fichier(s) copié(s).\n"
 
 #: src/shell/shell.cpp:695
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SUBST_NO_REMOVE"
 msgid "Unable to remove, drive not in use.\n"
 msgstr "Impossible d'enlever, lecteur non utilisé.\n"
@@ -9008,13 +9103,13 @@ msgid ""
 msgstr "Prêt."
 
 #: src/shell/shell.cpp:728
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_SUB"
 msgid "[color=light-green]dosbox-staging %s[reset]\n"
 msgstr "[color=light-green]dosbox-staging %s[reset]\n"
 
 #: src/shell/shell.cpp:731
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_HELP"
 msgid "Display or change the current directory.\n"
 msgstr "Affiche/change le répertoire courant.\n"
@@ -9050,7 +9145,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:748
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CLS_HELP"
 msgid "Clear the DOS screen.\n"
 msgstr "Effacer l'écran.\n"
@@ -9087,7 +9182,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:763
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_HELP"
 msgid "Display a list of files and subdirectories in a directory.\n"
 msgstr "Affiche une liste de fichiers et sous-répertoires dans un répertoire.\n"
@@ -9135,7 +9230,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:789
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ECHO_HELP"
 msgid "Display messages and enable/disable command echoing.\n"
 msgstr "Affiche des messages et active/désactive la commande ECHO.\n"
@@ -9178,7 +9273,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:808
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_EXIT_HELP"
 msgid "Exit from the DOS shell.\n"
 msgstr "Sortir du shell.\n"
@@ -9215,7 +9310,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:823
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_HELP_HELP"
 msgid "Display help information for DOS commands.\n"
 msgstr "Montrer l'aide.\n"
@@ -9260,7 +9355,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:843
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MKDIR_HELP"
 msgid "Create a directory.\n"
 msgstr "Créer un répertoire.\n"
@@ -9289,7 +9384,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:860
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_RMDIR_HELP"
 msgid "Remove a directory.\n"
 msgstr "Supprimer un répertoire.\n"
@@ -9316,7 +9411,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:875
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SET_HELP"
 msgid "Display or change environment variables.\n"
 msgstr "Changer les variables d'environnement.\n"
@@ -9359,7 +9454,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:893
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_IF_HELP"
 msgid "Perform conditional processing in batch programs.\n"
 msgstr "Effectuer un processus avec condition dans les programmes batch.\n"
@@ -9414,7 +9509,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:918
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_GOTO_HELP"
 msgid "Jump to a labeled line in a batch program.\n"
 msgstr "Aller à la ligne de l'étiquette définie dans un script batch.\n"
@@ -9451,7 +9546,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:934
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SHIFT_HELP"
 msgid "Left-shift command-line parameters in a batch program.\n"
 msgstr "Décaler les paramètres de ligne de commande vers la gauche dans un script batch.\n"
@@ -9488,7 +9583,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:949
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TYPE_HELP"
 msgid "Display the contents of a text file.\n"
 msgstr "Affiche le contenu d'un fichier texte.\n"
@@ -9513,7 +9608,7 @@ msgid ""
 msgstr "TAPEZ [lecteur:][chemin][nomdefichier]\n"
 
 #: src/shell/shell.cpp:965
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_REM_HELP"
 msgid "Add comments in a batch program.\n"
 msgstr "Ajouter des commentaires dans un fichier batch.\n"
@@ -9537,13 +9632,13 @@ msgid ""
 msgstr "REM [commentaire]\n"
 
 #: src/shell/shell.cpp:980
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_NO_WILD"
 msgid "This is a simple version of the command, no wildcards allowed!\n"
 msgstr "C'est une version simple de la commande, aucun joker autorisé !\n"
 
 #: src/shell/shell.cpp:982
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_RENAME_HELP"
 msgid "Rename one or more files.\n"
 msgstr "Renomme un ou plusieurs fichiers.\n"
@@ -9575,7 +9670,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1000
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DELETE_HELP"
 msgid "Remove one or more files.\n"
 msgstr "Supprimer un ou plusieurs fichiers.\n"
@@ -9624,7 +9719,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1021
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_COPY_HELP"
 msgid "Copy one or more files.\n"
 msgstr "Copier des fichiers.\n"
@@ -9671,7 +9766,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1041
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CALL_HELP"
 msgid "Start a batch program from within another batch program.\n"
 msgstr "Lancer un fichier batch à partir d'un autre fichier batch..\n"
@@ -9712,7 +9807,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1058
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SUBST_HELP"
 msgid "Assign an internal directory to a drive.\n"
 msgstr "Assigner un répertoire interne à un lecteur.\n"
@@ -9755,7 +9850,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1076
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_LOADHIGH_HELP"
 msgid "Load a DOS program into upper memory.\n"
 msgstr "Charger un programme en mémoire haute (requiert xms=true et umb=true).\n"
@@ -9798,7 +9893,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1094
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ATTRIB_HELP"
 msgid "Display or change file attributes.\n"
 msgstr "Ne fait rien. Fourni pour la compatibilité.\n"
@@ -9846,19 +9941,19 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1115
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ATTRIB_GET_ERROR"
 msgid "Unable to get attributes: %s\n"
 msgstr "Unable to get attributes: %s\n"
 
 #: src/shell/shell.cpp:1116
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ATTRIB_SET_ERROR"
 msgid "Unable to set attributes: %s\n"
 msgstr "Unable to set attributes: %s\n"
 
 #: src/shell/shell.cpp:1118
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHOICE_HELP"
 msgid "Wait for a keypress and set an ERRORLEVEL value.\n"
 msgstr "Attendre l'appui sur une touche et définir le ERRORLEVEL.\n"
@@ -9918,7 +10013,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1144
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_PATH_HELP"
 msgid "Display or set a search path for executable files.\n"
 msgstr "Fourni pour la compatibilité.\n"
@@ -9961,7 +10056,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1163
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_VER_HELP"
 msgid "Display the DOS version.\n"
 msgstr "Voir ou régler la version de DOS reportée.\n"
@@ -10013,7 +10108,7 @@ msgstr ""
 "\n"
 
 #: src/shell/shell.cpp:1179
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_VER_INVALID"
 msgid "The specified DOS version is not correct.\n"
 msgstr "La version spécifiée de DOS n'est pas correcte.\n"
@@ -10122,31 +10217,31 @@ msgid ""
 msgstr ""
 
 #: src/misc/help_util.cpp:71
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "HELP_UTIL_CATEGORY_DOSBOX"
 msgid "DOSBox Commands"
 msgstr "DOSBox Commands"
 
 #: src/misc/help_util.cpp:72
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "HELP_UTIL_CATEGORY_FILE"
 msgid "File/Directory Commands"
 msgstr "File/Directory Commands"
 
 #: src/misc/help_util.cpp:73
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "HELP_UTIL_CATEGORY_BATCH"
 msgid "Batch File Commands"
 msgstr "Batch File Commands"
 
 #: src/misc/help_util.cpp:74
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "HELP_UTIL_CATEGORY_MISC"
 msgid "Miscellaneous Commands"
 msgstr "Miscellaneous Commands"
 
 #: src/misc/help_util.cpp:75
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "HELP_UTIL_CATEGORY_UNKNOWN"
 msgid "Unknown Command"
 msgstr "Unknown Command"
