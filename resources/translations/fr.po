@@ -2764,6 +2764,11 @@ msgid ""
 "                      monitor. Toggling fullscreen might result in janky\n"
 "                      behaviour in this mode."
 msgstr ""
+"  original:           Mode plein écran exclusif à la résolution d'origine\n"
+"                      du jeu, ou à la résolution disponible la plus proche.\n"
+"                      Option de niche pour utiliser DOSBox Staging avec un\n"
+"                      moniteur CRT. Basculer en plein écran peut entraîner\n"
+"                      un comportement saccadé dans ce mode."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -2798,6 +2803,14 @@ msgid ""
 "  WxH:       Specify window size in WxH format in logical units\n"
 "             (e.g., 1024x768)."
 msgstr ""
+"Définit la taille initiale de la fenêtre en mode fenêtré. Vous pouvez\n"
+"toujours redimensionner la fenêtre après le démarrage.\n"
+"  default:   Sélectionne la meilleure option selon votre environnement et\n"
+"             autres paramètres (comme la correction du ratio d'aspect).\n"
+"  small, medium, large (s, m, l):\n"
+"             Dimensionne la fenêtre relativement au bureau.\n"
+"  LxH:       Spécifie la taille en format LxH en unités logiques\n"
+"             (ex: 1024x768)."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
