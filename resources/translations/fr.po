@@ -1821,7 +1821,7 @@ msgstr "Windows Toungouse-mandchou"
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_NAME_LATN"
 msgid "Latin"
-msgstr ""
+msgstr "Latin"
 
 #: src/dos/dos_locale.cpp:1725
 #, fuzzy, c-format, no-wrap
@@ -1869,13 +1869,13 @@ msgstr "Hébreu"
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_PROPERTY_PHONETIC"
 msgid "phonetic"
-msgstr ""
+msgstr "phonétique"
 
 #: src/dos/dos_locale.cpp:1729
 #, fuzzy, c-format, no-wrap
 msgctxt "SCRIPT_PROPERTY_NON_STANDARD"
 msgid "non-standard"
-msgstr ""
+msgstr "non-standard"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2523,13 +2523,13 @@ msgstr "Yougoslave (QWERTZ)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_MOD_ADJECTIVE_LEFT"
 msgid "Left"
-msgstr ""
+msgstr "Gauche"
 
 #: src/dos/dos_locale.cpp:1737
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_MOD_ADJECTIVE_RIGHT"
 msgid "Right"
-msgstr ""
+msgstr "Droite"
 
 #: src/gui/shader_manager.cpp:234
 #, c-format, no-wrap
@@ -2552,49 +2552,49 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_GLSHADERS_NOT_EXISTS"
 msgid "Path '%s' does not exist."
-msgstr ""
+msgstr "Le chemin '%s' n'existe pas."
 
 #: src/gui/shader_manager.cpp:242
 #, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_GLSHADERS_NO_SHADERS"
 msgid "Path '%s' has no shaders."
-msgstr ""
+msgstr "Le chemin '%s' ne contient aucun shader."
 
 #: src/gui/shader_manager.cpp:243
 #, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_GLSHADERS_LIST"
 msgid "Path '%s' has:"
-msgstr ""
+msgstr "Le chemin '%s' contient :"
 
 #: src/gui/titlebar.cpp:756
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_CYCLES_MS"
 msgid "cycles/ms"
-msgstr ""
+msgstr "cycles/ms"
 
 #: src/gui/titlebar.cpp:757
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_CYCLES_THROTTLED"
 msgid "throttled"
-msgstr ""
+msgstr "limité"
 
 #: src/gui/titlebar.cpp:758
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_MUTED"
 msgid "MUTED"
-msgstr ""
+msgstr "MUET"
 
 #: src/gui/titlebar.cpp:759
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_PAUSED"
 msgid "PAUSED"
-msgstr ""
+msgstr "EN PAUSE"
 
 #: src/gui/titlebar.cpp:761
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_CAPTURED"
 msgid "mouse captured"
-msgstr ""
+msgstr "souris capturée"
 
 #: src/gui/titlebar.cpp:762
 #, c-format, no-wrap
@@ -2636,7 +2636,7 @@ msgstr "souris transparente, %s+F10 pour capturer"
 #, fuzzy, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_SEAMLESS_HOTKEY_MIDDLE"
 msgid "seamless mouse, %s+F10 or middle-click to capture"
-msgstr ""
+msgstr "souris transparente, %s+F10 ou clic molette pour capturer"
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2652,19 +2652,19 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_OUTPUT_TEXTURE_DEFAULT"
 msgid "Rendering backend to use for graphics output ('texture' by default)."
-msgstr ""
+msgstr "Moteur de rendu pour la sortie graphique ('texture' par défaut)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_OUTPUT_OPENGL"
 msgid "  opengl:     OpenGL backend with shader support (default)."
-msgstr ""
+msgstr "  opengl:     Moteur OpenGL avec support des shaders (par défaut)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_OUTPUT_TEXTURE"
 msgid "  texture:    SDL's texture backend with bilinear interpolation."
-msgstr ""
+msgstr "  texture:    Moteur de texture SDL avec interpolation bilinéaire."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2856,7 +2856,7 @@ msgstr "This setting has been renamed to viewport_resolution."
 #, c-format, no-wrap
 msgctxt "CONFIG_VIEWPORT_RESOLUTION"
 msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
-msgstr ""
+msgstr "Déplacé vers la section [color=light-cyan][render][reset] et renommé en [color=light-green]'viewport'[reset]."
 "Déplacé vers la section [color=light-cyan][render][reset] et renommé\n"
 "en [color=white]viewport_resolution[reset]\n"
 
@@ -2919,7 +2919,7 @@ msgstr ""
 #, c-format, no-wrap
 msgctxt "CONFIG_CAPTURE_MOUSE"
 msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset]."
-msgstr ""
+msgstr "Déplacé vers la section [color=light-cyan][mouse][reset] et renommé en [color=light-green]'mouse_capture'[reset]."
 "Déplacé vers la section [color=light-cyan][mouse][reset] et renommé\n"
 "en [color=white]capture[reset]\n"
 
@@ -2933,7 +2933,7 @@ msgstr "Sensibilité de la souris. Le second paramètre optionnel spécifie la s
 #, c-format, no-wrap
 msgctxt "CONFIG_RAW_MOUSE_INPUT"
 msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset]."
-msgstr ""
+msgstr "Déplacé vers la section [color=light-cyan][mouse][reset] et renommé en [color=light-green]'mouse_raw_input'[reset]."
 "Déplacé vers la section [color=light-cyan][mouse][reset] et renommé\n"
 "en [color=white]raw_input[reset]\n"
 
@@ -3172,7 +3172,7 @@ msgstr ""
 #, c-format, no-wrap
 msgctxt "CONFIG_VGA_8DOT_FONT"
 msgid "Use 8-pixel-wide fonts on VGA adapters ('off' by default)."
-msgstr ""
+msgstr "Utilise des polices de 8 pixels de large sur les adaptateurs VGA ('off' par défaut)."
 "Utiliser les polices 8 pixels sur adaptateurs VGA ('off' par défaut).\n"
 
 #: src/config/setup.cpp:274
@@ -3303,7 +3303,7 @@ msgstr ""
 #, c-format, no-wrap
 msgctxt "CONFIG_FRAMESKIP"
 msgid "Consider capping frame rates using the 'host_rate' setting."
-msgstr ""
+msgstr "Envisagez de limiter le taux de rafraîchissement avec le paramètre 'host_rate'."
 "Envisagez de limiter la fréquence avec le paramètre 'host_rate'.\n"
 
 #: src/config/setup.cpp:295
