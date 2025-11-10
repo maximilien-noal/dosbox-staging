@@ -3824,6 +3824,11 @@ msgid ""
 "   4: 2 MB for the FBI and one TMU with 2 MB (default).\n"
 "  12: 4 MB for the FBI and two TMUs, each with 4 MB."
 msgstr ""
+"Définit la quantité de mémoire vidéo pour les graphismes 3dfx Voodoo. La mémoire\n"
+"est utilisée par le Frame Buffer Interface (FBI) et le Texture Mapping Unit\n"
+"(TMU) comme suit :\n"
+"   4: 2 Mo pour le FBI et un TMU avec 2 Mo (défaut).\n"
+"  12: 4 Mo pour le FBI et deux TMU, chacun avec 4 Mo."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -3853,6 +3858,10 @@ msgid ""
 "('on' by default). Bilinear filtering can impact frame rates on slower systems;\n"
 "try turning it off if you're not getting adequate performance."
 msgstr ""
+"Utilise le filtrage bilinéaire pour émuler l'effet de lissage de texture\n"
+"du 3dfx Voodoo ('on' par défaut). Le filtrage bilinéaire peut impacter la\n"
+"fréquence d'images sur les systèmes lents ; essayez de le désactiver si les\n"
+"performances ne sont pas adéquates."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4336,6 +4345,9 @@ msgid ""
 "This is useful for normalising the volume of different SoundFonts.\n"
 "The percentage value can range from 1 to 800."
 msgstr ""
+"Définit le volume du SoundFont en pourcentage (100 par défaut).\n"
+"Utile pour normaliser le volume de différents SoundFonts.\n"
+"Le pourcentage peut aller de 1 à 800."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
