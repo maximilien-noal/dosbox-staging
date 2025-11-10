@@ -4995,6 +4995,11 @@ msgid ""
 "  on:    Enable CMS emulation on Sound Blaster 1 and 2.\n"
 "  auto:  Auto-enable CMS emulation for Sound Blaster 1 and Game Blaster."
 msgstr ""
+"Active l'émulation CMS ('auto' par défaut).\n"
+"  off:   Désactive l'émulation CMS (sauf si Game Blaster est sélectionné).\n"
+"  on:    Active l'émulation CMS sur Sound Blaster 1 et 2.\n"
+"  auto:  Active automatiquement l'émulation CMS pour Sound Blaster 1 et\n"
+"         Game Blaster."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5103,6 +5108,10 @@ msgid ""
 "  off:       Don't filter the output.\n"
 "  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
+"Filtre pour la sortie IBM Music Feature Card :\n"
+"  on:        Filtre la sortie (défaut).\n"
+"  off:       Ne filtre pas la sortie.\n"
+"  <custom>:  Définition de filtre personnalisé ; voir 'sb_filter' pour détails."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5259,6 +5268,10 @@ msgid ""
 "  on:        Wait 0.5s before fading out over a 0.5s period.\n"
 "  <custom>:  Custom fade out definition; see 'opl_fadeout' for details."
 msgstr ""
+"Atténue la sortie du synthé Tandy après la dernière écriture du port E/S :\n"
+"  off:       Pas d'atténuation ; sortie résiduelle jouera indéfiniment (défaut).\n"
+"  on:        Attend 0,5 s avant d'atténuer sur une période de 0,5 s.\n"
+"  <custom>:  Définition d'atténuation personnalisée ; voir 'opl_fadeout'."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5366,6 +5379,10 @@ msgid ""
 "  cardonly:  Initialize the card without loading the FMPDRV.EXE driver.\n"
 "  on:        Initialize the card and load the FMPDRV.EXE on startup."
 msgstr ""
+"Support de lecture MPEG ReelMagic (alias REALmagic) :\n"
+"  off:       Désactive le support (défaut).\n"
+"  cardonly:  Initialise la carte sans charger le pilote FMPDRV.EXE.\n"
+"  on:        Initialise la carte et charge FMPDRV.EXE au démarrage."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
