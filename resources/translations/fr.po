@@ -3234,6 +3234,9 @@ msgid ""
 "Currently, you need to disable this for a few games, otherwise they will crash\n"
 "at startup (e.g., Deus, Ishar 3, Robinson's Requiem, Time Warriors)."
 msgstr ""
+"Émule le rendu VGA précis par ligne de balayage ('on' par défaut).\n"
+"Actuellement, vous devez le désactiver pour quelques jeux, sinon ils\n"
+"planteront au démarrage (ex: Deus, Ishar 3, Robinson's Requiem, Time Warriors)."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -3317,6 +3320,12 @@ msgid ""
 "using a copy-on-write or network-based filesystem, this setting avoids\n"
 "triggering write operations for these write-protected files."
 msgstr ""
+"De nombreux jeux ouvrent tous leurs fichiers avec permissions d'écriture ;\n"
+"même les fichiers qu'ils ne modifient jamais. Ce paramètre vous permet de\n"
+"protéger ces fichiers en écriture tout en permettant au jeu de les lire\n"
+"('on' par défaut). Second cas d'usage : si vous utilisez un système de\n"
+"fichiers copy-on-write ou réseau, ce paramètre évite de déclencher des\n"
+"opérations d'écriture pour ces fichiers protégés en écriture."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3327,6 +3336,10 @@ msgid ""
 "'sbtype sb16', and instead of 'config -get sbtype', you can just execute\n"
 "the 'sbtype' command."
 msgstr ""
+"Autorise les raccourcis pour une gestion simplifiée de la configuration\n"
+"('on' par défaut). Ex : au lieu de 'config -set sbtype sb16', il suffit\n"
+"d'exécuter 'sbtype sb16', et au lieu de 'config -get sbtype', vous pouvez\n"
+"simplement exécuter la commande 'sbtype'."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3338,6 +3351,11 @@ msgid ""
 "  medium:   Typical early 1990s hard disk speed (~2.5 MB/s)\n"
 "  slow:     Typical 1980s hard disk speed (~600 kB/s)"
 msgstr ""
+"Définit la vitesse du disque dur émulé ('maximum' par défaut).\n"
+"  maximum:  Aussi rapide que possible, sans ralentissement (défaut)\n"
+"  fast:     Vitesse typique disque dur milieu années 1990 (~15 Mo/s)\n"
+"  medium:   Vitesse typique disque dur début années 1990 (~2,5 Mo/s)\n"
+"  slow:     Vitesse typique disque dur années 1980 (~600 Ko/s)"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
