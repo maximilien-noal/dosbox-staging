@@ -3862,6 +3862,9 @@ msgid ""
 "and screenshot captures. ('capture' in the current working directory by\n"
 "default)."
 msgstr ""
+"Répertoire où les diverses captures sont sauvegardées, telles que audio,\n"
+"vidéo, MIDI et captures d'écran. ('capture' dans le répertoire de travail\n"
+"actuel par défaut)."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3913,6 +3916,8 @@ msgid ""
 "Release the captured mouse by middle-clicking, and also capture it in\n"
 "seamless mode ('on' by default)."
 msgstr ""
+"Libère la souris capturée par clic du bouton du milieu, et la capture aussi\n"
+"en mode seamless ('on' par défaut)."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3946,6 +3951,9 @@ msgid ""
 "settings ('on' by default). Works in fullscreen or when the mouse is captured\n"
 "in windowed mode."
 msgstr ""
+"Active pour contourner les paramètres d'accélération et de sensibilité de la\n"
+"souris de votre système d'exploitation ('on' par défaut). Fonctionne en plein\n"
+"écran ou lorsque la souris est capturée en mode fenêtré."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
