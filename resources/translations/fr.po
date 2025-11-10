@@ -385,10 +385,10 @@ msgid "Thailand"
 msgstr "Thaïlande"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KAZ"
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakhstan"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -475,76 +475,76 @@ msgid "Nigeria"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_FRO"
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Îles Féroé"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PRT"
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LUX"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_IRL"
 msgid "Ireland"
-msgstr ""
+msgstr "Irlande"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ISL"
 msgid "Iceland"
-msgstr ""
+msgstr "Islande"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ALB"
 msgid "Albania"
-msgstr ""
+msgstr "Albanie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MLT"
 msgid "Malta"
-msgstr ""
+msgstr "Malte"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_FIN"
 msgid "Finland"
-msgstr ""
+msgstr "Finlande"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BGR"
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgarie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LTU"
 msgid "Lithuania"
-msgstr ""
+msgstr "Lituanie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LVA"
 msgid "Latvia"
-msgstr ""
+msgstr "Lettonie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_EST"
 msgid "Estonia"
-msgstr ""
+msgstr "Estonie"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -553,22 +553,22 @@ msgid "Armenia"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BLR"
 msgid "Belarus"
-msgstr ""
+msgstr "Biélorussie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_UKR"
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraine"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SRB"
 msgid "Serbia"
-msgstr ""
+msgstr "Serbie"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -577,40 +577,40 @@ msgid "Montenegro"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_HRV"
 msgid "Croatia"
-msgstr ""
+msgstr "Croatie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SVN"
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovénie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BIH_LAT"
 msgid "Bosnia and Herzegovina (Latin)"
-msgstr ""
+msgstr "Bosnie-Herzégovine (Latin)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BIH_CYR"
 msgid "Bosnia and Herzegovina (Cyrillic)"
-msgstr ""
+msgstr "Bosnie-Herzégovine (Cyrillique)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MKD"
 msgid "North Macedonia"
-msgstr ""
+msgstr "Macédoine du Nord"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SVK"
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovaquie"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -631,10 +631,10 @@ msgid "Honduras"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NIC"
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -649,28 +649,28 @@ msgid "Panama"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BOL"
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ECU"
 msgid "Ecuador"
-msgstr ""
+msgstr "Équateur"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PRY"
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_URY"
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -679,16 +679,16 @@ msgid "Arabic (Middle East)"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_HKG"
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TWN"
 msgid "Taiwan"
-msgstr ""
+msgstr "Taïwan"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -757,10 +757,10 @@ msgid "Qatar"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MNG"
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongolie"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -2437,20 +2437,21 @@ msgid "Right"
 msgstr ""
 
 #: src/gui/shader_manager.cpp:234
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_GLSHADERS_1"
 msgid ""
 "List of available GLSL shaders\n"
 "------------------------------"
-msgstr ""
+msgstr "Liste des shaders GLSL disponibles"
 
 #: src/gui/shader_manager.cpp:237
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_GLSHADERS_2"
 msgid ""
 "The above shaders can be used exactly as listed in the 'glshader'\n"
 "config setting, without the need for the resource path or .glsl extension."
 msgstr ""
+"Les shaders ci-dessus peuvent être utilisés dans le paramètre 'glshader'.\n"
 
 #: src/gui/shader_manager.cpp:241
 #, fuzzy, c-format, no-wrap
@@ -2501,40 +2502,40 @@ msgid "mouse captured"
 msgstr ""
 
 #: src/gui/titlebar.cpp:762
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_CAPTURED_HOTKEY"
 msgid "mouse captured, %s+F10 to release"
-msgstr ""
+msgstr "souris capturée, %s+F10 pour libérer"
 
 #: src/gui/titlebar.cpp:763
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_CAPTURED_HOTKEY_MIDDLE"
 msgid "mouse captured, %s+F10 or middle-click to release"
-msgstr ""
+msgstr "souris capturée, %s+F10 ou clic-milieu pour libérer"
 
 #: src/gui/titlebar.cpp:765
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_RELEASED_HOTKEY"
 msgid "to capture the mouse press %s+F10"
-msgstr ""
+msgstr "pour capturer la souris appuyez sur %s+F10"
 
 #: src/gui/titlebar.cpp:766
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_RELEASED_HOTKEY_MIDDLE"
 msgid "to capture the mouse press %s+F10 or middle-click"
-msgstr ""
+msgstr "pour capturer la souris appuyez sur %s+F10 ou clic-milieu"
 
 #: src/gui/titlebar.cpp:768
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_RELEASED_HOTKEY_ANY_BUTTON"
 msgid "to capture the mouse press %s+F10 or click any button"
-msgstr ""
+msgstr "pour capturer la souris appuyez sur %s+F10 ou cliquez"
 
 #: src/gui/titlebar.cpp:770
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "TITLEBAR_HINT_SEAMLESS_HOTKEY"
 msgid "seamless mouse, %s+F10 to capture"
-msgstr ""
+msgstr "souris transparente, %s+F10 pour capturer"
 
 #: src/gui/titlebar.cpp:771
 #, fuzzy, c-format, no-wrap
@@ -8430,16 +8431,16 @@ msgid "Too many files or subdirectories.\n"
 msgstr ""
 
 #: src/shell/autoexec.cpp:733
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "AUTOEXEC_BAT_GENERATED"
 msgid "generated from configuration and command line"
-msgstr ""
+msgstr "Fichier de commandes créé depuis la section [autoexec]"
 
 #: src/shell/autoexec.cpp:735
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "AUTOEXEC_BAT_CONFIG_SECTION"
 msgid "from [autoexec] section"
-msgstr ""
+msgstr "Fichier de commandes généré automatiquement"
 
 #: src/shell/shell.cpp:540
 #, fuzzy, c-format, no-wrap
