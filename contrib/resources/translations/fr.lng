@@ -15,7 +15,7 @@ PATH                       If PATH is a directory, it's mounted as C:.
                            path is mounted as C: and the executable is run. When
                            the executable exits, DOSBox Staging quits.
 
-List of available options:
+Liste des options disponibles :
 
   --conf <config_file>     Start with the options specified in <config_file>.
                            Multiple configuration files can be specified.
@@ -40,7 +40,7 @@ List of available options:
                            started from this directory.
 
   --list-countries         List all supported countries with their numeric codes.
-                           Codes are to be used in the 'country' config setting.
+                           Codes are to be used dans le paramètre de configuration 'country'.
 
   --list-glshaders         List all available OpenGL shaders and their paths.
                            Shaders are to be used in the 'glshader' config
@@ -79,150 +79,150 @@ List of available options:
 
 .
 :DOSBOX_HELP_LIST_COUNTRIES_1
-List of country codes (mostly same as telephone call codes)
+Liste des codes pays (similaires aux indicatifs téléphoniques)
 -----------------------------------------------------------
 .
 :DOSBOX_HELP_LIST_COUNTRIES_2
-The above numeric country codes can be used exactly as listed
-in the 'country' config setting.
+Les codes pays numériques ci-dessus peuvent être utilisés tels que listés
+dans le paramètre de configuration 'country'.
 .
 :COUNTRY_NAME_XXA
-International (English)
+International (Anglais)
 .
 :COUNTRY_NAME_USA
-United States
+États-Unis
 .
 :COUNTRY_NAME_CAN_FR
-Canada (French)
+Canada (Français)
 .
 :COUNTRY_NAME_XLA
-Latin America
+Amérique latine
 .
 :COUNTRY_NAME_CAN_EN
-Canada (English)
+Canada (Anglais)
 .
 :COUNTRY_NAME_RUS
-Russia
+Russie
 .
 :COUNTRY_NAME_EGY
-Egypt
+Égypte
 .
 :COUNTRY_NAME_ZAF
-South Africa
+Afrique du Sud
 .
 :COUNTRY_NAME_GRC
-Greece
+Grèce
 .
 :COUNTRY_NAME_NLD
-Netherlands
+Pays-Bas
 .
 :COUNTRY_NAME_BEL
-Belgium
+Belgique
 .
 :COUNTRY_NAME_FRA
 France
 .
 :COUNTRY_NAME_ESP
-Spain
+Espagne
 .
 :COUNTRY_NAME_HUN
-Hungary
+Hongrie
 .
 :COUNTRY_NAME_YUG
-Yugoslavia
+Yougoslavie
 .
 :COUNTRY_NAME_ITA
-Italy
+Italie
 .
 :COUNTRY_NAME_ROU
-Romania
+Roumanie
 .
 :COUNTRY_NAME_CHE
-Switzerland
+Suisse
 .
 :COUNTRY_NAME_CZE
-Czechia
+Tchéquie
 .
 :COUNTRY_NAME_AUT
-Austria
+Autriche
 .
 :COUNTRY_NAME_GBR
-United Kingdom
+Royaume-Uni
 .
 :COUNTRY_NAME_DNK
-Denmark
+Danemark
 .
 :COUNTRY_NAME_SWE
-Sweden
+Suède
 .
 :COUNTRY_NAME_NOR
-Norway
+Norvège
 .
 :COUNTRY_NAME_POL
-Poland
+Pologne
 .
 :COUNTRY_NAME_DEU
-Germany
+Allemagne
 .
 :COUNTRY_NAME_MEX
-Mexico
+Mexique
 .
 :COUNTRY_NAME_ARG
-Argentina
+Argentine
 .
 :COUNTRY_NAME_BRA
-Brazil
+Brésil
 .
 :COUNTRY_NAME_CHL
-Chile
+Chili
 .
 :COUNTRY_NAME_COL
-Colombia
+Colombie
 .
 :COUNTRY_NAME_VEN
 Venezuela
 .
 :COUNTRY_NAME_MYS
-Malaysia
+Malaisie
 .
 :COUNTRY_NAME_AUS
-Australia
+Australie
 .
 :COUNTRY_NAME_IDN
-Indonesia
+Indonésie
 .
 :COUNTRY_NAME_PHL
 Philippines
 .
 :COUNTRY_NAME_NZL
-New Zealand
+Nouvelle-Zélande
 .
 :COUNTRY_NAME_SGP
-Singapore
+Singapour
 .
 :COUNTRY_NAME_THA
-Thailand
+Thaïlande
 .
 :COUNTRY_NAME_KAZ
 Kazakhstan
 .
 :COUNTRY_NAME_JPN
-Japan
+Japon
 .
 :COUNTRY_NAME_KOR
-South Korea
+Corée du Sud
 .
 :COUNTRY_NAME_VNM
 Vietnam
 .
 :COUNTRY_NAME_CHN
-China
+Chine
 .
 :COUNTRY_NAME_TUR
-Turkey
+Turquie
 .
 :COUNTRY_NAME_IND
-India
+Inde
 .
 :COUNTRY_NAME_PAK
 Pakistan
@@ -231,25 +231,25 @@ Pakistan
 Asia (English)
 .
 :COUNTRY_NAME_MAR
-Morocco
+Maroc
 .
 :COUNTRY_NAME_DZA
-Algeria
+Algérie
 .
 :COUNTRY_NAME_TUN
-Tunisia
+Tunisie
 .
 :COUNTRY_NAME_NER
 Niger
 .
 :COUNTRY_NAME_BEN
-Benin
+Bénin
 .
 :COUNTRY_NAME_NGA
 Nigeria
 .
 :COUNTRY_NAME_FRO
-Faroe Islands
+Îles Féroé
 .
 :COUNTRY_NAME_PRT
 Portugal
@@ -258,64 +258,64 @@ Portugal
 Luxembourg
 .
 :COUNTRY_NAME_IRL
-Ireland
+Irlande
 .
 :COUNTRY_NAME_ISL
-Iceland
+Islande
 .
 :COUNTRY_NAME_ALB
-Albania
+Albanie
 .
 :COUNTRY_NAME_MLT
-Malta
+Malte
 .
 :COUNTRY_NAME_FIN
-Finland
+Finlande
 .
 :COUNTRY_NAME_BGR
-Bulgaria
+Bulgarie
 .
 :COUNTRY_NAME_LTU
-Lithuania
+Lituanie
 .
 :COUNTRY_NAME_LVA
-Latvia
+Lettonie
 .
 :COUNTRY_NAME_EST
-Estonia
+Estonie
 .
 :COUNTRY_NAME_ARM
-Armenia
+Arménie
 .
 :COUNTRY_NAME_BLR
-Belarus
+Biélorussie
 .
 :COUNTRY_NAME_UKR
 Ukraine
 .
 :COUNTRY_NAME_SRB
-Serbia
+Serbie
 .
 :COUNTRY_NAME_MNE
 Montenegro
 .
 :COUNTRY_NAME_HRV
-Croatia
+Croatie
 .
 :COUNTRY_NAME_SVN
-Slovenia
+Slovénie
 .
 :COUNTRY_NAME_BIH_LAT
-Bosnia and Herzegovina (Latin)
+Bosnie-Herzégovine (Latin)
 .
 :COUNTRY_NAME_BIH_CYR
-Bosnia and Herzegovina (Cyrillic)
+Bosnie-Herzégovine (Cyrillique)
 .
 :COUNTRY_NAME_MKD
 North Macedonia
 .
 :COUNTRY_NAME_SVK
-Slovakia
+Slovaquie
 .
 :COUNTRY_NAME_GTM
 Guatemala
@@ -336,10 +336,10 @@ Costa Rica
 Panama
 .
 :COUNTRY_NAME_BOL
-Bolivia
+Bolivie
 .
 :COUNTRY_NAME_ECU
-Ecuador
+Équateur
 .
 :COUNTRY_NAME_PRY
 Paraguay
@@ -354,61 +354,61 @@ Arabic (Middle East)
 Hong Kong
 .
 :COUNTRY_NAME_TWN
-Taiwan
+Taïwan
 .
 :COUNTRY_NAME_LBN
-Lebanon
+Liban
 .
 :COUNTRY_NAME_JOR
-Jordan
+Jordanie
 .
 :COUNTRY_NAME_SYR
-Syria
+Syrie
 .
 :COUNTRY_NAME_KWT
-Kuwait
+Koweït
 .
 :COUNTRY_NAME_SAU
-Saudi Arabia
+Arabie saoudite
 .
 :COUNTRY_NAME_YEM
-Yemen
+Yémen
 .
 :COUNTRY_NAME_OMN
 Oman
 .
 :COUNTRY_NAME_ARE
-United Arab Emirates
+Émirats arabes unis
 .
 :COUNTRY_NAME_ISR
-Israel
+Israël
 .
 :COUNTRY_NAME_BHR
-Bahrain
+Bahreïn
 .
 :COUNTRY_NAME_QAT
 Qatar
 .
 :COUNTRY_NAME_MNG
-Mongolia
+Mongolie
 .
 :COUNTRY_NAME_TJK
-Tajikistan
+Tadjikistan
 .
 :COUNTRY_NAME_TKM
-Turkmenistan
+Turkménistan
 .
 :COUNTRY_NAME_AZE
-Azerbaijan
+Azerbaïdjan
 .
 :COUNTRY_NAME_GEO
-Georgia
+Géorgie
 .
 :COUNTRY_NAME_KGZ
-Kyrgyzstan
+Kirghizistan
 .
 :COUNTRY_NAME_UZB
-Uzbekistan
+Ouzbékistan
 .
 :DOSBOX_HELP_LIST_GLSHADERS_1
 List of available GLSL shaders
