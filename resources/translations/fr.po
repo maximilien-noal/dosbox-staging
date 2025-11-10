@@ -5588,10 +5588,7 @@ msgctxt "AUTOEXEC_CONFIGFILE_HELP"
 msgid ""
 "Each line in this section is executed at startup as a DOS command.\n"
 "Important: The [autoexec] section must be the last section in the config!"
-msgstr ""
-"Les lignes de cette section seront lancées au démarrage.\n"
-"Vous pouvez mettre vos commandes MOUNT ici.\n"
-"\n"
+msgstr "Fichier de configuration chargé :"
 
 #: src/dosbox.cpp:1423
 #, c-format, no-wrap
@@ -6664,17 +6661,8 @@ msgid ""
 "\n"
 "[color=light-red]DOSBox will stop/exit without a warning if an error occurred![reset]\n"
 msgstr ""
-"[erases=entire][color=light-green]Bienvenue dans DOSBox Staging[reset], un émulateur x86 avec son et graphismes.\n"
-"DOSBox crée un shell pour vous qui ressemble au vieux DOS ordinaire.\n"
-"\n"
-"Pour des informations basqiues à propos du montage tapez [color=light-blue]intro mount[reset]\n"
-"Pour des informations sur le support des CD-ROM tapez [color=light-blue]intro cdrom[reset]\n"
-"Pour des informations sur les touches spéciales tapez [color=light-blue]intro special[reset]\n"
-"Pour accéder au wiki de DOSBox Staging, visitez :[color=light-blue]\n"
-"https://github.com/dosbox-staging/dosbox-staging/wiki[reset]\n"
-"\n"
-"[color=light-red]DOSBox s'arrêtera/quittera sans avertissement si une erreur survient ![reset]\n"
-"\n"
+"Bienvenue dans DOSBox Staging (%s), un émulateur DOS x86/x64\n"
+"avec son et graphismes.\n"
 
 #: src/dos/programs/intro.cpp:123
 #, c-format, no-wrap
@@ -7638,10 +7626,10 @@ msgid "[reset][color=brown]--- press SPACE for next page, ENTER for next line, Q
 msgstr ""
 
 #: src/dos/programs/more.cpp:204
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_PERCENT"
 msgid "[reset][color=brown]--- (%d%%) press SPACE for next page, ENTER for next line, Q to quit ---[reset]"
-msgstr ""
+msgstr "-- Plus -- (%d%%)"
 
 #: src/dos/programs/more.cpp:206
 #, fuzzy, c-format, no-wrap
@@ -8433,10 +8421,10 @@ msgid "Illegal path.\n"
 msgstr "Chemin incorrect.\n"
 
 #: src/shell/shell.cpp:541
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_ILLEGAL_FILE_NAME"
 msgid "Illegal filename.\n"
-msgstr ""
+msgstr "Nom de fichier illégal."
 
 #: src/shell/shell.cpp:542
 #, fuzzy, c-format, no-wrap
@@ -8445,10 +8433,10 @@ msgid "Illegal switch: %s\n"
 msgstr "Paramètre incorrect : %s.\n"
 
 #: src/shell/shell.cpp:543
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_ILLEGAL_SWITCH_COMBO"
 msgid "Illegal switch combination.\n"
-msgstr ""
+msgstr "Combinaison d'options illégale."
 
 #: src/shell/shell.cpp:544
 #, fuzzy, c-format, no-wrap
@@ -8457,16 +8445,16 @@ msgid "Required parameter missing.\n"
 msgstr "Paramètre requis manquant.\n"
 
 #: src/shell/shell.cpp:545
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_TOO_MANY_PARAMETERS"
 msgid "Too many parameters.\n"
-msgstr ""
+msgstr "Trop de paramètres."
 
 #: src/shell/shell.cpp:546
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_EXPECTED_FILE_NOT_DIR"
 msgid "Expected a file, not a directory.\n"
-msgstr ""
+msgstr "Fichier attendu, pas un répertoire."
 
 #: src/shell/shell.cpp:547
 #, fuzzy, c-format, no-wrap
@@ -8505,40 +8493,41 @@ msgid "File '%s' already exists.\n"
 msgstr "Fichier '%s' déjà existant.\n"
 
 #: src/shell/shell.cpp:553
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_DIRECTORY_NOT_FOUND"
 msgid "Directory not found - '%s'\n"
-msgstr ""
+msgstr "Répertoire introuvable - '%s'"
 
 #: src/shell/shell.cpp:554
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_NO_SUBDIRS_TO_DISPLAY"
 msgid "No subdirectories to display.\n"
-msgstr ""
+msgstr "Aucun sous-répertoire à afficher."
 
 #: src/shell/shell.cpp:555
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_NO_FILES_SUBDIRS_TO_DISPLAY"
 msgid "No files or subdirectories to display.\n"
-msgstr ""
+msgstr "Aucun fichier ou sous-répertoire à afficher."
 
 #: src/shell/shell.cpp:556
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_READ_ERROR"
 msgid "Error reading file - '%s'\n"
-msgstr ""
+msgstr "Erreur de lecture du fichier - '%s'"
 
 #: src/shell/shell.cpp:557
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_WRITE_ERROR"
 msgid "Error writing file - '%s'\n"
-msgstr ""
+msgstr "Erreur d'écriture du fichier - '%s'"
 
 #: src/shell/shell.cpp:558
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CANT_RUN_UNDER_WINDOWS"
 msgid "This command cannot be executed under Microsoft Windows.\n"
 msgstr ""
+"Cette commande ne peut pas s'exécuter sous Microsoft Windows.\n"
 
 #: src/shell/shell.cpp:562
 #, c-format, no-wrap
@@ -8959,19 +8948,7 @@ msgid ""
 "║ To adjust the emulated CPU speed, use [color=light-red]%s+F11[color=white] and [color=light-red]%s+F12[color=white].%s%s       ║\n"
 "║ To activate the keymapper [color=light-red]%s+F1[color=white].%s                                 ║\n"
 "║                                                                    ║\n"
-msgstr ""
-"[bgcolor=blue][color=white]╔════════════════════════════════════════════════════════════════════════════╗\n"
-"║ [color=green]Bienvenue dans DOSBox Staging %-44s[color=white] ║\n"
-"║                                                                            ║\n"
-"║ Pour une courte introduction pour les nouveaux utilisateurs, tapez: [color=brown]INTRO[color=white]  ║\n"
-"║ Pour la liste des commandes supportées par le shell, tapez : [color=yellow]HELP[color=white]          ║\n"
-"║                                                                            ║\n"
-"║ Pour ajuster la vitesse du CPU émulé, essayez [color=red]%s+F11[color=white] et [color=red]%s+F12[color=white].%s%s        ║\n"
-"║ Pour activer le keymapper [color=red]%s+F1[color=white].%s                                         ║\n"
-"║ Pour plus d'informations, lisez le fichier [color=light-cyan]README[color=white] dans le répertoire de    ║\n"
-"║ DOSBox.                                                                    ║\n"
-"║                                                                            ║\n"
-"\n"
+msgstr "Vérifications de compatibilité et ajustements du système..."
 
 #: src/shell/shell.cpp:708
 #, c-format, no-wrap
@@ -9018,9 +8995,8 @@ msgid ""
 "║ Press [color=light-red]%s+Pause[color=white] to enter the debugger or start the exe with [color=yellow]DEBUG[color=white]. ║\n"
 "║                                                                    ║\n"
 msgstr ""
-"║ Pressez [color=red]%sPause[color=white] pour démarrer le debugger ou lancez l'exécutable avec [color=brown]DEBUG[color=white]. ║\n"
-"║                                                                    ║\n"
-"\n"
+"Appuyez sur %s pour entrer dans le débogueur, et sur une autre\n"
+"touche pour continuer.\n"
 
 #: src/shell/shell.cpp:723
 #, c-format, no-wrap
@@ -9029,11 +9005,7 @@ msgid ""
 "║ [color=yellow]https://www.dosbox-staging.org[color=white]                                     ║\n"
 "╚════════════════════════════════════════════════════════════════════╝[reset]\n"
 "\n"
-msgstr ""
-"║ [color=brown]https://www.dosbox-staging.org[color=white]                                             ║\n"
-"╚════════════════════════════════════════════════════════════════════════════╝[reset]\n"
-"\n"
-"\n"
+msgstr "Prêt."
 
 #: src/shell/shell.cpp:728
 #, fuzzy, c-format, no-wrap
@@ -10047,10 +10019,10 @@ msgid "The specified DOS version is not correct.\n"
 msgstr "La version spécifiée de DOS n'est pas correcte.\n"
 
 #: src/shell/shell.cpp:1181
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_VOL_HELP"
 msgid "Display the disk volume and serial number, if they exist.\n"
-msgstr ""
+msgstr "Affiche l'étiquette de volume du disque."
 
 #: src/shell/shell.cpp:1183
 #, fuzzy, c-format, no-wrap
