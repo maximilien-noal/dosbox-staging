@@ -3367,6 +3367,11 @@ msgid ""
 "  medium:   High density (HD) floppy speed (~60 kB/s)\n"
 "  slow:     Double density (DD) floppy speed (~30 kB/s)"
 msgstr ""
+"Définit la vitesse du lecteur de disquettes émulé ('maximum' par défaut).\n"
+"  maximum:  Aussi rapide que possible, sans ralentissement (défaut)\n"
+"  fast:     Vitesse disquette extra-haute densité (ED) (~120 Ko/s)\n"
+"  medium:   Vitesse disquette haute densité (HD) (~60 Ko/s)\n"
+"  slow:     Vitesse disquette double densité (DD) (~30 Ko/s)"
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
