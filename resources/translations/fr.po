@@ -6083,49 +6083,54 @@ msgstr "[reset][color=brown]Chargé à l'interruption %xh[reset]
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_LOAD_FAILED_ALREADY_LOADED"
 msgid "[reset][color=brown]Already loaded at interrupt %xh[reset]\n"
-msgstr ""
+msgstr "[reset][color=brown]Déjà chargé à l'interruption %xh[reset]
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1091
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_LOAD_FAILED_INT_CONFLICT"
 msgid "[reset][color=light-red]Not loaded: No free interrupts![reset]\n"
-msgstr ""
+msgstr "[reset][color=light-red]Non chargé : Aucune interruption libre ![reset]
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1094
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_UNLOADED"
 msgid "[reset][color=brown]Driver unloaded[reset]\n"
-msgstr ""
+msgstr "[reset][color=brown]Pilote déchargé[reset]
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1096
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_UNLOAD_FAILED_NOT_LOADED"
 msgid "[reset][color=brown]Driver was not loaded[reset]\n"
-msgstr ""
+msgstr "[reset][color=brown]Le pilote n'était pas chargé[reset]
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1099
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_UNLOAD_FAILED_BLOCKED"
 msgid "[reset][color=brown]Driver not unloaded: configured to stay resident[reset]\n"
-msgstr ""
+msgstr "[reset][color=brown]Pilote non déchargé : configuré pour rester résident[reset]
+"
 
 #: src/ints/bios.cpp:1513
 #, fuzzy, c-format, no-wrap
 msgctxt "BIOS_REBOOTING_3"
 msgid "Rebooting in 3 seconds..."
-msgstr ""
+msgstr "Redémarrage dans 3 secondes..."
 
 #: src/ints/bios.cpp:1514
 #, fuzzy, c-format, no-wrap
 msgctxt "BIOS_REBOOTING_2"
 msgid "Rebooting in 2 seconds..."
-msgstr ""
+msgstr "Redémarrage dans 2 secondes..."
 
 #: src/ints/bios.cpp:1515
 #, fuzzy, c-format, no-wrap
 msgctxt "BIOS_REBOOTING_1"
 msgid "Rebooting in 1 second..."
-msgstr ""
+msgstr "Redémarrage dans 1 seconde..."
 
 #: src/dos/programs/mount_common.cpp:81
 #, c-format, no-wrap
@@ -6390,13 +6395,15 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CLIP_INPUT_TOO_LARGE"
 msgid "Input stream too large.\n"
-msgstr ""
+msgstr "Flux d'entrée trop volumineux.
+"
 
 #: src/dos/programs/clip.cpp:106
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CLIP_READ_ERROR"
 msgid "Error reading input stream.\n"
-msgstr ""
+msgstr "Erreur de lecture du flux d'entrée.
+"
 
 #: src/dos/programs/mount_common.cpp:59
 #, c-format, no-wrap
@@ -6504,7 +6511,8 @@ msgstr "Les lecteurs montés actuellement sont :\n"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_READONLY"
 msgid "Mounted read-only\n"
-msgstr ""
+msgstr "Monté en lecture seule
+"
 
 #: src/dos/programs/imgmount.cpp:594
 #, c-format, no-wrap
@@ -6563,19 +6571,22 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_HELP_LONG_WIN32"
 msgid "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]C:\\Games\\doom.iso[reset] -t cdrom\n"
-msgstr ""
+msgstr "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]C:\Games\doom.iso[reset] -t cdrom
+"
 
 #: src/dos/programs/imgmount.cpp:621
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_HELP_LONG_MACOSX"
 msgid "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]/Users/USERNAME/Games/doom.iso[reset] -t cdrom\n"
-msgstr ""
+msgstr "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]/Users/USERNAME/Games/doom.iso[reset] -t cdrom
+"
 
 #: src/dos/programs/imgmount.cpp:623
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_HELP_LONG_OTHER"
 msgid "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]/home/USERNAME/games/doom.iso[reset] -t cdrom\n"
-msgstr ""
+msgstr "  [color=light-green]imgmount[reset] [color=white]D[reset] [color=light-cyan]/home/USERNAME/games/doom.iso[reset] -t cdrom
+"
 
 #: src/dos/programs/imgmount.cpp:625
 #, fuzzy, c-format, no-wrap
@@ -7298,7 +7309,8 @@ msgstr "ROM BASIC chargé.\n"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_LS_UNHANDLED_WILDCARD_PATTERN"
 msgid "Unhandled wildcard pattern - '%s'\n"
-msgstr ""
+msgstr "Motif de caractères génériques non géré - '%s'
+"
 
 #: src/dos/programs/ls.cpp:253
 #, fuzzy, c-format, no-wrap
@@ -7647,25 +7659,25 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MODE_INVALID_DISPLAY_MODE"
 msgid "Invalid display mode: [color=white]%s[reset]"
-msgstr ""
+msgstr "Mode d'affichage invalide : [color=white]%s[reset]"
 
 #: src/dos/programs/mode.cpp:291
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MODE_UNSUPPORTED_DISPLAY_MODE"
 msgid "Display mode [color=white]%s[reset] is not supported on this graphics adapter."
-msgstr ""
+msgstr "Le mode d'affichage [color=white]%s[reset] n'est pas pris en charge sur cet adaptateur graphique."
 
 #: src/dos/programs/mode.cpp:294
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MODE_UNSUPPORTED_VESA_MODE"
 msgid "VESA display mode [color=white]%s[reset] is not supported; set `vesa_modes = all` to enable it."
-msgstr ""
+msgstr "Le mode d'affichage VESA [color=white]%s[reset] n'est pas pris en charge ; définissez `vesa_modes = all` pour l'activer."
 
 #: src/dos/programs/mode.cpp:297
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MODE_INVALID_TYPEMATIC_RATE"
 msgid "Invalid typematic rate setting."
-msgstr ""
+msgstr "Paramètre de taux typématique invalide."
 
 #: src/dos/programs/more.cpp:156
 #, fuzzy, c-format, no-wrap
@@ -8017,31 +8029,36 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSE_INSTALLED"
 msgid "Mouse driver installed.\n"
-msgstr ""
+msgstr "Pilote de souris installé.
+"
 
 #: src/dos/programs/mouse.cpp:138
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSE_ALREADY_INSTALLED"
 msgid "Mouse driver is already installed.\n"
-msgstr ""
+msgstr "Le pilote de souris est déjà installé.
+"
 
 #: src/dos/programs/mouse.cpp:140
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSE_COULD_NOT_INSTALL"
 msgid "Could not install the mouse driver.\n"
-msgstr ""
+msgstr "Impossible d'installer le pilote de souris.
+"
 
 #: src/dos/programs/mouse.cpp:143
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSE_PORT_SELECTION"
 msgid "Port selection not supported, driver always uses the host mouse.\n"
-msgstr ""
+msgstr "Sélection de port non prise en charge, le pilote utilise toujours la souris hôte.
+"
 
 #: src/dos/programs/mouse.cpp:145
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSE_HARDWARE_CURSOR"
 msgid "Hardware mouse cursor not supported.\n"
-msgstr ""
+msgstr "Curseur matériel de souris non pris en charge.
+"
 
 #: src/dos/programs/mousectl.cpp:550
 #, fuzzy, c-format, no-wrap
@@ -8520,13 +8537,14 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_TREE_DIRECTORY"
 msgid " Directory tree for volume %s"
-msgstr ""
+msgstr " Arborescence des répertoires pour le volume %s"
 
 #: src/dos/programs/tree.cpp:443
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_TREE_TOO_MANY_FILES_SUBDIRS"
 msgid "Too many files or subdirectories.\n"
-msgstr ""
+msgstr "Trop de fichiers ou de sous-répertoires.
+"
 
 #: src/shell/autoexec.cpp:733
 #, c-format, no-wrap
@@ -8652,7 +8670,8 @@ msgstr "Erreur d'écriture du fichier - '%s'"
 #, c-format, no-wrap
 msgctxt "SHELL_CANT_RUN_UNDER_WINDOWS"
 msgid "This command cannot be executed under Microsoft Windows.\n"
-msgstr ""
+msgstr "Cette commande ne peut pas être exécutée sous Microsoft Windows.
+"
 "Cette commande ne peut pas s'exécuter sous Microsoft Windows.\n"
 
 #: src/shell/shell.cpp:562
