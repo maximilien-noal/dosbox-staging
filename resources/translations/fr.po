@@ -4255,6 +4255,8 @@ msgid ""
 "Invalid custom filter definition: [color=white]'%s'[reset].\n"
 "Must be specified in [color=light-cyan]'lfp|hpf ORDER CUTOFF_FREQUENCY'[reset] format."
 msgstr ""
+"Définition de filtre personnalisé invalide : [color=white]'%s'[reset].\n"
+"Doit être spécifié au format [color=light-cyan]'lfp|hpf ORDRE FREQUENCE_COUPURE'[reset]."
 
 #: src/audio/mixer.cpp:3196
 #, fuzzy, c-format, no-wrap
@@ -4322,6 +4324,9 @@ msgid ""
 "If this is set, SoundFonts are looked up in this directory first, then in the\n"
 "the standard system locations."
 msgstr ""
+"Répertoire SoundFont supplémentaire défini par l'utilisateur (non défini par\n"
+"défaut). Si défini, les SoundFonts sont recherchées d'abord dans ce répertoire,\n"
+"puis dans les emplacements système standard."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
