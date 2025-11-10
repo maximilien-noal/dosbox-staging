@@ -2612,10 +2612,10 @@ msgstr ""
 "ou une taille fixe (ex. : 1024x768).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FULLSCREEN_MODE"
 msgid "Set the fullscreen mode ('standard' by default):"
-msgstr ""
+msgstr "Défini le mode plein écran ('standard' par défaut):"
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2762,10 +2762,8 @@ msgstr "This setting has been renamed to viewport_resolution."
 msgctxt "CONFIG_VIEWPORT_RESOLUTION"
 msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
 msgstr ""
-"Set the viewport size (drawable area) within the window/screen:\n"
-"  fit:       Fit the viewport to the available window/screen (default).\n"
-"  <custom>:  Limit the viewport within to a custom resolution or percentage of\n"
-"             the desktop. Specified in WxH, N%%, N.M%%. Examples: 960x720 or 50%%\n"
+"Déplacé vers la section [color=light-cyan][render][reset] et renommé\n"
+"en [color=white]viewport_resolution[reset]\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2827,22 +2825,8 @@ msgstr ""
 msgctxt "CONFIG_CAPTURE_MOUSE"
 msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset]."
 msgstr ""
-"Méthode de contrôle de la souris :\n"
-"   onclick :       La souris sera capturée après\n"
-"                   le premier clic dans la fenêtre\n"
-"   onstart :       La souris est capturée immédiatement au démarrage\n"
-"                   (similaire au vrai DOS).\n"
-"   seamless :      La souris peut bouger sans contrainte dans et en-dehors\n"
-"                   de la fenêtre DOSBox et ne peut pas être capturée.\n"
-"   nomouse :       La souris est désactivée et cachée sans aucun\n"
-"                   signal envoyé au jeu.\n"
-"Gestion du clic-milieu (second paramètre) :\n"
-"   middlegame :    Les clics-milieu sont envoyés au jeu\n"
-"   middlerelease : Les clics-milieu libèrent la souris\n"
-"                   (non envoyés au jeu). De plus, les clics-milieu\n"
-"                   seront envoyés au jeu en mode plein écran ou en mode\n"
-"                   seamless.\n"
-"Defaults (si non présent ou incorrect) : seamless middlerelease\n"
+"Déplacé vers la section [color=light-cyan][mouse][reset] et renommé\n"
+"en [color=white]capture[reset]\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2855,9 +2839,8 @@ msgstr "Sensibilité de la souris. Le second paramètre optionnel spécifie la s
 msgctxt "CONFIG_RAW_MOUSE_INPUT"
 msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset]."
 msgstr ""
-"Outrepasse les paramètres de votre système pour l'accélération et la sensibilité\n"
-"de la souris. CelA marche en mode plein écran\n"
-"ou quand la souris est capturé en mode fenêtré.\n"
+"Déplacé vers la section [color=light-cyan][mouse][reset] et renommé\n"
+"en [color=white]raw_input[reset]\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3091,10 +3074,11 @@ msgstr ""
 "               more system memory (mem = ) to use them.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VGA_8DOT_FONT"
 msgid "Use 8-pixel-wide fonts on VGA adapters ('off' by default)."
 msgstr ""
+"Utiliser les polices 8 pixels sur adaptateurs VGA ('off' par défaut).\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3221,10 +3205,11 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FRAMESKIP"
 msgid "Consider capping frame rates using the 'host_rate' setting."
 msgstr ""
+"Envisagez de limiter la fréquence avec le paramètre 'host_rate'.\n"
 
 #: src/config/setup.cpp:295
 #, fuzzy, c-format, no-wrap
@@ -3672,10 +3657,10 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VOODOO_MULTITHREADING"
 msgid "Renamed to 'voodoo_threads'"
-msgstr ""
+msgstr "Renommé en 'voodoo_threads'"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3822,10 +3807,10 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DOS_MOUSE_DRIVER"
 msgid "Renamed to 'builtin_dos_mouse_driver'."
-msgstr ""
+msgstr "Renommé en 'builtin_dos_mouse_driver'."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3863,10 +3848,10 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DOS_MOUSE_IMMEDIATE"
 msgid "Configure using 'builtin_dos_mouse_driver_options'."
-msgstr ""
+msgstr "Configurer via 'builtin_dos_mouse_driver_options'."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4729,8 +4714,8 @@ msgstr ""
 msgctxt "CONFIG_OPLRATE"
 msgid "The OPL output is now transparently resampled to the mixer's sample rate."
 msgstr ""
-"oplrate est déprécié . La forme d'onde OPL waveform est maintenant échantillonnée\n"
-"        au rythme de lecture du mixer pour éviter le rééchantillonnage.\n"
+"La sortie OPL est maintenant ré-échantillonnée\n"
+"automatiquement vers la fréquence du mixeur.\n"
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4787,9 +4772,7 @@ msgstr ""
 #, c-format, no-wrap
 msgctxt "CONFIG_OPLEMU"
 msgid "Only 'nuked' OPL emulation is supported now."
-msgstr ""
-"Fournisseur de l'émulation OPL. 'compat' fournit une meilleure qualité,\n"
-"'nuked' est par défaut et le plus précis (mais le plus gourmand en CPU).\n"
+msgstr "Seule l'émulation OPL 'nuked' est maintenant supportée."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4898,22 +4881,24 @@ msgstr ""
 "utilisé avec Timidity devrait bien fonctionner correctement.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_IMFC"
 msgid "Enable the IBM Music Feature Card ('off' by default)."
-msgstr ""
+msgstr "Active l'IBM Music Feature Card ('off' par défaut)."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_IMFC_BASE"
 msgid "The IO base address of the IBM Music Feature Card ('2A20' by default)."
 msgstr ""
+"Adresse IO de base de l'IBM Music Feature Card\n"
+"('2A20' par défaut).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_IMFC_IRQ"
 msgid "The IRQ number of the IBM Music Feature Card (3 by default)."
-msgstr ""
+msgstr "Numéro IRQ de l'IBM Music Feature Card (3 par défaut)."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5054,9 +5039,8 @@ msgstr ""
 msgctxt "CONFIG_ZERO_OFFSET"
 msgid "DC-offset is now eliminated globally from the master mixer output."
 msgstr ""
-"Neutralise et empêche DC-offset du haut-parleur PC d'endommager d'autres sources.\n"
-"'auto' active ceci pour les systèmes non-Windows et le désactive pour Windows.\n"
-"Si votre OS corrige lui-même le DC-offset, alors paramétrez ceci à 'false'.\n"
+"Le DC-offset est maintenant éliminé globalement\n"
+"du mixeur principal.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
