@@ -4178,19 +4178,19 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "MIXER_INVALID_CUSTOM_FILTER_ORDER"
 msgid "Invalid %s filter order: [color=white]'%s'[reset]. Must be an integer between 1 and %d."
-msgstr ""
+msgstr "Ordre de filtre %s invalide : [color=white]'%s'[reset]. Doit être un entier entre 1 et %d."
 
 #: src/audio/mixer.cpp:3200
 #, fuzzy, c-format, no-wrap
 msgctxt "MIXER_INVALID_CUSTOM_FILTER_CUTOFF"
 msgid "Invalid %s filter cutoff frequency: [color=white]'%s'[reset]. Must be a positive number."
-msgstr ""
+msgstr "Fréquence de coupure du filtre %s invalide : [color=white]'%s'[reset]. Doit être un nombre positif."
 
 #: src/audio/mixer.cpp:3204
 #, fuzzy, c-format, no-wrap
 msgctxt "MIXER_INVALID_CUSTOM_FILTER_TYPE"
 msgid "Invalid filter type: [color=white]'%s'[reset]. Must be either 'hpf' or 'lpf'."
-msgstr ""
+msgstr "Type de filtre invalide : [color=white]'%s'[reset]. Doit être soit 'hpf' soit 'lpf'."
 
 #: src/audio/mixer.cpp:3208
 #, fuzzy, c-format, no-wrap
@@ -4336,7 +4336,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "FLUIDSYNTH_NO_SOUNDFONTS"
 msgid "No available SoundFonts"
-msgstr ""
+msgstr "Aucune SoundFont disponible"
 
 #: src/midi/fluidsynth.cpp:1279
 #, fuzzy, c-format, no-wrap
@@ -4422,19 +4422,19 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "MT32_ROMS_LABEL"
 msgid "MT-32  models   "
-msgstr ""
+msgstr "Modèles MT-32   "
 
 #: src/midi/mt32.cpp:402
 #, fuzzy, c-format, no-wrap
 msgctxt "CM32L_ROMS_LABEL"
 msgid "CM-32L models   "
-msgstr ""
+msgstr "Modèles CM-32L  "
 
 #: src/midi/mt32.cpp:403
 #, fuzzy, c-format, no-wrap
 msgctxt "MT32_ACTIVE_MODEL_LABEL"
 msgid "Active model  "
-msgstr ""
+msgstr "Modèle actif    "
 
 #: src/midi/mt32.cpp:404
 #, c-format, no-wrap
@@ -4472,13 +4472,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SC55_MODELS_LABEL"
 msgid "SC-55 models    "
-msgstr ""
+msgstr "Modèles SC-55   "
 
 #: src/midi/soundcanvas.cpp:831
 #, fuzzy, c-format, no-wrap
 msgctxt "SOUNDCANVAS_ACTIVE_MODEL_LABEL"
 msgid "Active model:    "
-msgstr ""
+msgstr "Modèle actif :  "
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4517,7 +4517,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_MIDIDEVICE_MT32"
 msgid "  mt32:         The internal Roland MT-32 synthesizer (see the [mt32] section)."
-msgstr ""
+msgstr "  mt32:         Le synthétiseur Roland MT-32 interne (voir la section [mt32])."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -4541,7 +4541,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_MIDIDEVICE_NONE"
 msgid "  none:         Disable MIDI output."
-msgstr ""
+msgstr "  none:         Désactive la sortie MIDI."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4645,19 +4645,19 @@ msgstr "device not configured"
 #, fuzzy, c-format, no-wrap
 msgctxt "MIDI_DEVICE_NO_PORTS"
 msgid "No available ports"
-msgstr ""
+msgstr "Aucun port disponible"
 
 #: src/midi/midi.cpp:932
 #, fuzzy, c-format, no-wrap
 msgctxt "MIDI_DEVICE_NO_MODEL_ACTIVE"
 msgid "No model is currently active"
-msgstr ""
+msgstr "Aucun modèle n'est actuellement actif"
 
 #: src/midi/midi.cpp:933
 #, fuzzy, c-format, no-wrap
 msgctxt "MIDI_DEVICE_NO_MODELS"
 msgid "No available models"
-msgstr ""
+msgstr "Aucun modèle disponible"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4784,31 +4784,31 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SBLASTER_INVALID_ESS_OPLMODE"
 msgid "Invalid [color=light-green]'%s'[reset] setting for the ESS card: [color=white]'%s'[reset], using [color=white]'%s'[reset]"
-msgstr ""
+msgstr "Paramètre [color=light-green]'%s'[reset] invalide pour la carte ESS : [color=white]'%s'[reset], utilisation de [color=white]'%s'[reset]"
 
 #: src/hardware/audio/sblaster.cpp:3835
 #, fuzzy, c-format, no-wrap
 msgctxt "SBLASTER_CMS_OPLMODE_DEPRECATED"
 msgid "The [color=white]'cms'[reset] setting for [color=light-green]'oplmode'[reset] is deprecated; use [color=white]'cms = on'[reset] instead"
-msgstr ""
+msgstr "Le paramètre [color=white]'cms'[reset] pour [color=light-green]'oplmode'[reset] est obsolète ; utilisez [color=white]'cms = on'[reset] à la place"
 
 #: src/hardware/audio/sblaster.cpp:3840
 #, fuzzy, c-format, no-wrap
 msgctxt "SBLASTER_CMS_FORCED_AUTO"
 msgid "[color=light-green]'%s'[reset] setting is [color=white]'off'[reset], but is forced to [color=white]'%s'[reset] on the Game Blaster"
-msgstr ""
+msgstr "Le paramètre [color=light-green]'%s'[reset] est [color=white]'off'[reset], mais est forcé à [color=white]'%s'[reset] sur le Game Blaster"
 
 #: src/hardware/audio/sblaster.cpp:3845
 #, fuzzy, c-format, no-wrap
 msgctxt "SBLASTER_CMS_FORCED_OFF"
 msgid "[color=light-green]'%s'[reset] setting [color=white]'on'[reset] not supported on this card, forcing [color=white]'%s'[reset]"
-msgstr ""
+msgstr "Le paramètre [color=light-green]'%s'[reset] [color=white]'on'[reset] n'est pas pris en charge sur cette carte, forçage à [color=white]'%s'[reset]"
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_OPLRATE"
 msgid "The OPL output is now transparently resampled to the mixer's sample rate."
-msgstr ""
+msgstr "La sortie OPL est maintenant rééchantillonnée de manière transparente au taux d'échantillonnage du mixeur."
 "La sortie OPL est maintenant ré-échantillonnée\n"
 "automatiquement vers la fréquence du mixeur.\n"
 
@@ -4985,7 +4985,7 @@ msgstr "Active l'IBM Music Feature Card ('off' par défaut)."
 #, c-format, no-wrap
 msgctxt "CONFIG_IMFC_BASE"
 msgid "The IO base address of the IBM Music Feature Card ('2A20' by default)."
-msgstr ""
+msgstr "L'adresse de base E/S de la carte IBM Music Feature ('2A20' par défaut)."
 "Adresse IO de base de l'IBM Music Feature Card\n"
 "('2A20' par défaut).\n"
 
@@ -5133,7 +5133,7 @@ msgstr ""
 #, c-format, no-wrap
 msgctxt "CONFIG_ZERO_OFFSET"
 msgid "DC-offset is now eliminated globally from the master mixer output."
-msgstr ""
+msgstr "Le décalage DC est maintenant éliminé globalement de la sortie du mixeur principal."
 "Le DC-offset est maintenant éliminé globalement\n"
 "du mixeur principal.\n"
 
@@ -5603,7 +5603,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_IPX"
 msgid "Enable IPX over UDP/IP emulation ('off' by default)."
-msgstr ""
+msgstr "Active l'émulation IPX sur UDP/IP ('off' par défaut)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -5643,7 +5643,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "CONFIGITEM_MACADDR_SLIRP"
 msgid "The MAC address of the NE2000 card ('AC:DE:48:88:99:AA' by default)."
-msgstr ""
+msgstr "L'adresse MAC de la carte NE2000 ('AC:DE:48:88:99:AA' par défaut)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -5858,19 +5858,22 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_PROPHLP_POSSIBLE_VALUES"
 msgid "[color=white]Possible values:[reset]  %s\n"
-msgstr ""
+msgstr "[color=white]Valeurs possibles :[reset]  %s
+"
 
 #: src/dos/programs.cpp:1009
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_PROPHLP_DEFAULT_VALUE"
 msgid "[color=white]Default value:[reset]    %s\n"
-msgstr ""
+msgstr "[color=white]Valeur par défaut :[reset]    %s
+"
 
 #: src/dos/programs.cpp:1012
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_PROPHLP_CURRENT_VALUE"
 msgid "[color=white]Current value:[reset]    %s\n"
-msgstr ""
+msgstr "[color=white]Valeur actuelle :[reset]    %s
+"
 
 #: src/dos/programs.cpp:1015
 #, fuzzy, c-format, no-wrap
@@ -5903,7 +5906,8 @@ msgstr "La section %s contient les propriétés suivantes :\n"
 #, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_SECTLIST"
 msgid "[color=white]List of configuration sections:[reset]\n"
-msgstr ""
+msgstr "[color=white]Liste des sections de configuration :[reset]
+"
 "La configuration de DOSBox contient les sections suivantes :\n"
 "\n"
 "\n"
@@ -6008,19 +6012,19 @@ msgstr "\"%s\" n'est pas une valeur correcte pour la propriété \"%s\".\n"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_DEPRECATED_SETTING_VALUE"
 msgid "Deprecated [color=light-green]'%s'[reset] setting: [color=white]'%s'[reset]; using [color=white]'%s'[reset]"
-msgstr ""
+msgstr "Paramètre [color=light-green]'%s'[reset] obsolète : [color=white]'%s'[reset] ; utilisation de [color=white]'%s'[reset]"
 
 #: src/dos/programs.cpp:1084
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_SETTING_OUTSIDE_VALID_RANGE"
 msgid "Invalid [color=light-green]'%s'[reset] setting: [color=white]'%s'[reset]; must be between %s-%s, using [color=white]'%s'[reset]"
-msgstr ""
+msgstr "Paramètre [color=light-green]'%s'[reset] invalide : [color=white]'%s'[reset] ; doit être entre %s-%s, utilisation de [color=white]'%s'[reset]"
 
 #: src/dos/programs.cpp:1088
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_NO_HELP"
 msgid "No help available for the setting [color=light-green]'%s'[reset]."
-msgstr ""
+msgstr "Aucune aide disponible pour le paramètre [color=light-green]'%s'[reset]."
 
 #: src/dos/programs.cpp:1091
 #, c-format, no-wrap
@@ -6032,7 +6036,7 @@ msgstr "Aucune section ou propriété..\n"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_DEPRECATED_SETTING"
 msgid "Deprecated setting [color=light-green]'%s'[reset]"
-msgstr ""
+msgstr "Paramètre obsolète [color=light-green]'%s'[reset]"
 
 #: src/dos/programs.cpp:1097
 #, c-format, no-wrap
@@ -6044,7 +6048,7 @@ msgstr "Valeurs possibles"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_DEPRECATED_VALUES"
 msgid "Deprecated values"
-msgstr ""
+msgstr "Valeurs obsolètes"
 
 #: src/hardware/video/reelmagic/driver.cpp:1071
 #, fuzzy, c-format, no-wrap
@@ -6065,13 +6069,15 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_TITLE"
 msgid "ReelMagic Full Motion Player Driver (built-in) %hhu.%hhu\n"
-msgstr ""
+msgstr "Pilote ReelMagic Full Motion Player (intégré) %hhu.%hhu
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1085
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_FMPDRV_LOADED"
 msgid "[reset][color=brown]Loaded at interrupt %xh[reset]\n"
-msgstr ""
+msgstr "[reset][color=brown]Chargé à l'interruption %xh[reset]
+"
 
 #: src/hardware/video/reelmagic/driver.cpp:1088
 #, fuzzy, c-format, no-wrap
