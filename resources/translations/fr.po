@@ -2546,6 +2546,9 @@ msgid ""
 "The above shaders can be used exactly as listed in the 'glshader'\n"
 "config setting, without the need for the resource path or .glsl extension."
 msgstr ""
+"Les shaders ci-dessus peuvent être utilisés exactement tels que listés\n"
+"dans le paramètre de configuration 'glshader', sans besoin du chemin de\n"
+"ressource ou de l'extension .glsl."
 "Les shaders ci-dessus peuvent être utilisés dans le paramètre 'glshader'.\n"
 
 #: src/gui/shader_manager.cpp:241
@@ -2647,6 +2650,10 @@ msgid ""
 "The 'texture' backend is only provided as a last resort fallback for buggy or\n"
 "non-existent OpenGL 2.1+ drivers (this is extremely rare)."
 msgstr ""
+"Moteur de rendu pour la sortie graphique ('opengl' par défaut).\n"
+"Seul le moteur 'opengl' prend en charge les shaders et est donc l'option\n"
+"préférée. Le moteur 'texture' n'est fourni qu'en dernier recours pour\n"
+"les pilotes OpenGL 2.1+ bogués ou inexistants (extrêmement rare)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2673,6 +2680,8 @@ msgid ""
 "  texturenb:  SDL's texture backend with nearest-neighbour interpolation\n"
 "              (no bilinear)."
 msgstr ""
+"  texturenb:  Moteur de texture SDL avec interpolation au plus proche voisin\n"
+"              (pas de bilinéaire)."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -2681,6 +2690,8 @@ msgid ""
 "Render driver to use in 'texture' output mode ('auto' by default).\n"
 "Use 'texture_renderer = auto' for an automatic choice."
 msgstr ""
+"Pilote de rendu à utiliser en mode de sortie 'texture' ('auto' par défaut).\n"
+"Utilisez 'texture_renderer = auto' pour un choix automatique."
 "Choisissez un pilote de rendu à utiliser en mode de rendu texturé.\n"
 "Utilisez texture_renderer=auto pour un choix automatique.\n"
 
@@ -2703,6 +2714,8 @@ msgid ""
 "The [color=light-green]'fullresolution'[reset] setting is deprecated but still accepted;\n"
 "please use [color=light-green]'fullscreen_mode'[reset] instead."
 msgstr ""
+"Le paramètre [color=light-green]'fullresolution'[reset] est obsolète mais\n"
+"toujours accepté ; utilisez [color=light-green]'fullscreen_mode'[reset] à la place."
 "Résolution utiliser pour le mode plein écran : 'original', 'desktop' (bureau)\n"
 "ou une taille fixe (ex. : 1024x768).\n"
 
@@ -2719,6 +2732,8 @@ msgid ""
 "  standard:           Use the standard fullscreen mode of your operating system\n"
 "                      (default)."
 msgstr ""
+"  standard:           Utilise le mode plein écran standard de votre système\n"
+"                      d'exploitation (par défaut)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2731,6 +2746,13 @@ msgid ""
 "                      and slightly worse frame pacing (e.g., scrolling in 2D\n"
 "                      games not appearing perfectly smooth)."
 msgstr ""
+"  forced-borderless:  Force le mode plein écran sans bordure si votre pilote\n"
+"                      de carte graphique décide de désactiver l'optimisation\n"
+"                      plein écran sous Windows, résultant en plein écran\n"
+"                      exclusif. Forcer le mode sans bordure peut entraîner\n"
+"                      une baisse de performance et un rythme d'image\n"
+"                      légèrement moins bon (ex: défilement dans les jeux 2D\n"
+"                      pas parfaitement fluide)."
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -2750,6 +2772,8 @@ msgid ""
 "The [color=light-green]'windowresolution'[reset] setting is deprecated but still accepted;\n"
 "please use [color=light-green]'window_size'[reset] instead."
 msgstr ""
+"Le paramètre [color=light-green]'windowresolution'[reset] est obsolète mais\n"
+"toujours accepté ; utilisez [color=light-green]'window_size'[reset] à la place."
 "Défini la taille de la fenêtre pendant l'utilisation en mode fenêtré :\n"
 "  default:   Sélectionne la meilleure option basée sur\n"
 "             votre environnement et d'autres paramètres.\n"
