@@ -3012,6 +3012,11 @@ msgid ""
 "DOSBox Staging. This is useful for Windows 3.1x and some DOS programs with\n"
 "unchangeable keyboard shortcuts that conflict with system shortcuts."
 msgstr ""
+"Capture les raccourcis clavier système ('off' par défaut).\n"
+"Lorsqu'activé, la plupart des raccourcis système comme Alt+Tab sont capturés\n"
+"et envoyés à DOSBox Staging. Utile pour Windows 3.1x et certains programmes\n"
+"DOS avec des raccourcis clavier non modifiables qui entrent en conflit avec\n"
+"les raccourcis système."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -3144,6 +3149,15 @@ msgid ""
 "Note: Only set this on a per-game basis when necessary as it slows down\n"
 "      the whole emulator."
 msgstr ""
+"Définit l'émulation du délai d'accès à la mémoire vidéo ('off' par défaut).\n"
+"  off:      Désactive l'émulation du délai (par défaut).\n"
+"            Préférable pour la plupart des jeux pour éviter les ralentissements.\n"
+"  on:       Active l'émulation du délai (3000 ns).\n"
+"            Peut aider à réduire ou éliminer le scintillement dans les jeux\n"
+"            Hercules, CGA, EGA et premiers VGA.\n"
+"  <valeur>: Définit le délai en nanosecondes. Plage valide : 0 à 20000 ns ;\n"
+"            500 à 5000 ns est la plage la plus utile.\n"
+"Note : Ne définir que par jeu si nécessaire car ralentit tout l'émulateur."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
