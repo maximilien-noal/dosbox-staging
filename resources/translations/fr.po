@@ -115,274 +115,281 @@ msgid ""
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1693
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_1"
-msgid "List of available country codes (mostly same as telephone call codes)"
+msgid ""
+"List of available country codes (mostly same as telephone call codes)\n"
 msgstr ""
+"Liste des codes pays (similaires aux indicatifs téléphoniques)\n"
 
 #: src/dos/dos_locale.cpp:1695
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_2"
 msgid "The above codes can be used in the 'country' config setting."
 msgstr ""
+"Les codes ci-dessus peuvent être utilisés dans le paramètre 'country'.\n"
 
 #: src/dos/dos_locale.cpp:1698
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_1"
 msgid "List of available keyboard layout codes"
-msgstr ""
+msgstr "Liste des codes de disposition clavier disponibles"
 
 #: src/dos/dos_locale.cpp:1700
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_2"
-msgid "The above codes can be used in the 'keyboard_layout' config setting."
+msgid ""
+"The above codes can be used in the 'keyboard_layout' config setting.\n"
 msgstr ""
+"Les codes ci-dessus peuvent être utilisés dans le paramètre 'keyboard_layout'.\n"
 
 #: src/dos/dos_locale.cpp:1703
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_1"
 msgid "List of available code pages"
-msgstr ""
+msgstr "Liste des pages de code disponibles"
 
 #: src/dos/dos_locale.cpp:1705
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_2"
-msgid "The above code pages can be used in the 'keyboard_layout' config setting."
+msgid ""
+"The above code pages can be used in the 'keyboard_layout' config setting.\n"
 msgstr ""
+"Les pages de code ci-dessus peuvent être utilisées dans le paramètre 'keyboard_layout'.\n"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_XXA"
 msgid "International (English)"
-msgstr ""
+msgstr "International (Anglais)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_USA"
 msgid "United States"
-msgstr ""
+msgstr "États-Unis"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CAN_FR"
 msgid "Canada (French)"
-msgstr ""
+msgstr "Canada (Français)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_XLA"
 msgid "Latin America"
-msgstr ""
+msgstr "Amérique latine"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CAN_EN"
 msgid "Canada (English)"
-msgstr ""
+msgstr "Canada (Anglais)"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_RUS"
 msgid "Russia"
-msgstr ""
+msgstr "Russie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_EGY"
 msgid "Egypt"
-msgstr ""
+msgstr "Égypte"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ZAF"
 msgid "South Africa"
-msgstr ""
+msgstr "Afrique du Sud"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_GRC"
 msgid "Greece"
-msgstr ""
+msgstr "Grèce"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NLD"
 msgid "Netherlands"
-msgstr ""
+msgstr "Pays-Bas"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BEL"
 msgid "Belgium"
-msgstr ""
+msgstr "Belgique"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_FRA"
 msgid "France"
-msgstr ""
+msgstr "France"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ESP"
 msgid "Spain"
-msgstr ""
+msgstr "Espagne"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_HUN"
 msgid "Hungary"
-msgstr ""
+msgstr "Hongrie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_YUG"
 msgid "Yugoslavia"
-msgstr ""
+msgstr "Yougoslavie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ITA"
 msgid "Italy"
-msgstr ""
+msgstr "Italie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ROU"
 msgid "Romania"
-msgstr ""
+msgstr "Roumanie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CHE"
 msgid "Switzerland"
-msgstr ""
+msgstr "Suisse"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CZE"
 msgid "Czechia"
-msgstr ""
+msgstr "Tchéquie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_AUT"
 msgid "Austria"
-msgstr ""
+msgstr "Autriche"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_GBR"
 msgid "United Kingdom"
-msgstr ""
+msgstr "Royaume-Uni"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_DNK"
 msgid "Denmark"
-msgstr ""
+msgstr "Danemark"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SWE"
 msgid "Sweden"
-msgstr ""
+msgstr "Suède"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NOR"
 msgid "Norway"
-msgstr ""
+msgstr "Norvège"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_POL"
 msgid "Poland"
-msgstr ""
+msgstr "Pologne"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_DEU"
 msgid "Germany"
-msgstr ""
+msgstr "Allemagne"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MEX"
 msgid "Mexico"
-msgstr ""
+msgstr "Mexique"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ARG"
 msgid "Argentina"
-msgstr ""
+msgstr "Argentine"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BRA"
 msgid "Brazil"
-msgstr ""
+msgstr "Brésil"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CHL"
 msgid "Chile"
-msgstr ""
+msgstr "Chili"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_COL"
 msgid "Colombia"
-msgstr ""
+msgstr "Colombie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_VEN"
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MYS"
 msgid "Malaysia"
-msgstr ""
+msgstr "Malaisie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_AUS"
 msgid "Australia"
-msgstr ""
+msgstr "Australie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_IDN"
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonésie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PHL"
 msgid "Philippines"
-msgstr ""
+msgstr "Philippines"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_NZL"
 msgid "New Zealand"
-msgstr ""
+msgstr "Nouvelle-Zélande"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SGP"
 msgid "Singapore"
-msgstr ""
+msgstr "Singapour"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_THA"
 msgid "Thailand"
-msgstr ""
+msgstr "Thaïlande"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -391,46 +398,46 @@ msgid "Kazakhstan"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_JPN"
 msgid "Japan"
-msgstr ""
+msgstr "Japon"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KOR"
 msgid "South Korea"
-msgstr ""
+msgstr "Corée du Sud"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_VNM"
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_CHN"
 msgid "China"
-msgstr ""
+msgstr "Chine"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TUR"
 msgid "Turkey"
-msgstr ""
+msgstr "Turquie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_IND"
 msgid "India"
-msgstr ""
+msgstr "Inde"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PAK"
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -439,22 +446,22 @@ msgid "Asia (English)"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MAR"
 msgid "Morocco"
-msgstr ""
+msgstr "Maroc"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_DZA"
 msgid "Algeria"
-msgstr ""
+msgstr "Algérie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TUN"
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisie"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -691,70 +698,70 @@ msgid "Taiwan"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LBN"
 msgid "Lebanon"
-msgstr ""
+msgstr "Liban"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_JOR"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordanie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SYR"
 msgid "Syria"
-msgstr ""
+msgstr "Syrie"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KWT"
 msgid "Kuwait"
-msgstr ""
+msgstr "Koweït"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SAU"
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Arabie saoudite"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_YEM"
 msgid "Yemen"
-msgstr ""
+msgstr "Yémen"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_OMN"
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ARE"
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Émirats arabes unis"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ISR"
 msgid "Israel"
-msgstr ""
+msgstr "Israël"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BHR"
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahreïn"
 
 #: src/dos/dos_locale.cpp:1712
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "COUNTRY_NAME_QAT"
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -2579,36 +2586,38 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TEXTURE_RENDERER"
 msgid ""
 "Render driver to use in 'texture' output mode ('auto' by default).\n"
-"Use 'texture_renderer = auto' for an automatic choice."
+"Use 'texture_renderer = auto' for an automatic choice.\n"
 msgstr ""
 "Choisissez un pilote de rendu à utiliser en mode de rendu texturé.\n"
-"Utilisez texture_renderer=auto pour un choix automatique."
+"Utilisez texture_renderer=auto pour un choix automatique.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DISPLAY"
-msgid "Number of display to use; values depend on OS and user settings (0 by default)."
-msgstr "Nombre d'écrans à utiliser ; les valeurs dépendent de l'OS et des paramètres utilisateur."
+msgid ""
+"Number of display to use; values depend on OS and user settings (0 by default).\n"
+msgstr ""
+"Nombre d'écrans à utiliser ; les valeurs dépendent de l'OS et des paramètres utilisateur.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FULLSCREEN"
 msgid "Start in fullscreen mode ('off' by default)."
 msgstr "Démarrer DOSBox directement en mode plein écran."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FULLRESOLUTION"
 msgid ""
 "The [color=light-green]'fullresolution'[reset] setting is deprecated but still accepted;\n"
-"please use [color=light-green]'fullscreen_mode'[reset] instead."
+"please use [color=light-green]'fullscreen_mode'[reset] instead.\n"
 msgstr ""
 "Résolution utiliser pour le mode plein écran : 'original', 'desktop' (bureau)\n"
-"ou une taille fixe (ex. : 1024x768)."
+"ou une taille fixe (ex. : 1024x768).\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2648,11 +2657,11 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WINDOWRESOLUTION"
 msgid ""
 "The [color=light-green]'windowresolution'[reset] setting is deprecated but still accepted;\n"
-"please use [color=light-green]'window_size'[reset] instead."
+"please use [color=light-green]'window_size'[reset] instead.\n"
 msgstr ""
 "Défini la taille de la fenêtre pendant l'utilisation en mode fenêtré :\n"
 "  default:   Sélectionne la meilleure option basée sur\n"
@@ -2663,7 +2672,7 @@ msgstr ""
 "             Ceci est une option expérimentale, marche seulement avec\n"
 "             output=opengl et glshader=sharp (ou none)\n"
 "  <custom>:  Redimensionne le contenu de la fenêtre\n"
-"             aux dimensions indiquées, au format lxh (largeur x hauteur). Par ex. : 1024x768."
+"             aux dimensions indiquées, au format lxh (largeur x hauteur). Par ex. : 1024x768.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2680,24 +2689,26 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WINDOW_POSITION"
 msgid ""
 "Set initial window position for windowed mode:\n"
 "  auto:      Let the window manager decide the position (default).\n"
 "  X,Y:       Set window position in X,Y format in logical units (e.g., 250,100).\n"
-"             0,0 is the top-left corner of the screen."
+"             0,0 is the top-left corner of the screen.\n"
 msgstr ""
 "Set initial window position when running in windowed mode:\n"
 "  auto:      Let the window manager decide the position.\n"
 "  <custom>:  Set window position in X,Y format. For example: 250,100\n"
-"             0,0 is the top-left corner of the screen."
+"             0,0 is the top-left corner of the screen.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WINDOW_DECORATIONS"
-msgid "Enable window decorations in windowed mode ('on' by default)."
-msgstr "Controls whether to display window decorations in windowed mode."
+msgid ""
+"Enable window decorations in windowed mode ('on' by default).\n"
+msgstr ""
+"Controls whether to display window decorations in windowed mode.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2741,33 +2752,35 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TRANSPARENCY"
 msgid ""
 "Set the transparency of the DOSBox Staging screen (0 by default).\n"
-"From 0 (no transparency) to 90 (high transparency)."
+"From 0 (no transparency) to 90 (high transparency).\n"
 msgstr ""
 "Set the transparency of the DOSBox Staging screen.\n"
-"From 0 (no transparency) to 90 (high transparency)."
+"From 0 (no transparency) to 90 (high transparency).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MAX_RESOLUTION"
-msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
+msgid ""
+"Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset].\n"
 msgstr "This setting has been renamed to viewport_resolution."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VIEWPORT_RESOLUTION"
-msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
+msgid ""
+"Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset].\n"
 msgstr ""
 "Set the viewport size (drawable area) within the window/screen:\n"
 "  fit:       Fit the viewport to the available window/screen (default).\n"
 "  <custom>:  Limit the viewport within to a custom resolution or percentage of\n"
-"             the desktop. Specified in WxH, N%%, N.M%%. Examples: 960x720 or 50%%"
+"             the desktop. Specified in WxH, N%%, N.M%%. Examples: 960x720 or 50%%\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VSYNC"
 msgid ""
 "Set the host video driver's vertical synchronization (vsync) mode:\n"
@@ -2795,11 +2808,12 @@ msgid ""
 "  - Usually, you'll only get perfectly smooth 2D scrolling in fullscreen mode,\n"
 "    even on a VRR monitor.\n"
 "  - For the best results, disable all frame cappers and global vsync overrides\n"
-"    in your video driver settings."
-msgstr "Paramètre de synchro verticale non implémenté (paramètre ignoré)"
+"    in your video driver settings.\n"
+msgstr ""
+"Paramètre de synchro verticale non implémenté (paramètre ignoré)\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PRESENTATION_MODE"
 msgid ""
 "Select the frame presentation mode ('auto' by default):\n"
@@ -2813,18 +2827,19 @@ msgid ""
 "              games where tearing is a problem. 'host-rate' combined with\n"
 "              'vsync' disabled can be a good workaround on systems that always\n"
 "              enforce blocking vsync at the OS level (e.g., forced 60 Hz vsync\n"
-"              could cause problems with VGA games presenting frames at 70 Hz)."
+"              could cause problems with VGA games presenting frames at 70 Hz).\n"
 msgstr ""
 "Optionally select the frame presentation mode:\n"
 "  auto:  Intelligently time and drop frames to prevent\n"
 "         emulation stalls, based on host and DOS frame rates.\n"
 "  cfr:   Always present DOS frames at a constant frame rate.\n"
-"  vfr:   Always present changed DOS frames at a variable frame rate."
+"  vfr:   Always present changed DOS frames at a variable frame rate.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CAPTURE_MOUSE"
-msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset]."
+msgid ""
+"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset].\n"
 msgstr ""
 "Méthode de contrôle de la souris :\n"
 "   onclick :       La souris sera capturée après\n"
@@ -2841,50 +2856,56 @@ msgstr ""
 "                   (non envoyés au jeu). De plus, les clics-milieu\n"
 "                   seront envoyés au jeu en mode plein écran ou en mode\n"
 "                   seamless.\n"
-"Defaults (si non présent ou incorrect) : seamless middlerelease"
+"Defaults (si non présent ou incorrect) : seamless middlerelease\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SENSITIVITY"
-msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_sensitivity'[reset]."
-msgstr "Sensibilité de la souris. Le second paramètre optionnel spécifie la sensibilité verticale (ex. 100,-50)."
+msgid ""
+"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_sensitivity'[reset].\n"
+msgstr ""
+"Sensibilité de la souris. Le second paramètre optionnel spécifie la sensibilité verticale (ex. 100,-50).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_RAW_MOUSE_INPUT"
-msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset]."
+msgid ""
+"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset].\n"
 msgstr ""
 "Outrepasse les paramètres de votre système pour l'accélération et la sensibilité\n"
 "de la souris. CelA marche en mode plein écran\n"
-"ou quand la souris est capturé en mode fenêtré."
+"ou quand la souris est capturé en mode fenêtré.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_WAITONERROR"
-msgid "Keep the console open if an error has occurred ('on' by default)."
+msgid ""
+"Keep the console open if an error has occurred ('on' by default).\n"
 msgstr "Attend avant de fermer la console si DOSBox a une erreur."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PRIORITY"
 msgid ""
 "Priority levels to apply when active and inactive, respectively.\n"
 "('auto auto' by default)\n"
-"'auto' lets the host operating system manage the priority."
+"'auto' lets the host operating system manage the priority.\n"
 msgstr ""
 "Niveaux de priorité pour DOSBox. La deuxième valeur après la virgule est lorsque DOSBox n'est pas actif/réduit.\n"
-"pause n'est valable que pour la seconde entrée."
+"pause n'est valable que pour la seconde entrée.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MUTE_WHEN_INACTIVE"
-msgid "Mute the sound when the window is inactive ('off' by default)."
+msgid ""
+"Mute the sound when the window is inactive ('off' by default).\n"
 msgstr "Mute the sound when the window is inactive."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PAUSE_WHEN_INACTIVE"
-msgid "Pause emulation when the window is inactive ('off' by default)."
+msgid ""
+"Pause emulation when the window is inactive ('off' by default).\n"
 msgstr "Pause emulation when the window is inactive."
 
 #: src/config/setup.cpp:274
@@ -2898,34 +2919,34 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MAPPERFILE"
 msgid ""
 "Path to the mapper file ('mapper-sdl2-XYZ.map' by default, where XYZ is the\n"
 "current version). Pre-configured maps are bundled in 'resources/mapperfiles'.\n"
 "These can be loaded by name, e.g., with 'mapperfile = xbox/xenon2.map'.\n"
 "Note: The '--resetmapper' command line option only deletes the default mapper\n"
-"      file."
+"      file.\n"
 msgstr ""
 "File used to load/save the key/event mappings.\n"
 "Pre-configured maps are bundled in the 'resources/mapperfiles' directory.\n"
 "They can be loaded by name, for example: mapperfile = xbox/xenon2.map\n"
-"Note: the -resetmapper commandline flag only deletes the default mapperfile."
+"Note: the -resetmapper commandline flag only deletes the default mapperfile.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SCREENSAVER"
 msgid ""
 "Use 'allow' or 'block' to override the SDL_VIDEO_ALLOW_SCREENSAVER environment\n"
 "variable which usually blocks the OS screensaver while the emulator is\n"
-"running ('auto' by default)."
+"running ('auto' by default).\n"
 msgstr ""
 "Utilisez 'allow' (autorise) ou 'block' (bloque) pour outrepasser la variable d'environnement\n"
 "SDL_VIDEO_ALLOW_SCREENSAVER (qui bloque généralement la capture d'écran de l'OS\n"
-"pendant que l'émulateur est lancé)."
+"pendant que l'émulateur est lancé).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_LANGUAGE"
 msgid ""
 "Select the DOS messages language:\n"
@@ -2935,11 +2956,11 @@ msgid ""
 "  - The following language files are available:\n"
 "    'br', 'de', 'en', 'es', 'fr', 'it', 'nl', 'pl' and 'ru'.\n"
 "  - English is built-in, the rest is stored in the bundled\n"
-"    'resources/translations' directory."
+"    'resources/translations' directory.\n"
 msgstr "Sélectionner un autre fichier de langue."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MACHINE"
 msgid ""
 "Set the video adapter or machine to emulate:\n"
@@ -2963,55 +2984,57 @@ msgid ""
 "  svga_s3:        S3 Trio64 (VESA VBE 2.0; 4MB vmem by default, can be set to\n"
 "                  512K, 1MB, 2MB, or 8MB with 'vmemsize') (default)\n"
 "  vesa_oldvbe:    Same as 'svga_s3' but limited to VESA VBE 1.2.\n"
-"  vesa_nolfb:     Same as 'svga_s3' (VESA VBE 2.0), plus the \"no linear\n"
-"                  framebuffer\" hack (needed only by a few games)."
+"  vesa_nolfb:     Same as 'svga_s3' (VESA VBE 2.0), plus the \\"no linear\n"
+"                  framebuffer\\" hack (needed only by a few games).\n"
 msgstr "Type de machine que DOSBox essaye d'émuler."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CAPTURES"
 msgid "Moved to [capture] section and renamed to 'capture_dir'."
-msgstr "Répertoire où les objets comme les sons WAVE, musiques MIDI, et captures d'écran sont enregistrés."
+msgstr ""
+"Répertoire où les objets comme les sons WAVE, musiques MIDI, et captures d'écran sont enregistrés.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MEMSIZE"
 msgid ""
 "Amount of memory of the emulated machine has in MB (16 by default).\n"
 "Best leave at the default setting to avoid problems with some games,\n"
 "though a few games might require a higher value.\n"
-"There is generally no speed advantage when raising this value."
+"There is generally no speed advantage when raising this value.\n"
 msgstr ""
 "Quantité de mémoire dont DOSBox dispose en mégaoctets.\n"
 "Il est mieux de laisser cette valeur d'origine pour éviter les problèmes avec certains jeux,\n"
 "bien que quelques jeux puissent nécessiter une valeur plus élevée.\n"
-"Il n'y a généralement pas de gain de vitesse en augmentant cette valeur."
+"Il n'y a généralement pas de gain de vitesse en augmentant cette valeur.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MCB_FAULT_STRATEGY"
 msgid ""
 "How software-corrupted memory chain blocks should be handled:\n"
 "  repair:  Repair (and report) faults using adjacent blocks (default).\n"
 "  report:  Report faults but otherwise proceed as-is.\n"
 "  allow:   Allow faults to go unreported (hardware behavior).\n"
-"  deny:    Quit (and report) when faults are detected."
+"  deny:    Quit (and report) when faults are detected.\n"
 msgstr ""
 "How software-corrupted memory chain blocks should be handled:\n"
 "  deny:    Quit (and report) when faults are detected (default).\n"
 "  repair:  Repair (and report) faults using adjacent chain blocks.\n"
 "  report:  Report faults but otherwise proceed as-is.\n"
 "  allow:   Allow faults to go unreported (hardware behavior).\n"
-"The default (deny) is recommended unless a game is failing with MCB corruption errors."
+"The default (deny) is recommended unless a game is failing with MCB corruption errors.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VMEMSIZE"
 msgid ""
 "Video memory in MB (1-8) or KB (256 to 8192). 'auto' uses the default for\n"
 "the selected video adapter ('auto' by default). See the 'machine' setting for\n"
-"the list of valid options and defaults per adapter."
-msgstr "Video memory in MiB (1-8) or KiB (256 to 8192). 'auto' uses the default per video adapter."
+"the list of valid options and defaults per adapter.\n"
+msgstr ""
+"Video memory in MiB (1-8) or KiB (256 to 8192). 'auto' uses the default per video adapter.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3030,7 +3053,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DOS_RATE"
 msgid ""
 "Override the emulated DOS video mode's refresh rate with a custom rate.\n"
@@ -3050,16 +3073,16 @@ msgid ""
 "      sped-up or slowed-down audio, jerky mouse movement, mouse button presses\n"
 "      not being registered, and even gameplay bugs. Overriding the DOS refresh\n"
 "      rate is a hack that only works acceptably with a small subset of all DOS\n"
-"      games (typically mid to late 1990s games)."
+"      games (typically mid to late 1990s games).\n"
 msgstr ""
 "Customize the emulated video mode's frame rate, in Hz:\n"
 "default:  The DOS video mode determines the rate (recommended).\n"
 "host:     Match the DOS rate to the host rate (see 'host_rate' setting).\n"
 "<value>:  Sets the rate to an exact value, between 24.000 and 1000.000 (Hz).\n"
-"We recommend the 'default' rate; otherwise test and set on a per-game basis."
+"We recommend the 'default' rate; otherwise test and set on a per-game basis.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VESA_MODES"
 msgid ""
 "Controls which VESA video modes are available:\n"
@@ -3078,7 +3101,7 @@ msgid ""
 "               games misbehave in the presence of certain VESA modes; try\n"
 "               'compatible' mode if this happens. The 320x200 high colour\n"
 "               modes available in this mode are often required by late '90s\n"
-"               demoscene productions."
+"               demoscene productions.\n"
 msgstr ""
 "Controls the selection of VESA 1.2 and 2.0 modes offered:\n"
 "  compatible   A tailored selection that maximizes game compatibility.\n"
@@ -3087,7 +3110,7 @@ msgstr ""
 "               Extreme Assault. Use only if needed, as it's not S3 compatible.\n"
 "  all          Offers all modes for a given video memory size, however\n"
 "               some games may not use them properly (flickering) or may need\n"
-"               more system memory (mem = ) to use them."
+"               more system memory (mem = ) to use them.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3105,32 +3128,32 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SPEED_MODS"
 msgid ""
 "Permit changes known to improve performance ('on' by default).\n"
 "Currently, no games are known to be negatively affected by this.\n"
 "Please file a bug with the project if you find a game that fails\n"
-"when this is enabled so we will list them here."
+"when this is enabled so we will list them here.\n"
 msgstr ""
 "Permit changes known to improve performance. Currently no games are known\n"
 "to be affected by this. Please file a bug with the project if you find a\n"
-"game that fails when this is set to true so we will list them here."
+"game that fails when this is set to true so we will list them here.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_AUTOEXEC_SECTION"
 msgid ""
 "How autoexec sections are handled from multiple config files:\n"
 "  join:       Combine them into one big section (legacy behavior; default).\n"
-"  overwrite:  Use the last one encountered, like other config settings."
+"  overwrite:  Use the last one encountered, like other config settings.\n"
 msgstr ""
 "How autoexec sections are handled from multiple config files.\n"
 "join      : combines them into one big section (legacy behavior).\n"
-"overwrite : use the last one encountered, like other conf settings."
+"overwrite : use the last one encountered, like other conf settings.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_AUTOMOUNT"
 msgid ""
 "Mount 'drives/[c]' directories as drives on startup, where [c] is a lower-case\n"
@@ -3144,7 +3167,7 @@ msgid ""
 "  path     = path-specification (e.g., path = %%path%%;c:\\tools)\n"
 "  override_drive = mount the directory to this drive instead (default empty)\n"
 "  verbose  = on or off\n"
-"  readonly = on or off"
+"  readonly = on or off\n"
 msgstr ""
 "Mounts 'drives/[c]' directories as drives on startup, where [c] is\n"
 "a lower-case drive letter from a to y.  The 'drives' folder can be\n"
@@ -3156,10 +3179,10 @@ msgstr ""
 "  label   = custom_label\n"
 "  path    = path-specification, ie: path = %%path%%;c:\\tools\n"
 "  override_drive = mount the directory to this drive instead (default empty)\n"
-"  verbose = true or false"
+"  verbose = true or false\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_STARTUP_VERBOSITY"
 msgid ""
 "Controls verbosity prior to displaying the program ('auto' by default):\n"
@@ -3167,14 +3190,14 @@ msgid ""
 "  high        |   yes   |    yes\n"
 "  low         |   no    |    yes\n"
 "  quiet       |   no    |    no\n"
-"  auto        | 'low' if exec or dir is passed, otherwise 'high'"
+"  auto        | 'low' if exec or dir is passed, otherwise 'high'\n"
 msgstr ""
 "Contrôle la verbosité avant l'affichage du programme :\n"
 "            | Écran de bienvenue | Sorties écran de démarrage\n"
 "high        |        oui         |            oui\n"
 "low         |        non         |            oui\n"
 "quiet       |        non         |            non\n"
-"auto        | 'low' si exec ou dir sont utilisés, sinon 'high'"
+"auto        | 'low' si exec ou dir sont utilisés, sinon 'high'\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3275,7 +3298,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ASPECT"
 msgid ""
 "Set the aspect ratio correction mode ('auto' by default):\n"
@@ -3297,14 +3320,14 @@ msgid ""
 "                       mode is useful to force arbitrary aspect ratios (e.g.,\n"
 "                       stretching DOS games to fullscreen on 16:9 displays) and\n"
 "                       to emulate the horizontal and vertical stretch controls\n"
-"                       of CRT monitors."
+"                       of CRT monitors.\n"
 msgstr ""
 "Met à l'échelle la résolution verticale pour produire un aspect d'affichage 4:3,\n"
 "correspondant à celui des moniteurs à définition standard d'origine\n"
 "pour lequel la majorité des jeux DOS ont été conçus. Ce paramètre\n"
 "n'affecte que les modes vidéo qui utilisent des pixels non carrés, tels que\n"
 "320x200 ou 640x400 ; alors que les modes de pixels carrés, tels que 640x480\n"
-"et 800x600, seront affichés tel quel."
+"et 800x600, seront affichés tel quel.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3361,19 +3384,19 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MONOCHROME_PALETTE"
 msgid ""
 "Set the palette for monochrome display emulation ('amber' by default).\n"
 "Works only with the 'hercules' and 'cga_mono' machine types.\n"
-"Note: You can also cycle through the available palettes via hotkeys."
+"Note: You can also cycle through the available palettes via hotkeys.\n"
 msgstr ""
 "Sélectionne la palette par défaut pour l'affichage monochrome.\n"
 "Fonctionne seulement lors de l'émulation hercules ou cga_mono.\n"
-"Vous pouvez aussi faire défiler les couleurs disponibles avec F11."
+"Vous pouvez aussi faire défiler les couleurs disponibles avec F11.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CGA_COLORS"
 msgid ""
 "Set the interpretation of CGA RGBI colours ('default' by default). Affects all\n"
@@ -3407,7 +3430,7 @@ msgid ""
 "  light-blue, light-green, light-cyan, light-red, light-magenta, yellow, white.\n"
 "Their default values, shown here in 6-digit hex code format, are:\n"
 "  #000000 #0000aa #00aa00 #00aaaa #aa0000 #aa00aa #aa5500 #aaaaaa\n"
-"  #555555 #5555ff #55ff55 #55ffff #ff5555 #ff55ff #ffff55 #ffffff"
+"  #555555 #5555ff #55ff55 #55ffff #ff5555 #ff55ff #ffff55 #ffffff\n"
 msgstr ""
 "Sets the interpretation of CGA RGBI colors. Affects all machine types capable of\n"
 "displaying CGA or better graphics. Built-in presets:\n"
@@ -3428,80 +3451,86 @@ msgstr ""
 "  dga16:         A modern take on the canonical CGA palette with dialed back contrast.\n"
 "You can also set custom colors by specifying 16 space or comma separated color values,\n"
 "either as 3 or 6-digit hex codes (e.g. #f00 or #ff0000 for full red), or decimal\n"
-"RGB triplets (e.g. (255, 0, 255) for magenta)."
+"RGB triplets (e.g. (255, 0, 255) for magenta).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SCALER"
 msgid ""
 "Software scalers are deprecated in favour of hardware-accelerated options:\n"
 "  - If you used the normal2x/3x scalers, consider using 'integer_scaling'\n"
 "    with `glshader = sharp` and optionally setting the desired 'window_size'\n"
 "    or 'viewport' size.\n"
-"  - If you used an advanced scaler, consider one of the 'glshader' options."
+"  - If you used an advanced scaler, consider one of the 'glshader' options.\n"
 msgstr ""
 "Scaler utilisé pour agrandir/améliorer les modes basse résolution.\n"
-"Si l'option \"forced\" est ajoutée, alors le scaler sera utilisé même si\n"
+"Si l'option \\"forced\\" est ajoutée, alors le scaler sera utilisé même si\n"
 "le résultat ne semble pas celui escompté.\n"
 "Notez que certains scalers peuvent utiliser des bords noirs pour remplir l'image\n"
 "dans la résolution configuré. Si ce n'est pas l'effet voulu,\n"
 "essayez un scaler différent ou activez le mode plein écran.\n"
+"\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_COMPOSITE"
 msgid ""
 "Enable composite mode on start (only for 'cga', 'pcjr', and 'tandy' machine\n"
 "types; 'auto' by default). 'auto' lets the program decide.\n"
 "Note: Fine-tune the settings below (i.e., 'hue') using the composite hotkeys,\n"
-"      then copy the new settings from the logs into your config."
+"      then copy the new settings from the logs into your config.\n"
 msgstr ""
 "Enable composite mode on start. 'auto' lets the program decide.\n"
 "Note: Fine-tune the settings below (ie: hue) using the composite hotkeys.\n"
-"      Then read the new settings from your console and enter them here."
+"      Then read the new settings from your console and enter them here.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ERA"
 msgid ""
 "Era of composite technology ('auto' by default).\n"
-"When 'auto', PCjr uses 'new', and CGA/Tandy use 'old'."
-msgstr "Era of composite technology. When 'auto', PCjr uses new and CGA/Tandy use old."
+"When 'auto', PCjr uses 'new', and CGA/Tandy use 'old'.\n"
+msgstr ""
+"Era of composite technology. When 'auto', PCjr uses new and CGA/Tandy use old.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_HUE"
 msgid ""
 "Hue of the RGB palette (0 by default).\n"
-"For example, adjust until the sky is blue."
-msgstr "Appearance of RGB palette. For example, adjust until sky is blue."
+"For example, adjust until the sky is blue.\n"
+msgstr ""
+"Appearance of RGB palette. For example, adjust until sky is blue.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SATURATION"
-msgid "Intensity of colors, from washed out to vivid (100 by default)."
+msgid ""
+"Intensity of colors, from washed out to vivid (100 by default).\n"
 msgstr "Intensity of colors, from washed out to vivid."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CONTRAST"
 msgid "Ratio between the dark and light area (100 by default)."
 msgstr "Ratio between the dark and light area."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BRIGHTNESS"
 msgid "Luminosity of the image, from dark to light (0 by default)."
 msgstr "Luminosity of the image, from dark to light."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CONVERGENCE"
-msgid "Convergence of subpixel elements, from blurry to sharp (0 by default)."
-msgstr "Convergence of subpixel elements, from blurry to sharp (CGA and Tandy-only)."
+msgid ""
+"Convergence of subpixel elements, from blurry to sharp (0 by default).\n"
+msgstr ""
+"Convergence of subpixel elements, from blurry to sharp (CGA and Tandy-only).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CORE"
 msgid ""
 "Type of CPU emulation core to use ('auto' by default).\n"
@@ -3523,13 +3552,13 @@ msgid ""
 "            but the timings might be less accurate. The 'dynamic' core is a\n"
 "            necessity for demanding DOS programs (e.g., 3D SVGA games).\n"
 "            Programs that self-modify their code might misbehave or crash on\n"
-"            the 'dynamic' core; use the 'normal' core for such programs."
+"            the 'dynamic' core; use the 'normal' core for such programs.\n"
 msgstr ""
 "Core CPU utilisé dans l'émulation. 'auto' bascule de 'normal' à 'dynamic' si c'est disponible et\n"
-"approprié."
+"approprié.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CPUTYPE"
 msgid ""
 "CPU type to emulate ('auto' by default).\n"
@@ -3553,15 +3582,16 @@ msgid ""
 "                 Windows 3.x games (e.g., Betrayal in Antara).\n"
 "  pentium_mmx:   Same as 'pentium' plus MMX instruction set support. Very few\n"
 "                 games use MMX instructions; it's mostly only useful for\n"
-"                 demoscene productions."
-msgstr "Coeur de CPU utilisé dans l'émulation. 'auto' est le choix le plus rapide."
+"                 demoscene productions.\n"
+msgstr ""
+"Coeur de CPU utilisé dans l'émulation. 'auto' est le choix le plus rapide.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CYCLES"
 msgid ""
 "The 'cycles' setting is deprecated but still accepted;\n"
-"please use 'cpu_cycles', 'cpu_cycles_protected' and 'cpu_throttle' instead."
+"please use 'cpu_cycles', 'cpu_cycles_protected' and 'cpu_throttle' instead.\n"
 msgstr ""
 "Nombre d'instructions que DOSBox essaye d'émuler à chaque milliseconde.\n"
 "Paramétrer une trop grande valeur donne des coupures de son et des saccades.\n"
@@ -3572,6 +3602,7 @@ msgstr ""
 "                  si 'auto' échoue. (Exemple : '4000')\n"
 "  'max'           allouera autant de cycles que votre ordinateur est capable \n"
 "                  de gérer.\n"
+"\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3630,19 +3661,20 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CYCLEUP"
 msgid ""
 "Number of cycles to add with the 'Inc Cycles' hotkey (10 by default).\n"
-"Values lower than 100 are treated as a percentage increase."
-msgstr "Nombre de cycles à ajouter/soustraire avec la combinaison de touches."
+"Values lower than 100 are treated as a percentage increase.\n"
+msgstr ""
+"Nombre de cycles à ajouter/soustraire avec la combinaison de touches.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CYCLEDOWN"
 msgid ""
 "Number of cycles to subtract with the 'Dec Cycles' hotkey (20 by default).\n"
-"Values lower than 100 are treated as a percentage decrease."
+"Values lower than 100 are treated as a percentage decrease.\n"
 msgstr "Le paramétrer à moins de 100 donnera un pourcentage."
 
 #: src/config/setup.cpp:274
@@ -3917,69 +3949,74 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_NOSOUND"
 msgid ""
 "Enable silent mode ('off' by default).\n"
 "Sound is still emulated in silent mode, but DOSBox outputs no sound to the host.\n"
-"Capturing the emulated audio output to a WAV file works in silent mode."
-msgstr "Activer le mode silencieux, le son étant cependant toujours émulé."
+"Capturing the emulated audio output to a WAV file works in silent mode.\n"
+msgstr ""
+"Activer le mode silencieux, le son étant cependant toujours émulé.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_RATE"
 msgid ""
 "Sample rate of DOSBox's internal audio mixer in Hz (%s by default).\n"
 "Valid range is 8000 to 96000 Hz. The vast majority of consumer-grade audio\n"
 "hardware uses a native rate of 48000 Hz. Recommend leaving this as-is unless\n"
 "you have good reason to change it. The OS will most likely resample non-standard\n"
-"sample rates to 48000 Hz anyway."
-msgstr "Taux d'échantillonnage du mixer, paramétrer tout taux d'un périphérique plus haut que cela va probablement détériorer sa qualité sonore."
+"sample rates to 48000 Hz anyway.\n"
+msgstr ""
+"Taux d'échantillonnage du mixer, paramétrer tout taux d'un périphérique plus haut que cela va probablement détériorer sa qualité sonore.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BLOCKSIZE"
 msgid ""
 "Block size of the host audio device in sample frames (%s by default).\n"
 "Valid range is 64 to 8192. Should be set to power-of-two values (e.g., 256,\n"
 "512, 1024, etc.) Larger values might help with sound stuttering but will\n"
-"introduce more latency. Also see 'negotiate'."
-msgstr "Taille de bloc du mixer, des blocs plus grands peuvent aider pour les saccades de son mais il sera aussi moins en phase."
+"introduce more latency. Also see 'negotiate'.\n"
+msgstr ""
+"Taille de bloc du mixer, des blocs plus grands peuvent aider pour les saccades de son mais il sera aussi moins en phase.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PREBUFFER"
 msgid ""
 "How many milliseconds of sound to render in advance on top of 'blocksize'\n"
 "(%s by default). Larger values might help with sound stuttering but will\n"
-"introduce more latency."
-msgstr "Nombre de millisecondes de données à garder en amont du paramètre blocksize."
+"introduce more latency.\n"
+msgstr ""
+"Nombre de millisecondes de données à garder en amont du paramètre blocksize.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_NEGOTIATE"
 msgid ""
 "Negotiate a possibly better 'blocksize' setting (%s by default).\n"
 "Enable it if you're not getting audio or the sound is stuttering with your\n"
-"'blocksize' setting. Disable it to force the manually set 'blocksize' value."
-msgstr "Let the system audio driver negotiate (possibly) better rate and blocksize settings."
+"'blocksize' setting. Disable it to force the manually set 'blocksize' value.\n"
+msgstr ""
+"Let the system audio driver negotiate (possibly) better rate and blocksize settings.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_COMPRESSOR"
 msgid ""
 "Enable the auto-leveling compressor on the master channel to prevent clipping\n"
 "of the audio output:\n"
 "  off:  Disable compressor.\n"
-"  on:   Enable compressor (default)."
+"  on:   Enable compressor (default).\n"
 msgstr ""
 "Enable the auto-leveling compressor on the master channel to prevent clipping\n"
 "of the audio output:\n"
 "  off:  Disable compressor.\n"
-"  on:   Enable compressor (default)."
+"  on:   Enable compressor (default).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CROSSFEED"
 msgid ""
 "Set crossfeed on the OPL and CMS (Gameblaster) mixer channels. Many games pan\n"
@@ -3995,17 +4032,17 @@ msgid ""
 "\n"
 "Notes:\n"
 "  - Use the MIXER command to apply crossfeed to other audio channels as well\n"
-"    and to fine-tune the crossfeed strength per channel."
+"    and to fine-tune the crossfeed strength per channel.\n"
 msgstr ""
 "Set crossfeed globally on all stereo channels for headphone listening:\n"
 "  off:         No crossfeed (default).\n"
 "  on:          Enable crossfeed (at strength 40).\n"
 "  <strength>:  Set crossfeed strength from 0 to 100, where 0 means no crossfeed (off)\n"
 "               and 100 full crossfeed (effectively turning stereo content into mono).\n"
-"Note: You can set per-channel crossfeed via mixer commands."
+"Note: You can set per-channel crossfeed via mixer commands.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_REVERB"
 msgid ""
 "Reverb effect that adds a sense of space to the sound:\n"
@@ -4026,7 +4063,7 @@ msgid ""
 "  - The presets apply a noticeable amount of reverb to the synth mixer channels\n"
 "    (except for synths with built-in reverb; e.g., the Roland MT-32), and a\n"
 "    subtle amount to the digital audio channels.\n"
-"  - Use the MIXER command to fine-tune the reverb levels per channel."
+"  - Use the MIXER command to fine-tune the reverb levels per channel.\n"
 msgstr ""
 "Enable reverb globally to add a sense of space to the sound:\n"
 "  off:     No reverb (default).\n"
@@ -4041,10 +4078,10 @@ msgstr ""
 "           channels for music and digital audio.\n"
 "  huge:    A stronger variant of the large hall preset; works really well\n"
 "           in some games with more atmospheric soundtracks.\n"
-"Note: You can fine-tune per-channel reverb levels via mixer commands."
+"Note: You can fine-tune per-channel reverb levels via mixer commands.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CHORUS"
 msgid ""
 "Chorus effect that adds a sense of stereo movement to the sound:\n"
@@ -4058,7 +4095,7 @@ msgid ""
 "Notes:\n"
 "  - The presets apply the chorus effect to the synth channels only (except\n"
 "    for synths with built-in chorus; e.g. the Roland MT-32).\n"
-"  - Use the MIXER command to fine-tune the chorus levels per channel."
+"  - Use the MIXER command to fine-tune the chorus levels per channel.\n"
 msgstr ""
 "Enable chorus globally to add a sense of stereo movement to the sound:\n"
 "  off:     No chorus (default).\n"
@@ -4067,7 +4104,7 @@ msgstr ""
 "           synth music that features lots of white noise.)\n"
 "  normal:  Normal chorus that works well with a wide variety of games.\n"
 "  strong:  An obvious and upfront chorus effect.\n"
-"Note: You can fine-tune per-channel chorus levels via mixer commands."
+"Note: You can fine-tune per-channel chorus levels via mixer commands.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4128,7 +4165,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SOUNDFONT"
 msgid ""
 "Name or path of SoundFont file to use ('default.sf2' by default).\n"
@@ -4138,7 +4175,7 @@ msgid ""
 "  - Other common system locations.\n"
 "The '.sf2' extension can be omitted. You can use paths relative to the above\n"
 "locations or absolute paths as well.\n"
-"Note: Run `MIXER /LISTMIDI` to see the list of available SoundFonts."
+"Note: Run `MIXER /LISTMIDI` to see the list of available SoundFonts.\n"
 msgstr ""
 "Path to a SoundFont file in .sf2 format. You can use an\n"
 "absolute or relative path, or the name of an .sf2 inside\n"
@@ -4147,7 +4184,7 @@ msgstr ""
 "Note: The optional volume scaling percentage after the filename\n"
 "has been deprecated. Please use a mixer command instead to\n"
 "change the FluidSynth audio channel's volume, e.g.:\n"
-"  MIXER FSYNTH 200"
+"  MIXER FSYNTH 200\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4168,7 +4205,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FSYNTH_CHORUS"
 msgid ""
 "Configure the FluidSynth chorus. Possible values:\n"
@@ -4185,7 +4222,7 @@ msgid ""
 "Note: You can disable the FluidSynth chorus and enable the mixer-level chorus\n"
 "      on the FluidSynth channel instead, or enable both chorus effects at the\n"
 "      same time. Whether this sounds good depends on the SoundFont and the\n"
-"      chorus settings being used."
+"      chorus settings being used.\n"
 msgstr ""
 "Chorus effect: 'auto', 'on', 'off', or custom values.\n"
 "When using custom values:\n"
@@ -4201,10 +4238,10 @@ msgstr ""
 "mixer-level chorus on the FluidSynth channel instead, or\n"
 "enable both chorus effects at the same time. Whether this\n"
 "sounds good depends on the SoundFont and the chorus settings\n"
-"being used."
+"being used.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FSYNTH_REVERB"
 msgid ""
 "Configure the FluidSynth reverb. Possible values:\n"
@@ -4220,7 +4257,7 @@ msgid ""
 "Note: You can disable the FluidSynth reverb and enable the mixer-level reverb\n"
 "      on the FluidSynth channel instead, or enable both reverb effects at the\n"
 "      same time. Whether this sounds good depends on the SoundFont and the\n"
-"      reverb settings being used."
+"      reverb settings being used.\n"
 msgstr ""
 "Reverb effect: 'auto', 'on', 'off', or custom values.\n"
 "When using custom values:\n"
@@ -4235,19 +4272,19 @@ msgstr ""
 "mixer-level reverb on the FluidSynth channel instead, or\n"
 "enable both reverb effects at the same time. Whether this\n"
 "sounds good depends on the SoundFont and the reverb settings\n"
-"being used."
+"being used.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_FSYNTH_FILTER"
 msgid ""
 "Filter for the FluidSynth audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the FluidSynth audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/midi/fluidsynth.cpp:1277
 #, fuzzy, c-format, no-wrap
@@ -4280,7 +4317,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MODEL"
 msgid ""
 "The Roland MT-32/CM-32ML model to use.\n"
@@ -4288,22 +4325,23 @@ msgid ""
 "The lookup for the best models is performed in order as listed.\n"
 "  auto:       Pick the best available model (default).\n"
 "  cm32l:      Pick the best available CM-32L model.\n"
-"  mt32_old:   Pick the best available \"old\" MT-32 model (v1.0x).\n"
-"  mt32_new:   Pick the best available \"new\" MT-32 model (v2.0x).\n"
+"  mt32_old:   Pick the best available \\"old\\" MT-32 model (v1.0x).\n"
+"  mt32_new:   Pick the best available \\"new\\" MT-32 model (v2.0x).\n"
 "  mt32:       Pick the best available MT-32 model.\n"
 "  <version>:  Use the exact specified model version (e.g., 'mt32_204').\n"
 "Notes:\n"
 "  - Run `MIXER /LISTMIDI` to see the list of available models.\n"
 "  - This is *NOT* a General MIDI compatible MIDI device; only use it if the\n"
 "    game is known to support Roland MT-32 MIDI (which predates General MIDI).\n"
+"\n"
 msgstr ""
 "Modèle de synthétiseur à utiliser. Par défaut, préfère CM-32L\n"
 "si les deux sets de ROMs sont fournis. Pour les premiers jeux Sierra et Dune 2,\n"
 "il est recommandé d'utiliser 'mt32', alors qu les jeux récents utilisent\n"
-"plutôt les effets sonores supplémentaires CM-32L (utilisez 'auto' ou 'cm32l')"
+"plutôt les effets sonores supplémentaires CM-32L (utilisez 'auto' ou 'cm32l')\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ROMDIR"
 msgid ""
 "The directory containing the Roland MT-32/CM-32ML ROMs (unset by default).\n"
@@ -4313,7 +4351,7 @@ msgid ""
 "Notes:\n"
 "  - The file names of the ROM files do not matter; the ROMS are identified\n"
 "    by their checksums.\n"
-"  - Both interleaved and non-interlaved ROM files are supported."
+"  - Both interleaved and non-interlaved ROM files are supported.\n"
 msgstr ""
 "Répertoire contenant les ROMs nécessaires MT-32 et/ou CM-32L\n"
 "nommés comme ceci :\n"
@@ -4321,19 +4359,19 @@ msgstr ""
 "  MT32_PCM.ROM ou CM32L_PCM.ROM - fichier(s) PCM ROM.\n"
 "Le répertoire peut être absolu ou relatif, ou laisser vide pour\n"
 "utiliser le répertoire 'mt32-roms' dans le répertoire de configuration\n"
-"de DOSBox, ou un autre répertoire habituel du système."
+"de DOSBox, ou un autre répertoire habituel du système.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MT32_FILTER"
 msgid ""
 "Filter for the Roland MT-32/CM-32L audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Roland MT-32/CM-32L audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/midi/mt32.cpp:401
 #, fuzzy, c-format, no-wrap
@@ -4398,11 +4436,11 @@ msgid "Active model:    "
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MIDIDEVICE"
 msgid ""
 "Set where MIDI data from the emulated MPU-401 MIDI interface is sent\n"
-"('port' by default):"
+"('port' by default):\n"
 msgstr ""
 "Préiphérique qui recevra les données MIDI (depuis l'interface\n"
 "émulée - MPU-401). Choisissez l'un des suivants :\n"
@@ -4411,7 +4449,7 @@ msgstr ""
 "'mt32', pour utiliser le synthétiseur Roland MT-32 intégré. Reportez-vous\n"
 "       à la section [mt32] pour la configuration détaillée.\n"
 "'auto', pour utiliser le premier lecteur MIDI externe disponible. Cela\n"
-"       peut être un synthétiseur logiciel ou un périphérique matériel."
+"       peut être un synthétiseur logiciel ou un périphérique matériel.\n"
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -4461,11 +4499,11 @@ msgid "  none:         Disable MIDI output."
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MIDICONFIG"
 msgid ""
 "Configuration options for the selected MIDI device (unset by default).\n"
-"Notes:"
+"Notes:\n"
 msgstr ""
 "Options de configuration pour l'interface MIDI sélectionnée.\n"
 "Il s'agit généralement de l'ID ou du nom du synthétiseur MIDI que vous voulez\n"
@@ -4479,7 +4517,7 @@ msgstr ""
 "  le matériel peut demander un délai afin d'éviter que son\n"
 "  tampon ne déborde. Dans ce cas, ajoutez 'delaysysex',\n"
 "  par exemple: 'midiconfig=2 delaysysex'.\n"
-"Reportez vous au README/Manuel pour plus d'informations."
+"Reportez vous au README/Manuel pour plus d'informations.\n"
 
 #: src/config/setup.cpp:290
 #, fuzzy, c-format, no-wrap
@@ -4526,7 +4564,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_MPU401"
 msgid "MPU-401 mode to emulate ('intelligent' by default)."
 msgstr "Type de MPU-401 à émuler."
@@ -4577,7 +4615,7 @@ msgid "No available models"
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SBTYPE"
 msgid ""
 "Sound Blaster model to emulate ('sb16' by default).\n"
@@ -4596,35 +4634,35 @@ msgid ""
 "  - The 'ess' option is for getting ESS Enhanced FM music via the card's ESFM\n"
 "    synthesiser in games that support it. The ESS DAC is not emulated but the\n"
 "    card is Sound Blaster Pro compatible; just configure the game for Sound\n"
-"    Blaster digital sound."
+"    Blaster digital sound.\n"
 msgstr "Type de Sound Blaster à émuler. 'gb' pour Game Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SBBASE"
 msgid "The IO address of the Sound Blaster (220 by default)."
 msgstr "Adresse IO de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_IRQ"
 msgid "The IRQ number of the Sound Blaster (7 by default)."
 msgstr "Numéro d'IRQ de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DMA"
 msgid "The DMA channel of the Sound Blaster (1 by default)."
 msgstr "Numéro DMA de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_HDMA"
 msgid "The High DMA channel of the Sound Blaster 16 (5 by default)."
 msgstr "Numéro High DMA de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SBMIXER"
 msgid ""
 "Allow the Sound Blaster mixer to modify volume levels ('on' by default).\n"
@@ -4636,23 +4674,24 @@ msgid ""
 "  off:  Only the DOSBox mixer determines the volume of these channels.\n"
 "Note: Some games change the volume levels dynamically (e.g., lower the FM music\n"
 "      volume when speech is playing); it's best to leave 'sbmixer' enabled for\n"
-"      such games."
-msgstr "Permet au mixer Sound Blaster de modifier le mixer de DOSBox."
+"      such games.\n"
+msgstr ""
+"Permet au mixer Sound Blaster de modifier le mixer de DOSBox.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SBWARMUP"
 msgid ""
 "Silence initial DMA audio after card power-on, in milliseconds\n"
 "(100 by default). This mitigates pops heard when starting many SB-based games.\n"
-"Reduce this if you notice intial playback is missing audio."
+"Reduce this if you notice intial playback is missing audio.\n"
 msgstr ""
 "Silence initial DMA audio after card power-on, in milliseconds.\n"
 "This mitigates pops heard when starting many SB-based games.\n"
-"Reduce this if you notice intial playback is missing audio."
+"Reduce this if you notice intial playback is missing audio.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SB_FILTER"
 msgid ""
 "Type of filter to emulate for the Sound Blaster digital sound output:\n"
@@ -4669,7 +4708,7 @@ msgid ""
 "             (1st order = 6dB/oct slope, 2nd order = 12dB/oct, etc.),\n"
 "             and FREQ is the cutoff frequency in Hz. Examples:\n"
 "                lpf 2 12000\n"
-"                hpf 3 120 lfp 1 6500"
+"                hpf 3 120 lfp 1 6500\n"
 msgstr ""
 "Type of filter to emulate for the Sound Blaster digital sound output:\n"
 "  auto:      Use the appropriate filter determined by 'sbtype'.\n"
@@ -4685,17 +4724,17 @@ msgstr ""
 "             (1st order = 6dB/oct slope, 2nd order = 12dB/oct, etc.),\n"
 "             and FREQ is the cutoff frequency in Hz. Examples:\n"
 "                lpf 2 12000\n"
-"                hpf 3 120 lfp 1 6500"
+"                hpf 3 120 lfp 1 6500\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SB_FILTER_ALWAYS_ON"
 msgid ""
 "Force the Sound Blaster Pro 2 filter to be always on ('off' by default).\n"
-"Other Sound Blaster models don't allow toggling the filter in software."
+"Other Sound Blaster models don't allow toggling the filter in software.\n"
 msgstr ""
 "Force the Sound Blaster filter to be always on\n"
-"(disallow programs from turning the filter off)."
+"(disallow programs from turning the filter off).\n"
 
 #: src/hardware/audio/sblaster.cpp:3830
 #, fuzzy, c-format, no-wrap
@@ -4722,15 +4761,16 @@ msgid "[color=light-green]'%s'[reset] setting [color=white]'on'[reset] not suppo
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_OPLRATE"
-msgid "The OPL output is now transparently resampled to the mixer's sample rate."
+msgid ""
+"The OPL output is now transparently resampled to the mixer's sample rate.\n"
 msgstr ""
 "oplrate est déprécié . La forme d'onde OPL waveform est maintenant échantillonnée\n"
-"        au rythme de lecture du mixer pour éviter le rééchantillonnage."
+"        au rythme de lecture du mixer pour éviter le rééchantillonnage.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_OPLMODE"
 msgid ""
 "OPL model to emulate ('auto' by default).\n"
@@ -4746,10 +4786,10 @@ msgid ""
 "  - 'sbtype = none' and 'oplmode = opl2' emulates the original AdLib card.\n"
 "  - Only 'oplmode = esfm' is not enough to get ESS Enhanced FM music in games;\n"
 "    you'll also need to set 'sbtype = ess'. 'oplmode = esfm' is useful to\n"
-"    get ESFM-flavoured OPL with original Sound Blaster models."
+"    get ESFM-flavoured OPL with original Sound Blaster models.\n"
 msgstr ""
 "Type d'émulation OPL. Sur 'auto' le mode est déterminé par 'sbtype'.\n"
-"Tous les modes OPL sont compatibles AdLib, sauf pour 'cms'."
+"Tous les modes OPL sont compatibles AdLib, sauf pour 'cms'.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4781,15 +4821,15 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_OPLEMU"
 msgid "Only 'nuked' OPL emulation is supported now."
 msgstr ""
 "Fournisseur de l'émulation OPL. 'compat' fournit une meilleure qualité,\n"
-"'nuked' est par défaut et le plus précis (mais le plus gourmand en CPU)."
+"'nuked' est par défaut et le plus précis (mais le plus gourmand en CPU).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_OPL_FILTER"
 msgid ""
 "Type of filter to emulate for the Sound Blaster OPL output:\n"
@@ -4797,14 +4837,14 @@ msgid ""
 "  sb1, sb2, sbpro1, sbpro2, sb16:\n"
 "             Use the filter of this Sound Blaster model.\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Type of filter to emulate for the Sound Blaster OPL output:\n"
 "  auto:      Use the appropriate filter determined by 'sbtype' (default).\n"
 "  sb1, sb2, sbpro1, sbpro2, sb16:\n"
 "             Use the filter of this Sound Blaster model.\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4817,21 +4857,21 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CMS_FILTER"
 msgid ""
 "Filter for the Sound Blaster CMS output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Sound Blaster CMS output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUS"
 msgid ""
 "Enable Gravis UltraSound emulation ('off' by default).\n"
@@ -4845,54 +4885,55 @@ msgid ""
 "      for the majority of programs, but some games and demos expect the GUS\n"
 "      factory defaults of base address 220, IRQ 11, and DMA 1. The default\n"
 "      IRQ 11 is also problematic with specific versions of the DOS4GW extender\n"
-"      that cannot handle IRQs above 7."
+"      that cannot handle IRQs above 7.\n"
 msgstr "Activer l'émulation Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSBASE"
-msgid "The IO base address of the Gravis UltraSound (240 by default)."
+msgid ""
+"The IO base address of the Gravis UltraSound (240 by default).\n"
 msgstr "Adresse de base IO de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSIRQ"
 msgid "The IRQ number of the Gravis UltraSound (5 by default)."
 msgstr "Numéro d'IRQ de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUSDMA"
 msgid "The DMA channel of the Gravis UltraSound (3 by default)."
 msgstr "Canal DMA de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_GUS_FILTER"
 msgid ""
 "Filter for the Gravis UltraSound audio output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Gravis UltraSound audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ULTRADIR"
 msgid ""
 "Path to the UltraSound directory ('C:\\ULTRASND' by default).\n"
 "This should have a 'MIDI' subdirectory containing the patches (instrument\n"
 "files) required by some games for MIDI music playback. Not all games need these\n"
 "patches; many GUS-native games and all demos upload their own custom sounds\n"
-"instead."
+"instead.\n"
 msgstr ""
 "Chemin vers le répertoire UltraSound. Dans ce répertoire,\n"
 "il devrait y avoir un répertoire MIDI qui contient\n"
 "les fichiers de patch pour la lecture GUS. Le jeu de patch\n"
-"utilisé avec Timidity devrait bien fonctionner correctement."
+"utilisé avec Timidity devrait bien fonctionner correctement.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -4923,7 +4964,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SIDMODEL"
 msgid ""
 "Model of chip to emulate in the Innovation SSI-2001 card:\n"
@@ -4932,7 +4973,7 @@ msgid ""
 "  8580:  A later revision that more closely matched the SID specification.\n"
 "         It fixed the 6581's DC bias and is less prone to distortion.\n"
 "         The 8580 is an option on reproduction cards, like the DuoSID.\n"
-"  none:  Disable the card (default)."
+"  none:  Disable the card (default).\n"
 msgstr ""
 "Model of chip to emulate in the Innovation SSI-2001 card:\n"
 " - auto:  Selects the 6581 chip.\n"
@@ -4940,60 +4981,62 @@ msgstr ""
 " - 8580:  A later revision that more closely matched the SID specification.\n"
 "          It fixed the 6581's DC bias and is less prone to distortion.\n"
 "          The 8580 is an option on reproduction cards, like the DuoSID.\n"
-" - none:  Disables the card."
+" - none:  Disables the card.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SIDCLOCK"
 msgid ""
 "The SID chip's clock frequency, which is jumperable on reproduction cards:\n"
 "  default:  0.895 MHz, per the original SSI-2001 card (default).\n"
 "  c64ntsc:  1.023 MHz, per NTSC Commodore PCs and the DuoSID.\n"
 "  c64pal:   0.985 MHz, per PAL Commodore PCs and the DuoSID.\n"
-"  hardsid:  1.000 MHz, available on the DuoSID."
+"  hardsid:  1.000 MHz, available on the DuoSID.\n"
 msgstr ""
 "The SID chip's clock frequency, which is jumperable on reproduction cards.\n"
 " - default: uses 0.895 MHz, per the original SSI-2001 card.\n"
 " - c64ntsc: uses 1.023 MHz, per NTSC Commodore PCs and the DuoSID.\n"
 " - c64pal:  uses 0.985 MHz, per PAL Commodore PCs and the DuoSID.\n"
-" - hardsid: uses 1.000 MHz, available on the DuoSID."
+" - hardsid: uses 1.000 MHz, available on the DuoSID.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SIDPORT"
-msgid "The IO port address of the Innovation SSI-2001 (280 by default)."
+msgid ""
+"The IO port address of the Innovation SSI-2001 (280 by default).\n"
 msgstr "The IO port address of the Innovation SSI-2001."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_6581FILTER"
 msgid ""
 "Adjusts the 6581's filtering strength as a percentage from 0 to 100\n"
 "(50 by default). The SID's analog filtering meant that each chip was\n"
-"physically unique."
+"physically unique.\n"
 msgstr ""
 "The SID's analog filtering meant that each chip was physically unique.\n"
-"Adjusts the 6581's filtering strength as a percent from 0 to 100."
+"Adjusts the 6581's filtering strength as a percent from 0 to 100.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_8580FILTER"
 msgid ""
 "Adjusts the 8580's filtering strength as a percentage from 0 to 100\n"
-"(50 by default)."
-msgstr "Adjusts the 8580's filtering strength as a percent from 0 to 100."
+"(50 by default).\n"
+msgstr ""
+"Adjusts the 8580's filtering strength as a percent from 0 to 100.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_INNOVATION_FILTER"
 msgid ""
 "Filter for the Innovation audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Innovation audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5020,7 +5063,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PCSPEAKER"
 msgid ""
 "PC speaker emulation model:\n"
@@ -5029,34 +5072,35 @@ msgid ""
 "             in a small number of programs.\n"
 "  discrete:  Legacy simplified PC speaker emulation; only use this on specific\n"
 "             titles that give you problems with the 'impulse' model.\n"
-"  none/off:  Don't emulate the PC speaker."
+"  none/off:  Don't emulate the PC speaker.\n"
 msgstr "Activer l'émulation du haut-parleur PC."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PCSPEAKER_FILTER"
 msgid ""
 "Filter for the PC speaker output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the PC Speaker output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_ZERO_OFFSET"
-msgid "DC-offset is now eliminated globally from the master mixer output."
+msgid ""
+"DC-offset is now eliminated globally from the master mixer output.\n"
 msgstr ""
 "Neutralise et empêche DC-offset du haut-parleur PC d'endommager d'autres sources.\n"
 "'auto' active ceci pour les systèmes non-Windows et le désactive pour Windows.\n"
-"Si votre OS corrige lui-même le DC-offset, alors paramétrez ceci à 'false'."
+"Si votre OS corrige lui-même le DC-offset, alors paramétrez ceci à 'false'.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TANDY"
 msgid ""
 "Set the Tandy/PCjr 3 Voice sound emulation:\n"
@@ -5066,8 +5110,9 @@ msgid ""
 "         Most games also need the machine set to 'tandy' or 'pcjr' to work.\n"
 "  psg:   Only enable the card's three-voice programmable sound generator\n"
 "         without DAC to avoid conflicts with other cards using DMA 1.\n"
-"  off:   Disable Tandy/PCjr sound."
-msgstr "Activer l'émulation du Tandy Sound System. Pour 'auto', l'émulation est présente seulement si la machine est paramétrée sur 'tandy'."
+"  off:   Disable Tandy/PCjr sound.\n"
+msgstr ""
+"Activer l'émulation du Tandy Sound System. Pour 'auto', l'émulation est présente seulement si la machine est paramétrée sur 'tandy'.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5080,101 +5125,102 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TANDY_FILTER"
 msgid ""
 "Filter for the Tandy synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Tandy synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TANDY_DAC_FILTER"
 msgid ""
 "Filter for the Tandy DAC output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the Tandy DAC output:\n"
 "  on:        Filter the output (default).\n"
-"  off:       Don't filter the output.  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  off:       Don't filter the output.  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_LPT_DAC"
 msgid ""
 "Type of DAC plugged into the parallel port:\n"
 "  disney:    Disney Sound Source.\n"
 "  covox:     Covox Speech Thing.\n"
 "  ston1:     Stereo-on-1 DAC, in stereo up to 30 kHz.\n"
-"  none/off:  Don't use a parallel port DAC (default)."
+"  none/off:  Don't use a parallel port DAC (default).\n"
 msgstr ""
 "Type of DAC plugged into the parallel port:\n"
 "  disney:    Disney Sound Source.\n"
 "  covox:     Covox Speech Thing.\n"
 "  ston1:     Stereo-on-1 DAC, in stereo up to 30 kHz.\n"
-"  none/off:  Don't use a parallel port DAC (default)."
+"  none/off:  Don't use a parallel port DAC (default).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_LPT_DAC_FILTER"
 msgid ""
 "Filter for the LPT DAC audio device(s):\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the LPT DAC audio device(s):\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DISNEY"
 msgid "Use 'lpt_dac = disney' to enable the Disney Sound Source."
-msgstr "Activer l'émulation Disney Sound Source. (compatible Covox Voice Master et Speech Thing)."
+msgstr ""
+"Activer l'émulation Disney Sound Source. (compatible Covox Voice Master et Speech Thing).\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PS1AUDIO"
 msgid "Enable IBM PS/1 Audio emulation ('off' by default)."
 msgstr "Enable IBM PS/1 Audio emulation."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PS1AUDIO_FILTER"
 msgid ""
 "Filter for the PS/1 Audio synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the PS/1 Audio synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PS1AUDIO_DAC_FILTER"
 msgid ""
 "Filter for the PS/1 Audio DAC output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 msgstr ""
 "Filter for the PS/1 Audio DAC output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details."
+"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5208,7 +5254,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_JOYSTICKTYPE"
 msgid ""
 "Type of joystick to emulate:\n"
@@ -5223,7 +5269,7 @@ msgid ""
 "             for mapping.\n"
 "  disabled:  Fully disable joysticks: won't be polled, mapped,\n"
 "             or visible in DOS.\n"
-"Remember to reset DOSBox's mapperfile if you saved it earlier."
+"Remember to reset DOSBox's mapperfile if you saved it earlier.\n"
 msgstr ""
 "Type de manette à émuler : auto (défaut),\n"
 "aucun (désactive l'émulation du joystick)\n"
@@ -5233,56 +5279,62 @@ msgstr ""
 "fcs (Thrustmaster), ch (CH Flightstick).\n"
 "'none' désactive l'émulation de la manette.\n"
 "'auto' choisit l'émulation selon la(les) manette(s) réelle(s).\n"
-"(Rappelez-vous de réinitialiser le fichier de correspondance des touches DOSBox si vous l'avez sauvé plus tôt)"
+"(Rappelez-vous de réinitialiser le fichier de correspondance des touches DOSBox si vous l'avez sauvé plus tôt)\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_TIMED"
 msgid ""
 "Enable timed intervals for axis ('on' by default).\n"
-"Experiment with this option, if your joystick drifts away."
-msgstr "Activer des intervalles de temps pour les axes. Tester cette option si votre manette dérive."
+"Experiment with this option, if your joystick drifts away.\n"
+msgstr ""
+"Activer des intervalles de temps pour les axes. Tester cette option si votre manette dérive.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_AUTOFIRE"
-msgid "Fire continuously as long as the button is pressed ('off' by default)"
+msgid ""
+"Fire continuously as long as the button is pressed ('off' by default)\n"
 msgstr "Tirer continuellement tant que le bouton est pressé."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SWAP34"
 msgid ""
 "Swap the 3rd and the 4th axis ('off' by default). Can be useful for certain\n"
-"joysticks."
-msgstr "Échanger les 3ème et 4ème axes. Peut être utile avec certaines manettes."
+"joysticks.\n"
+msgstr ""
+"Échanger les 3ème et 4ème axes. Peut être utile avec certaines manettes.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_BUTTONWRAP"
-msgid "Enable button wrapping at the number of emulated buttons ('off' by default)."
-msgstr "Activer l'inversion de bouton pour le nombre de boutons émulés."
+msgid ""
+"Enable button wrapping at the number of emulated buttons ('off' by default).\n"
+msgstr ""
+"Activer l'inversion de bouton pour le nombre de boutons émulés.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_CIRCULARINPUT"
 msgid ""
 "Enable translation of circular input to square output ('off' by default).\n"
-"Try enabling this if your left analog stick can only move in a circle."
+"Try enabling this if your left analog stick can only move in a circle.\n"
 msgstr ""
 "Activer la translation d'entrée circulaire vers une sortie carrée.\n"
-"Essayez d'activer ceci si votre stick analogique gauche peut seulement bouger dans un cercle."
+"Essayez d'activer ceci si votre stick analogique gauche peut seulement bouger dans un cercle.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_DEADZONE"
 msgid ""
 "Percentage of motion to ignore (10 by default).\n"
-"100 turns the stick into a digital one."
-msgstr "Pourcentage de mouvement à ignorer. 100 transforme le stick en un stick digital."
+"100 turns the stick into a digital one.\n"
+msgstr ""
+"Pourcentage de mouvement à ignorer. 100 transforme le stick en un stick digital.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_USE_JOY_CALIBRATION_HOTKEYS"
 msgid ""
 "Enable hotkeys to allow realtime calibration of the joystick's X and Y axes\n"
@@ -5298,7 +5350,7 @@ msgid ""
 "    respectively.\n"
 "Each tap will report X or Y calibration values you can set below. When you find\n"
 "parameters that work, quit the game, switch this setting back to disabled, and\n"
-"populate the reported calibration parameters."
+"populate the reported calibration parameters.\n"
 msgstr ""
 "Activates hotkeys to allow realtime calibration of the joystick's x and y axis.\n"
 "Only consider this if in-game calibration fails and other settings have been tried.\n"
@@ -5310,22 +5362,26 @@ msgstr ""
 "     - down and up shift the y-axis offset in the given direction.\n"
 " - Reset the X and Y calibration using Ctrl+Delete and Ctrl+Home, respectively.\n"
 "Each tap will report X or Y calibration values you can set below. When you find parameters that work,\n"
-"quit the game, switch this setting back to false, and populate the reported calibration parameters."
+"quit the game, switch this setting back to false, and populate the reported calibration parameters.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_JOY_X_CALIBRATION"
-msgid "Apply X-axis calibration parameters from the hotkeys ('auto' by default)."
-msgstr "Apply x-axis calibration parameters from the hotkeys. Default is 'auto'."
+msgid ""
+"Apply X-axis calibration parameters from the hotkeys ('auto' by default).\n"
+msgstr ""
+"Apply x-axis calibration parameters from the hotkeys. Default is 'auto'.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_JOY_Y_CALIBRATION"
-msgid "Apply Y-axis calibration parameters from the hotkeys ('auto' by default)."
-msgstr "Apply Y-axis calibration parameters from the hotkeys. Default is 'auto'."
+msgid ""
+"Apply Y-axis calibration parameters from the hotkeys ('auto' by default).\n"
+msgstr ""
+"Apply Y-axis calibration parameters from the hotkeys. Default is 'auto'.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL1"
 msgid ""
 "Set type of device connected to the COM1 port.\n"
@@ -5340,7 +5396,7 @@ msgid ""
 "                      transparent, port, inhsocket, sock (all optional).\n"
 "The 'sock' parameter specifies the protocol to use at both sides of the\n"
 "connection. Valid values are 0 for TCP, and 1 for ENet reliable UDP.\n"
-"Example: serial1=modem listenport:5000 sock:1"
+"Example: serial1=modem listenport:5000 sock:1\n"
 msgstr ""
 "Définir le type de périphérique connecté au port série.\n"
 "Peut être 'disabled' (désactivé), 'dummy' (factice), 'modem', 'nullmodem', 'direct'.\n"
@@ -5351,58 +5407,60 @@ msgstr ""
 "Pour 'modem' : listenport (port d'écoute, optionnel).\n"
 "Pour 'nullmodem' : server, rxdelay, txdelay, telnet, usedtr,\n"
 "                transparent, port, inhsocket (tous optionnels).\n"
-"Exemple : 'serial1=modem listenport:5000'."
+"Exemple : 'serial1=modem listenport:5000'.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL2"
 msgid "See 'serial1' ('dummy' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL3"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_SERIAL4"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_PHONEBOOKFILE"
 msgid ""
 "File used to map fake phone numbers to addresses\n"
-"('phonebook.txt' by default)."
-msgstr "Fichier utilisé pour relier de faux numéros de téléphone à des adresses."
+"('phonebook.txt' by default).\n"
+msgstr ""
+"Fichier utilisé pour relier de faux numéros de téléphone à des adresses.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_XMS"
 msgid "Enable XMS support ('on' by default)."
 msgstr "Activer la prise en charge de mémoire XMS (ou étendue)."
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_EMS"
 msgid ""
 "Enable EMS support ('on' by default). Enabled provides the best compatibility\n"
 "but certain applications may run better with other choices, or require EMS\n"
-"support to be disabled to work at all."
+"support to be disabled to work at all.\n"
 msgstr ""
 "Activer la prise en charge de mémoire EMS (ou paginée). La valeur par défaut (=true) fournie\n"
 "la meilleure compatibilité mais certaines applications peuvent fonctionner mieux\n"
 "avec d'autres choix, ou la  désactivation de l'EMS (=false)\n"
-"pour fonctionner."
+"pour fonctionner.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_UMB"
 msgid "Enable UMB support ('on' by default)."
-msgstr "Activer la prise en charge des UMB (bloc mémoire supérieure)."
+msgstr ""
+"Activer la prise en charge des UMB (bloc mémoire supérieure).\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5416,16 +5474,16 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_VER"
 msgid ""
 "Set DOS version (5.0 by default). Specify in major.minor format.\n"
 "A single number is treated as the major version.\n"
-"Common settings are 3.3, 5.0, 6.22, and 7.1."
+"Common settings are 3.3, 5.0, 6.22, and 7.1.\n"
 msgstr ""
 "Paramétrer la version de DOS (5.0 par défaut). Formater selon majeure.mineure.\n"
 "Un nombre seul est traité comme une version majeure.\n"
-"Les paramètres communs sont 3.3, 5.0, 6.22, and 7.1."
+"Les paramètres communs sont 3.3, 5.0, 6.22, and 7.1.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5442,7 +5500,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_COUNTRY"
 msgid ""
 "Set DOS country code ('auto' by default).\n"
@@ -5450,15 +5508,15 @@ msgid ""
 "formats. If set to 'auto', selects the country code reflecting the host\n"
 "OS settings.\n"
 "The list of country codes can be displayed using '--list-countries'\n"
-"command-line argument."
+"command-line argument.\n"
 msgstr ""
 "Set DOS country code which will affect country-specific\n"
 "information such as date, time, and decimal formats.\n"
 "If set to 0, the country code corresponding to the\n"
-"selected keyboard layout will be used."
+"selected keyboard layout will be used.\n"
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_KEYBOARDLAYOUT"
 msgid "Renamed to 'keyboard_layout'."
 msgstr "Code langue pour la disposition du clavier (ou aucun)."
@@ -5478,16 +5536,16 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIG_EXPAND_SHELL_VARIABLE"
 msgid ""
 "Enable expanding environment variables such as %%PATH%% in the DOS command shell\n"
 "(auto by default, enabled if DOS version >= 7.0).\n"
-"FreeDOS and MS-DOS 7/8 COMMAND.COM supports this behavior."
+"FreeDOS and MS-DOS 7/8 COMMAND.COM supports this behavior.\n"
 msgstr ""
 "Enable expanding environment variables such as %%PATH%%\n"
 "while in the DOS command shell. FreeDOS and MS-DOS 7/8\n"
-"COMMAND.COM supports this behavior."
+"COMMAND.COM supports this behavior.\n"
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -10121,4 +10179,3 @@ msgstr "Miscellaneous Commands"
 msgctxt "HELP_UTIL_CATEGORY_UNKNOWN"
 msgid "Unknown Command"
 msgstr "Unknown Command"
-
