@@ -115,47 +115,40 @@ msgid ""
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1693
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_1"
-msgid ""
-"List of available country codes (mostly same as telephone call codes)\n"
+msgid "List of available country codes (mostly same as telephone call codes)"
 msgstr ""
-"Liste des codes pays (similaires aux indicatifs téléphoniques)\n"
 
 #: src/dos/dos_locale.cpp:1695
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_COUNTRIES_2"
 msgid "The above codes can be used in the 'country' config setting."
 msgstr ""
-"Les codes ci-dessus peuvent être utilisés dans le paramètre 'country'.\n"
 
 #: src/dos/dos_locale.cpp:1698
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_1"
 msgid "List of available keyboard layout codes"
-msgstr "Liste des codes de disposition clavier disponibles"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1700
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_KEYBOARD_LAYOUTS_2"
-msgid ""
-"The above codes can be used in the 'keyboard_layout' config setting.\n"
+msgid "The above codes can be used in the 'keyboard_layout' config setting."
 msgstr ""
-"Les codes ci-dessus peuvent être utilisés dans le paramètre 'keyboard_layout'.\n"
 
 #: src/dos/dos_locale.cpp:1703
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_1"
 msgid "List of available code pages"
-msgstr "Liste des pages de code disponibles"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1705
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "DOSBOX_HELP_LIST_CODE_PAGES_2"
-msgid ""
-"The above code pages can be used in the 'keyboard_layout' config setting.\n"
+msgid "The above code pages can be used in the 'keyboard_layout' config setting."
 msgstr ""
-"Les pages de code ci-dessus peuvent être utilisées dans le paramètre 'keyboard_layout'.\n"
 
 #: src/dos/dos_locale.cpp:1712
 #, c-format, no-wrap
@@ -434,10 +427,10 @@ msgid "India"
 msgstr "Inde"
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_PAK"
 msgid "Pakistan"
-msgstr "Pakistan"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -446,22 +439,22 @@ msgid "Asia (English)"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_MAR"
 msgid "Morocco"
-msgstr "Maroc"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_DZA"
 msgid "Algeria"
-msgstr "Algérie"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_TUN"
 msgid "Tunisia"
-msgstr "Tunisie"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -698,70 +691,70 @@ msgid "Taiwan"
 msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_LBN"
 msgid "Lebanon"
-msgstr "Liban"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_JOR"
 msgid "Jordan"
-msgstr "Jordanie"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SYR"
 msgid "Syria"
-msgstr "Syrie"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_KWT"
 msgid "Kuwait"
-msgstr "Koweït"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_SAU"
 msgid "Saudi Arabia"
-msgstr "Arabie saoudite"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_YEM"
 msgid "Yemen"
-msgstr "Yémen"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_OMN"
 msgid "Oman"
-msgstr "Oman"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ARE"
 msgid "United Arab Emirates"
-msgstr "Émirats arabes unis"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_ISR"
 msgid "Israel"
-msgstr "Israël"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_BHR"
 msgid "Bahrain"
-msgstr "Bahreïn"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "COUNTRY_NAME_QAT"
 msgid "Qatar"
-msgstr "Qatar"
+msgstr ""
 
 #: src/dos/dos_locale.cpp:1712
 #, fuzzy, c-format, no-wrap
@@ -2590,21 +2583,19 @@ msgstr ""
 msgctxt "CONFIG_TEXTURE_RENDERER"
 msgid ""
 "Render driver to use in 'texture' output mode ('auto' by default).\n"
-"Use 'texture_renderer = auto' for an automatic choice.\n"
+"Use 'texture_renderer = auto' for an automatic choice."
 msgstr ""
 "Choisissez un pilote de rendu à utiliser en mode de rendu texturé.\n"
 "Utilisez texture_renderer=auto pour un choix automatique.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_DISPLAY"
-msgid ""
-"Number of display to use; values depend on OS and user settings (0 by default).\n"
-msgstr ""
-"Nombre d'écrans à utiliser ; les valeurs dépendent de l'OS et des paramètres utilisateur.\n"
+msgid "Number of display to use; values depend on OS and user settings (0 by default)."
+msgstr "Nombre d'écrans à utiliser ; les valeurs dépendent de l'OS et des paramètres utilisateur."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_FULLSCREEN"
 msgid "Start in fullscreen mode ('off' by default)."
 msgstr "Démarrer DOSBox directement en mode plein écran."
@@ -2614,7 +2605,7 @@ msgstr "Démarrer DOSBox directement en mode plein écran."
 msgctxt "CONFIG_FULLRESOLUTION"
 msgid ""
 "The [color=light-green]'fullresolution'[reset] setting is deprecated but still accepted;\n"
-"please use [color=light-green]'fullscreen_mode'[reset] instead.\n"
+"please use [color=light-green]'fullscreen_mode'[reset] instead."
 msgstr ""
 "Résolution utiliser pour le mode plein écran : 'original', 'desktop' (bureau)\n"
 "ou une taille fixe (ex. : 1024x768).\n"
@@ -2661,7 +2652,7 @@ msgstr ""
 msgctxt "CONFIG_WINDOWRESOLUTION"
 msgid ""
 "The [color=light-green]'windowresolution'[reset] setting is deprecated but still accepted;\n"
-"please use [color=light-green]'window_size'[reset] instead.\n"
+"please use [color=light-green]'window_size'[reset] instead."
 msgstr ""
 "Défini la taille de la fenêtre pendant l'utilisation en mode fenêtré :\n"
 "  default:   Sélectionne la meilleure option basée sur\n"
@@ -2695,7 +2686,7 @@ msgid ""
 "Set initial window position for windowed mode:\n"
 "  auto:      Let the window manager decide the position (default).\n"
 "  X,Y:       Set window position in X,Y format in logical units (e.g., 250,100).\n"
-"             0,0 is the top-left corner of the screen.\n"
+"             0,0 is the top-left corner of the screen."
 msgstr ""
 "Set initial window position when running in windowed mode:\n"
 "  auto:      Let the window manager decide the position.\n"
@@ -2703,12 +2694,10 @@ msgstr ""
 "             0,0 is the top-left corner of the screen.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_WINDOW_DECORATIONS"
-msgid ""
-"Enable window decorations in windowed mode ('on' by default).\n"
-msgstr ""
-"Controls whether to display window decorations in windowed mode.\n"
+msgid "Enable window decorations in windowed mode ('on' by default)."
+msgstr "Controls whether to display window decorations in windowed mode."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -2756,23 +2745,21 @@ msgstr ""
 msgctxt "CONFIG_TRANSPARENCY"
 msgid ""
 "Set the transparency of the DOSBox Staging screen (0 by default).\n"
-"From 0 (no transparency) to 90 (high transparency).\n"
+"From 0 (no transparency) to 90 (high transparency)."
 msgstr ""
 "Set the transparency of the DOSBox Staging screen.\n"
 "From 0 (no transparency) to 90 (high transparency).\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_MAX_RESOLUTION"
-msgid ""
-"Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset].\n"
+msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
 msgstr "This setting has been renamed to viewport_resolution."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_VIEWPORT_RESOLUTION"
-msgid ""
-"Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset].\n"
+msgid "Moved to [color=light-cyan][render][reset] section and renamed to [color=light-green]'viewport'[reset]."
 msgstr ""
 "Set the viewport size (drawable area) within the window/screen:\n"
 "  fit:       Fit the viewport to the available window/screen (default).\n"
@@ -2780,7 +2767,7 @@ msgstr ""
 "             the desktop. Specified in WxH, N%%, N.M%%. Examples: 960x720 or 50%%\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_VSYNC"
 msgid ""
 "Set the host video driver's vertical synchronization (vsync) mode:\n"
@@ -2808,9 +2795,8 @@ msgid ""
 "  - Usually, you'll only get perfectly smooth 2D scrolling in fullscreen mode,\n"
 "    even on a VRR monitor.\n"
 "  - For the best results, disable all frame cappers and global vsync overrides\n"
-"    in your video driver settings.\n"
-msgstr ""
-"Paramètre de synchro verticale non implémenté (paramètre ignoré)\n"
+"    in your video driver settings."
+msgstr "Paramètre de synchro verticale non implémenté (paramètre ignoré)"
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -2827,7 +2813,7 @@ msgid ""
 "              games where tearing is a problem. 'host-rate' combined with\n"
 "              'vsync' disabled can be a good workaround on systems that always\n"
 "              enforce blocking vsync at the OS level (e.g., forced 60 Hz vsync\n"
-"              could cause problems with VGA games presenting frames at 70 Hz).\n"
+"              could cause problems with VGA games presenting frames at 70 Hz)."
 msgstr ""
 "Optionally select the frame presentation mode:\n"
 "  auto:  Intelligently time and drop frames to prevent\n"
@@ -2838,8 +2824,7 @@ msgstr ""
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_CAPTURE_MOUSE"
-msgid ""
-"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset].\n"
+msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_capture'[reset]."
 msgstr ""
 "Méthode de contrôle de la souris :\n"
 "   onclick :       La souris sera capturée après\n"
@@ -2859,28 +2844,24 @@ msgstr ""
 "Defaults (si non présent ou incorrect) : seamless middlerelease\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SENSITIVITY"
-msgid ""
-"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_sensitivity'[reset].\n"
-msgstr ""
-"Sensibilité de la souris. Le second paramètre optionnel spécifie la sensibilité verticale (ex. 100,-50).\n"
+msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_sensitivity'[reset]."
+msgstr "Sensibilité de la souris. Le second paramètre optionnel spécifie la sensibilité verticale (ex. 100,-50)."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_RAW_MOUSE_INPUT"
-msgid ""
-"Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset].\n"
+msgid "Moved to [color=light-cyan][mouse][reset] section and renamed to [color=light-green]'mouse_raw_input'[reset]."
 msgstr ""
 "Outrepasse les paramètres de votre système pour l'accélération et la sensibilité\n"
 "de la souris. CelA marche en mode plein écran\n"
 "ou quand la souris est capturé en mode fenêtré.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_WAITONERROR"
-msgid ""
-"Keep the console open if an error has occurred ('on' by default).\n"
+msgid "Keep the console open if an error has occurred ('on' by default)."
 msgstr "Attend avant de fermer la console si DOSBox a une erreur."
 
 #: src/config/setup.cpp:274
@@ -2889,23 +2870,21 @@ msgctxt "CONFIG_PRIORITY"
 msgid ""
 "Priority levels to apply when active and inactive, respectively.\n"
 "('auto auto' by default)\n"
-"'auto' lets the host operating system manage the priority.\n"
+"'auto' lets the host operating system manage the priority."
 msgstr ""
 "Niveaux de priorité pour DOSBox. La deuxième valeur après la virgule est lorsque DOSBox n'est pas actif/réduit.\n"
 "pause n'est valable que pour la seconde entrée.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_MUTE_WHEN_INACTIVE"
-msgid ""
-"Mute the sound when the window is inactive ('off' by default).\n"
+msgid "Mute the sound when the window is inactive ('off' by default)."
 msgstr "Mute the sound when the window is inactive."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_PAUSE_WHEN_INACTIVE"
-msgid ""
-"Pause emulation when the window is inactive ('off' by default).\n"
+msgid "Pause emulation when the window is inactive ('off' by default)."
 msgstr "Pause emulation when the window is inactive."
 
 #: src/config/setup.cpp:274
@@ -2926,7 +2905,7 @@ msgid ""
 "current version). Pre-configured maps are bundled in 'resources/mapperfiles'.\n"
 "These can be loaded by name, e.g., with 'mapperfile = xbox/xenon2.map'.\n"
 "Note: The '--resetmapper' command line option only deletes the default mapper\n"
-"      file.\n"
+"      file."
 msgstr ""
 "File used to load/save the key/event mappings.\n"
 "Pre-configured maps are bundled in the 'resources/mapperfiles' directory.\n"
@@ -2939,14 +2918,14 @@ msgctxt "CONFIG_SCREENSAVER"
 msgid ""
 "Use 'allow' or 'block' to override the SDL_VIDEO_ALLOW_SCREENSAVER environment\n"
 "variable which usually blocks the OS screensaver while the emulator is\n"
-"running ('auto' by default).\n"
+"running ('auto' by default)."
 msgstr ""
 "Utilisez 'allow' (autorise) ou 'block' (bloque) pour outrepasser la variable d'environnement\n"
 "SDL_VIDEO_ALLOW_SCREENSAVER (qui bloque généralement la capture d'écran de l'OS\n"
 "pendant que l'émulateur est lancé).\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_LANGUAGE"
 msgid ""
 "Select the DOS messages language:\n"
@@ -2956,11 +2935,11 @@ msgid ""
 "  - The following language files are available:\n"
 "    'br', 'de', 'en', 'es', 'fr', 'it', 'nl', 'pl' and 'ru'.\n"
 "  - English is built-in, the rest is stored in the bundled\n"
-"    'resources/translations' directory.\n"
+"    'resources/translations' directory."
 msgstr "Sélectionner un autre fichier de langue."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_MACHINE"
 msgid ""
 "Set the video adapter or machine to emulate:\n"
@@ -2984,16 +2963,15 @@ msgid ""
 "  svga_s3:        S3 Trio64 (VESA VBE 2.0; 4MB vmem by default, can be set to\n"
 "                  512K, 1MB, 2MB, or 8MB with 'vmemsize') (default)\n"
 "  vesa_oldvbe:    Same as 'svga_s3' but limited to VESA VBE 1.2.\n"
-"  vesa_nolfb:     Same as 'svga_s3' (VESA VBE 2.0), plus the \\"no linear\n"
-"                  framebuffer\\" hack (needed only by a few games).\n"
+"  vesa_nolfb:     Same as 'svga_s3' (VESA VBE 2.0), plus the \"no linear\n"
+"                  framebuffer\" hack (needed only by a few games)."
 msgstr "Type de machine que DOSBox essaye d'émuler."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CAPTURES"
 msgid "Moved to [capture] section and renamed to 'capture_dir'."
-msgstr ""
-"Répertoire où les objets comme les sons WAVE, musiques MIDI, et captures d'écran sont enregistrés.\n"
+msgstr "Répertoire où les objets comme les sons WAVE, musiques MIDI, et captures d'écran sont enregistrés."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -3002,7 +2980,7 @@ msgid ""
 "Amount of memory of the emulated machine has in MB (16 by default).\n"
 "Best leave at the default setting to avoid problems with some games,\n"
 "though a few games might require a higher value.\n"
-"There is generally no speed advantage when raising this value.\n"
+"There is generally no speed advantage when raising this value."
 msgstr ""
 "Quantité de mémoire dont DOSBox dispose en mégaoctets.\n"
 "Il est mieux de laisser cette valeur d'origine pour éviter les problèmes avec certains jeux,\n"
@@ -3017,7 +2995,7 @@ msgid ""
 "  repair:  Repair (and report) faults using adjacent blocks (default).\n"
 "  report:  Report faults but otherwise proceed as-is.\n"
 "  allow:   Allow faults to go unreported (hardware behavior).\n"
-"  deny:    Quit (and report) when faults are detected.\n"
+"  deny:    Quit (and report) when faults are detected."
 msgstr ""
 "How software-corrupted memory chain blocks should be handled:\n"
 "  deny:    Quit (and report) when faults are detected (default).\n"
@@ -3027,14 +3005,13 @@ msgstr ""
 "The default (deny) is recommended unless a game is failing with MCB corruption errors.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_VMEMSIZE"
 msgid ""
 "Video memory in MB (1-8) or KB (256 to 8192). 'auto' uses the default for\n"
 "the selected video adapter ('auto' by default). See the 'machine' setting for\n"
-"the list of valid options and defaults per adapter.\n"
-msgstr ""
-"Video memory in MiB (1-8) or KiB (256 to 8192). 'auto' uses the default per video adapter.\n"
+"the list of valid options and defaults per adapter."
+msgstr "Video memory in MiB (1-8) or KiB (256 to 8192). 'auto' uses the default per video adapter."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -3073,7 +3050,7 @@ msgid ""
 "      sped-up or slowed-down audio, jerky mouse movement, mouse button presses\n"
 "      not being registered, and even gameplay bugs. Overriding the DOS refresh\n"
 "      rate is a hack that only works acceptably with a small subset of all DOS\n"
-"      games (typically mid to late 1990s games).\n"
+"      games (typically mid to late 1990s games)."
 msgstr ""
 "Customize the emulated video mode's frame rate, in Hz:\n"
 "default:  The DOS video mode determines the rate (recommended).\n"
@@ -3101,7 +3078,7 @@ msgid ""
 "               games misbehave in the presence of certain VESA modes; try\n"
 "               'compatible' mode if this happens. The 320x200 high colour\n"
 "               modes available in this mode are often required by late '90s\n"
-"               demoscene productions.\n"
+"               demoscene productions."
 msgstr ""
 "Controls the selection of VESA 1.2 and 2.0 modes offered:\n"
 "  compatible   A tailored selection that maximizes game compatibility.\n"
@@ -3134,7 +3111,7 @@ msgid ""
 "Permit changes known to improve performance ('on' by default).\n"
 "Currently, no games are known to be negatively affected by this.\n"
 "Please file a bug with the project if you find a game that fails\n"
-"when this is enabled so we will list them here.\n"
+"when this is enabled so we will list them here."
 msgstr ""
 "Permit changes known to improve performance. Currently no games are known\n"
 "to be affected by this. Please file a bug with the project if you find a\n"
@@ -3146,7 +3123,7 @@ msgctxt "CONFIG_AUTOEXEC_SECTION"
 msgid ""
 "How autoexec sections are handled from multiple config files:\n"
 "  join:       Combine them into one big section (legacy behavior; default).\n"
-"  overwrite:  Use the last one encountered, like other config settings.\n"
+"  overwrite:  Use the last one encountered, like other config settings."
 msgstr ""
 "How autoexec sections are handled from multiple config files.\n"
 "join      : combines them into one big section (legacy behavior).\n"
@@ -3167,7 +3144,7 @@ msgid ""
 "  path     = path-specification (e.g., path = %%path%%;c:\\tools)\n"
 "  override_drive = mount the directory to this drive instead (default empty)\n"
 "  verbose  = on or off\n"
-"  readonly = on or off\n"
+"  readonly = on or off"
 msgstr ""
 "Mounts 'drives/[c]' directories as drives on startup, where [c] is\n"
 "a lower-case drive letter from a to y.  The 'drives' folder can be\n"
@@ -3177,7 +3154,7 @@ msgstr ""
 "  [drive]\n"
 "  type    = dir, overlay, floppy, or cdrom\n"
 "  label   = custom_label\n"
-"  path    = path-specification, ie: path = %%path%%;c:\\tools\n"
+"  path    = path-specification, ie: path = %%path%%;c:\tools\n"
 "  override_drive = mount the directory to this drive instead (default empty)\n"
 "  verbose = true or false\n"
 
@@ -3190,7 +3167,7 @@ msgid ""
 "  high        |   yes   |    yes\n"
 "  low         |   no    |    yes\n"
 "  quiet       |   no    |    no\n"
-"  auto        | 'low' if exec or dir is passed, otherwise 'high'\n"
+"  auto        | 'low' if exec or dir is passed, otherwise 'high'"
 msgstr ""
 "Contrôle la verbosité avant l'affichage du programme :\n"
 "            | Écran de bienvenue | Sorties écran de démarrage\n"
@@ -3320,7 +3297,7 @@ msgid ""
 "                       mode is useful to force arbitrary aspect ratios (e.g.,\n"
 "                       stretching DOS games to fullscreen on 16:9 displays) and\n"
 "                       to emulate the horizontal and vertical stretch controls\n"
-"                       of CRT monitors.\n"
+"                       of CRT monitors."
 msgstr ""
 "Met à l'échelle la résolution verticale pour produire un aspect d'affichage 4:3,\n"
 "correspondant à celui des moniteurs à définition standard d'origine\n"
@@ -3389,7 +3366,7 @@ msgctxt "CONFIG_MONOCHROME_PALETTE"
 msgid ""
 "Set the palette for monochrome display emulation ('amber' by default).\n"
 "Works only with the 'hercules' and 'cga_mono' machine types.\n"
-"Note: You can also cycle through the available palettes via hotkeys.\n"
+"Note: You can also cycle through the available palettes via hotkeys."
 msgstr ""
 "Sélectionne la palette par défaut pour l'affichage monochrome.\n"
 "Fonctionne seulement lors de l'émulation hercules ou cga_mono.\n"
@@ -3430,7 +3407,7 @@ msgid ""
 "  light-blue, light-green, light-cyan, light-red, light-magenta, yellow, white.\n"
 "Their default values, shown here in 6-digit hex code format, are:\n"
 "  #000000 #0000aa #00aa00 #00aaaa #aa0000 #aa00aa #aa5500 #aaaaaa\n"
-"  #555555 #5555ff #55ff55 #55ffff #ff5555 #ff55ff #ffff55 #ffffff\n"
+"  #555555 #5555ff #55ff55 #55ffff #ff5555 #ff55ff #ffff55 #ffffff"
 msgstr ""
 "Sets the interpretation of CGA RGBI colors. Affects all machine types capable of\n"
 "displaying CGA or better graphics. Built-in presets:\n"
@@ -3461,10 +3438,10 @@ msgid ""
 "  - If you used the normal2x/3x scalers, consider using 'integer_scaling'\n"
 "    with `glshader = sharp` and optionally setting the desired 'window_size'\n"
 "    or 'viewport' size.\n"
-"  - If you used an advanced scaler, consider one of the 'glshader' options.\n"
+"  - If you used an advanced scaler, consider one of the 'glshader' options."
 msgstr ""
 "Scaler utilisé pour agrandir/améliorer les modes basse résolution.\n"
-"Si l'option \\"forced\\" est ajoutée, alors le scaler sera utilisé même si\n"
+"Si l'option \"forced\" est ajoutée, alors le scaler sera utilisé même si\n"
 "le résultat ne semble pas celui escompté.\n"
 "Notez que certains scalers peuvent utiliser des bords noirs pour remplir l'image\n"
 "dans la résolution configuré. Si ce n'est pas l'effet voulu,\n"
@@ -3478,56 +3455,51 @@ msgid ""
 "Enable composite mode on start (only for 'cga', 'pcjr', and 'tandy' machine\n"
 "types; 'auto' by default). 'auto' lets the program decide.\n"
 "Note: Fine-tune the settings below (i.e., 'hue') using the composite hotkeys,\n"
-"      then copy the new settings from the logs into your config.\n"
+"      then copy the new settings from the logs into your config."
 msgstr ""
 "Enable composite mode on start. 'auto' lets the program decide.\n"
 "Note: Fine-tune the settings below (ie: hue) using the composite hotkeys.\n"
 "      Then read the new settings from your console and enter them here.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_ERA"
 msgid ""
 "Era of composite technology ('auto' by default).\n"
-"When 'auto', PCjr uses 'new', and CGA/Tandy use 'old'.\n"
-msgstr ""
-"Era of composite technology. When 'auto', PCjr uses new and CGA/Tandy use old.\n"
+"When 'auto', PCjr uses 'new', and CGA/Tandy use 'old'."
+msgstr "Era of composite technology. When 'auto', PCjr uses new and CGA/Tandy use old."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_HUE"
 msgid ""
 "Hue of the RGB palette (0 by default).\n"
-"For example, adjust until the sky is blue.\n"
-msgstr ""
-"Appearance of RGB palette. For example, adjust until sky is blue.\n"
+"For example, adjust until the sky is blue."
+msgstr "Appearance of RGB palette. For example, adjust until sky is blue."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SATURATION"
-msgid ""
-"Intensity of colors, from washed out to vivid (100 by default).\n"
+msgid "Intensity of colors, from washed out to vivid (100 by default)."
 msgstr "Intensity of colors, from washed out to vivid."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CONTRAST"
 msgid "Ratio between the dark and light area (100 by default)."
 msgstr "Ratio between the dark and light area."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_BRIGHTNESS"
 msgid "Luminosity of the image, from dark to light (0 by default)."
 msgstr "Luminosity of the image, from dark to light."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CONVERGENCE"
-msgid ""
-"Convergence of subpixel elements, from blurry to sharp (0 by default).\n"
-msgstr ""
-"Convergence of subpixel elements, from blurry to sharp (CGA and Tandy-only).\n"
+msgid "Convergence of subpixel elements, from blurry to sharp (0 by default)."
+msgstr "Convergence of subpixel elements, from blurry to sharp (CGA and Tandy-only)."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -3552,13 +3524,13 @@ msgid ""
 "            but the timings might be less accurate. The 'dynamic' core is a\n"
 "            necessity for demanding DOS programs (e.g., 3D SVGA games).\n"
 "            Programs that self-modify their code might misbehave or crash on\n"
-"            the 'dynamic' core; use the 'normal' core for such programs.\n"
+"            the 'dynamic' core; use the 'normal' core for such programs."
 msgstr ""
 "Core CPU utilisé dans l'émulation. 'auto' bascule de 'normal' à 'dynamic' si c'est disponible et\n"
 "approprié.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CPUTYPE"
 msgid ""
 "CPU type to emulate ('auto' by default).\n"
@@ -3582,16 +3554,15 @@ msgid ""
 "                 Windows 3.x games (e.g., Betrayal in Antara).\n"
 "  pentium_mmx:   Same as 'pentium' plus MMX instruction set support. Very few\n"
 "                 games use MMX instructions; it's mostly only useful for\n"
-"                 demoscene productions.\n"
-msgstr ""
-"Coeur de CPU utilisé dans l'émulation. 'auto' est le choix le plus rapide.\n"
+"                 demoscene productions."
+msgstr "Coeur de CPU utilisé dans l'émulation. 'auto' est le choix le plus rapide."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_CYCLES"
 msgid ""
 "The 'cycles' setting is deprecated but still accepted;\n"
-"please use 'cpu_cycles', 'cpu_cycles_protected' and 'cpu_throttle' instead.\n"
+"please use 'cpu_cycles', 'cpu_cycles_protected' and 'cpu_throttle' instead."
 msgstr ""
 "Nombre d'instructions que DOSBox essaye d'émuler à chaque milliseconde.\n"
 "Paramétrer une trop grande valeur donne des coupures de son et des saccades.\n"
@@ -3661,20 +3632,19 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CYCLEUP"
 msgid ""
 "Number of cycles to add with the 'Inc Cycles' hotkey (10 by default).\n"
-"Values lower than 100 are treated as a percentage increase.\n"
-msgstr ""
-"Nombre de cycles à ajouter/soustraire avec la combinaison de touches.\n"
+"Values lower than 100 are treated as a percentage increase."
+msgstr "Nombre de cycles à ajouter/soustraire avec la combinaison de touches."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_CYCLEDOWN"
 msgid ""
 "Number of cycles to subtract with the 'Dec Cycles' hotkey (20 by default).\n"
-"Values lower than 100 are treated as a percentage decrease.\n"
+"Values lower than 100 are treated as a percentage decrease."
 msgstr "Le paramétrer à moins de 100 donnera un pourcentage."
 
 #: src/config/setup.cpp:274
@@ -3949,57 +3919,52 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_NOSOUND"
 msgid ""
 "Enable silent mode ('off' by default).\n"
 "Sound is still emulated in silent mode, but DOSBox outputs no sound to the host.\n"
-"Capturing the emulated audio output to a WAV file works in silent mode.\n"
-msgstr ""
-"Activer le mode silencieux, le son étant cependant toujours émulé.\n"
+"Capturing the emulated audio output to a WAV file works in silent mode."
+msgstr "Activer le mode silencieux, le son étant cependant toujours émulé."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_RATE"
 msgid ""
 "Sample rate of DOSBox's internal audio mixer in Hz (%s by default).\n"
 "Valid range is 8000 to 96000 Hz. The vast majority of consumer-grade audio\n"
 "hardware uses a native rate of 48000 Hz. Recommend leaving this as-is unless\n"
 "you have good reason to change it. The OS will most likely resample non-standard\n"
-"sample rates to 48000 Hz anyway.\n"
-msgstr ""
-"Taux d'échantillonnage du mixer, paramétrer tout taux d'un périphérique plus haut que cela va probablement détériorer sa qualité sonore.\n"
+"sample rates to 48000 Hz anyway."
+msgstr "Taux d'échantillonnage du mixer, paramétrer tout taux d'un périphérique plus haut que cela va probablement détériorer sa qualité sonore."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_BLOCKSIZE"
 msgid ""
 "Block size of the host audio device in sample frames (%s by default).\n"
 "Valid range is 64 to 8192. Should be set to power-of-two values (e.g., 256,\n"
 "512, 1024, etc.) Larger values might help with sound stuttering but will\n"
-"introduce more latency. Also see 'negotiate'.\n"
-msgstr ""
-"Taille de bloc du mixer, des blocs plus grands peuvent aider pour les saccades de son mais il sera aussi moins en phase.\n"
+"introduce more latency. Also see 'negotiate'."
+msgstr "Taille de bloc du mixer, des blocs plus grands peuvent aider pour les saccades de son mais il sera aussi moins en phase."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_PREBUFFER"
 msgid ""
 "How many milliseconds of sound to render in advance on top of 'blocksize'\n"
 "(%s by default). Larger values might help with sound stuttering but will\n"
-"introduce more latency.\n"
-msgstr ""
-"Nombre de millisecondes de données à garder en amont du paramètre blocksize.\n"
+"introduce more latency."
+msgstr "Nombre de millisecondes de données à garder en amont du paramètre blocksize."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_NEGOTIATE"
 msgid ""
 "Negotiate a possibly better 'blocksize' setting (%s by default).\n"
 "Enable it if you're not getting audio or the sound is stuttering with your\n"
-"'blocksize' setting. Disable it to force the manually set 'blocksize' value.\n"
-msgstr ""
-"Let the system audio driver negotiate (possibly) better rate and blocksize settings.\n"
+"'blocksize' setting. Disable it to force the manually set 'blocksize' value."
+msgstr "Let the system audio driver negotiate (possibly) better rate and blocksize settings."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4008,7 +3973,7 @@ msgid ""
 "Enable the auto-leveling compressor on the master channel to prevent clipping\n"
 "of the audio output:\n"
 "  off:  Disable compressor.\n"
-"  on:   Enable compressor (default).\n"
+"  on:   Enable compressor (default)."
 msgstr ""
 "Enable the auto-leveling compressor on the master channel to prevent clipping\n"
 "of the audio output:\n"
@@ -4032,7 +3997,7 @@ msgid ""
 "\n"
 "Notes:\n"
 "  - Use the MIXER command to apply crossfeed to other audio channels as well\n"
-"    and to fine-tune the crossfeed strength per channel.\n"
+"    and to fine-tune the crossfeed strength per channel."
 msgstr ""
 "Set crossfeed globally on all stereo channels for headphone listening:\n"
 "  off:         No crossfeed (default).\n"
@@ -4063,7 +4028,7 @@ msgid ""
 "  - The presets apply a noticeable amount of reverb to the synth mixer channels\n"
 "    (except for synths with built-in reverb; e.g., the Roland MT-32), and a\n"
 "    subtle amount to the digital audio channels.\n"
-"  - Use the MIXER command to fine-tune the reverb levels per channel.\n"
+"  - Use the MIXER command to fine-tune the reverb levels per channel."
 msgstr ""
 "Enable reverb globally to add a sense of space to the sound:\n"
 "  off:     No reverb (default).\n"
@@ -4095,7 +4060,7 @@ msgid ""
 "Notes:\n"
 "  - The presets apply the chorus effect to the synth channels only (except\n"
 "    for synths with built-in chorus; e.g. the Roland MT-32).\n"
-"  - Use the MIXER command to fine-tune the chorus levels per channel.\n"
+"  - Use the MIXER command to fine-tune the chorus levels per channel."
 msgstr ""
 "Enable chorus globally to add a sense of stereo movement to the sound:\n"
 "  off:     No chorus (default).\n"
@@ -4175,7 +4140,7 @@ msgid ""
 "  - Other common system locations.\n"
 "The '.sf2' extension can be omitted. You can use paths relative to the above\n"
 "locations or absolute paths as well.\n"
-"Note: Run `MIXER /LISTMIDI` to see the list of available SoundFonts.\n"
+"Note: Run `MIXER /LISTMIDI` to see the list of available SoundFonts."
 msgstr ""
 "Path to a SoundFont file in .sf2 format. You can use an\n"
 "absolute or relative path, or the name of an .sf2 inside\n"
@@ -4222,7 +4187,7 @@ msgid ""
 "Note: You can disable the FluidSynth chorus and enable the mixer-level chorus\n"
 "      on the FluidSynth channel instead, or enable both chorus effects at the\n"
 "      same time. Whether this sounds good depends on the SoundFont and the\n"
-"      chorus settings being used.\n"
+"      chorus settings being used."
 msgstr ""
 "Chorus effect: 'auto', 'on', 'off', or custom values.\n"
 "When using custom values:\n"
@@ -4257,7 +4222,7 @@ msgid ""
 "Note: You can disable the FluidSynth reverb and enable the mixer-level reverb\n"
 "      on the FluidSynth channel instead, or enable both reverb effects at the\n"
 "      same time. Whether this sounds good depends on the SoundFont and the\n"
-"      reverb settings being used.\n"
+"      reverb settings being used."
 msgstr ""
 "Reverb effect: 'auto', 'on', 'off', or custom values.\n"
 "When using custom values:\n"
@@ -4280,7 +4245,7 @@ msgctxt "CONFIG_FSYNTH_FILTER"
 msgid ""
 "Filter for the FluidSynth audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the FluidSynth audio output:\n"
 "  off:       Don't filter the output (default).\n"
@@ -4325,15 +4290,14 @@ msgid ""
 "The lookup for the best models is performed in order as listed.\n"
 "  auto:       Pick the best available model (default).\n"
 "  cm32l:      Pick the best available CM-32L model.\n"
-"  mt32_old:   Pick the best available \\"old\\" MT-32 model (v1.0x).\n"
-"  mt32_new:   Pick the best available \\"new\\" MT-32 model (v2.0x).\n"
+"  mt32_old:   Pick the best available \"old\" MT-32 model (v1.0x).\n"
+"  mt32_new:   Pick the best available \"new\" MT-32 model (v2.0x).\n"
 "  mt32:       Pick the best available MT-32 model.\n"
 "  <version>:  Use the exact specified model version (e.g., 'mt32_204').\n"
 "Notes:\n"
 "  - Run `MIXER /LISTMIDI` to see the list of available models.\n"
 "  - This is *NOT* a General MIDI compatible MIDI device; only use it if the\n"
 "    game is known to support Roland MT-32 MIDI (which predates General MIDI).\n"
-"\n"
 msgstr ""
 "Modèle de synthétiseur à utiliser. Par défaut, préfère CM-32L\n"
 "si les deux sets de ROMs sont fournis. Pour les premiers jeux Sierra et Dune 2,\n"
@@ -4351,7 +4315,7 @@ msgid ""
 "Notes:\n"
 "  - The file names of the ROM files do not matter; the ROMS are identified\n"
 "    by their checksums.\n"
-"  - Both interleaved and non-interlaved ROM files are supported.\n"
+"  - Both interleaved and non-interlaved ROM files are supported."
 msgstr ""
 "Répertoire contenant les ROMs nécessaires MT-32 et/ou CM-32L\n"
 "nommés comme ceci :\n"
@@ -4367,7 +4331,7 @@ msgctxt "CONFIG_MT32_FILTER"
 msgid ""
 "Filter for the Roland MT-32/CM-32L audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Roland MT-32/CM-32L audio output:\n"
 "  off:       Don't filter the output (default).\n"
@@ -4440,7 +4404,7 @@ msgstr ""
 msgctxt "CONFIG_MIDIDEVICE"
 msgid ""
 "Set where MIDI data from the emulated MPU-401 MIDI interface is sent\n"
-"('port' by default):\n"
+"('port' by default):"
 msgstr ""
 "Préiphérique qui recevra les données MIDI (depuis l'interface\n"
 "émulée - MPU-401). Choisissez l'un des suivants :\n"
@@ -4503,7 +4467,7 @@ msgstr ""
 msgctxt "CONFIG_MIDICONFIG"
 msgid ""
 "Configuration options for the selected MIDI device (unset by default).\n"
-"Notes:\n"
+"Notes:"
 msgstr ""
 "Options de configuration pour l'interface MIDI sélectionnée.\n"
 "Il s'agit généralement de l'ID ou du nom du synthétiseur MIDI que vous voulez\n"
@@ -4564,7 +4528,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_MPU401"
 msgid "MPU-401 mode to emulate ('intelligent' by default)."
 msgstr "Type de MPU-401 à émuler."
@@ -4615,7 +4579,7 @@ msgid "No available models"
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SBTYPE"
 msgid ""
 "Sound Blaster model to emulate ('sb16' by default).\n"
@@ -4634,35 +4598,35 @@ msgid ""
 "  - The 'ess' option is for getting ESS Enhanced FM music via the card's ESFM\n"
 "    synthesiser in games that support it. The ESS DAC is not emulated but the\n"
 "    card is Sound Blaster Pro compatible; just configure the game for Sound\n"
-"    Blaster digital sound.\n"
+"    Blaster digital sound."
 msgstr "Type de Sound Blaster à émuler. 'gb' pour Game Blaster."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SBBASE"
 msgid "The IO address of the Sound Blaster (220 by default)."
 msgstr "Adresse IO de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_IRQ"
 msgid "The IRQ number of the Sound Blaster (7 by default)."
 msgstr "Numéro d'IRQ de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_DMA"
 msgid "The DMA channel of the Sound Blaster (1 by default)."
 msgstr "Numéro DMA de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_HDMA"
 msgid "The High DMA channel of the Sound Blaster 16 (5 by default)."
 msgstr "Numéro High DMA de la Sound Blaster."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SBMIXER"
 msgid ""
 "Allow the Sound Blaster mixer to modify volume levels ('on' by default).\n"
@@ -4674,9 +4638,8 @@ msgid ""
 "  off:  Only the DOSBox mixer determines the volume of these channels.\n"
 "Note: Some games change the volume levels dynamically (e.g., lower the FM music\n"
 "      volume when speech is playing); it's best to leave 'sbmixer' enabled for\n"
-"      such games.\n"
-msgstr ""
-"Permet au mixer Sound Blaster de modifier le mixer de DOSBox.\n"
+"      such games."
+msgstr "Permet au mixer Sound Blaster de modifier le mixer de DOSBox."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -4684,7 +4647,7 @@ msgctxt "CONFIG_SBWARMUP"
 msgid ""
 "Silence initial DMA audio after card power-on, in milliseconds\n"
 "(100 by default). This mitigates pops heard when starting many SB-based games.\n"
-"Reduce this if you notice intial playback is missing audio.\n"
+"Reduce this if you notice intial playback is missing audio."
 msgstr ""
 "Silence initial DMA audio after card power-on, in milliseconds.\n"
 "This mitigates pops heard when starting many SB-based games.\n"
@@ -4708,7 +4671,7 @@ msgid ""
 "             (1st order = 6dB/oct slope, 2nd order = 12dB/oct, etc.),\n"
 "             and FREQ is the cutoff frequency in Hz. Examples:\n"
 "                lpf 2 12000\n"
-"                hpf 3 120 lfp 1 6500\n"
+"                hpf 3 120 lfp 1 6500"
 msgstr ""
 "Type of filter to emulate for the Sound Blaster digital sound output:\n"
 "  auto:      Use the appropriate filter determined by 'sbtype'.\n"
@@ -4731,7 +4694,7 @@ msgstr ""
 msgctxt "CONFIG_SB_FILTER_ALWAYS_ON"
 msgid ""
 "Force the Sound Blaster Pro 2 filter to be always on ('off' by default).\n"
-"Other Sound Blaster models don't allow toggling the filter in software.\n"
+"Other Sound Blaster models don't allow toggling the filter in software."
 msgstr ""
 "Force the Sound Blaster filter to be always on\n"
 "(disallow programs from turning the filter off).\n"
@@ -4763,8 +4726,7 @@ msgstr ""
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_OPLRATE"
-msgid ""
-"The OPL output is now transparently resampled to the mixer's sample rate.\n"
+msgid "The OPL output is now transparently resampled to the mixer's sample rate."
 msgstr ""
 "oplrate est déprécié . La forme d'onde OPL waveform est maintenant échantillonnée\n"
 "        au rythme de lecture du mixer pour éviter le rééchantillonnage.\n"
@@ -4786,7 +4748,7 @@ msgid ""
 "  - 'sbtype = none' and 'oplmode = opl2' emulates the original AdLib card.\n"
 "  - Only 'oplmode = esfm' is not enough to get ESS Enhanced FM music in games;\n"
 "    you'll also need to set 'sbtype = ess'. 'oplmode = esfm' is useful to\n"
-"    get ESFM-flavoured OPL with original Sound Blaster models.\n"
+"    get ESFM-flavoured OPL with original Sound Blaster models."
 msgstr ""
 "Type d'émulation OPL. Sur 'auto' le mode est déterminé par 'sbtype'.\n"
 "Tous les modes OPL sont compatibles AdLib, sauf pour 'cms'.\n"
@@ -4837,7 +4799,7 @@ msgid ""
 "  sb1, sb2, sbpro1, sbpro2, sb16:\n"
 "             Use the filter of this Sound Blaster model.\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Type of filter to emulate for the Sound Blaster OPL output:\n"
 "  auto:      Use the appropriate filter determined by 'sbtype' (default).\n"
@@ -4863,7 +4825,7 @@ msgid ""
 "Filter for the Sound Blaster CMS output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Sound Blaster CMS output:\n"
 "  on:        Filter the output (default).\n"
@@ -4871,7 +4833,7 @@ msgstr ""
 "  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_GUS"
 msgid ""
 "Enable Gravis UltraSound emulation ('off' by default).\n"
@@ -4885,24 +4847,23 @@ msgid ""
 "      for the majority of programs, but some games and demos expect the GUS\n"
 "      factory defaults of base address 220, IRQ 11, and DMA 1. The default\n"
 "      IRQ 11 is also problematic with specific versions of the DOS4GW extender\n"
-"      that cannot handle IRQs above 7.\n"
+"      that cannot handle IRQs above 7."
 msgstr "Activer l'émulation Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_GUSBASE"
-msgid ""
-"The IO base address of the Gravis UltraSound (240 by default).\n"
+msgid "The IO base address of the Gravis UltraSound (240 by default)."
 msgstr "Adresse de base IO de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_GUSIRQ"
 msgid "The IRQ number of the Gravis UltraSound (5 by default)."
 msgstr "Numéro d'IRQ de la Gravis UltraSound."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_GUSDMA"
 msgid "The DMA channel of the Gravis UltraSound (3 by default)."
 msgstr "Canal DMA de la Gravis UltraSound."
@@ -4914,7 +4875,7 @@ msgid ""
 "Filter for the Gravis UltraSound audio output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Gravis UltraSound audio output:\n"
 "  off:       Don't filter the output (default).\n"
@@ -4928,7 +4889,7 @@ msgid ""
 "This should have a 'MIDI' subdirectory containing the patches (instrument\n"
 "files) required by some games for MIDI music playback. Not all games need these\n"
 "patches; many GUS-native games and all demos upload their own custom sounds\n"
-"instead.\n"
+"instead."
 msgstr ""
 "Chemin vers le répertoire UltraSound. Dans ce répertoire,\n"
 "il devrait y avoir un répertoire MIDI qui contient\n"
@@ -4973,7 +4934,7 @@ msgid ""
 "  8580:  A later revision that more closely matched the SID specification.\n"
 "         It fixed the 6581's DC bias and is less prone to distortion.\n"
 "         The 8580 is an option on reproduction cards, like the DuoSID.\n"
-"  none:  Disable the card (default).\n"
+"  none:  Disable the card (default)."
 msgstr ""
 "Model of chip to emulate in the Innovation SSI-2001 card:\n"
 " - auto:  Selects the 6581 chip.\n"
@@ -4991,7 +4952,7 @@ msgid ""
 "  default:  0.895 MHz, per the original SSI-2001 card (default).\n"
 "  c64ntsc:  1.023 MHz, per NTSC Commodore PCs and the DuoSID.\n"
 "  c64pal:   0.985 MHz, per PAL Commodore PCs and the DuoSID.\n"
-"  hardsid:  1.000 MHz, available on the DuoSID.\n"
+"  hardsid:  1.000 MHz, available on the DuoSID."
 msgstr ""
 "The SID chip's clock frequency, which is jumperable on reproduction cards.\n"
 " - default: uses 0.895 MHz, per the original SSI-2001 card.\n"
@@ -5000,10 +4961,9 @@ msgstr ""
 " - hardsid: uses 1.000 MHz, available on the DuoSID.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SIDPORT"
-msgid ""
-"The IO port address of the Innovation SSI-2001 (280 by default).\n"
+msgid "The IO port address of the Innovation SSI-2001 (280 by default)."
 msgstr "The IO port address of the Innovation SSI-2001."
 
 #: src/config/setup.cpp:274
@@ -5012,19 +4972,18 @@ msgctxt "CONFIG_6581FILTER"
 msgid ""
 "Adjusts the 6581's filtering strength as a percentage from 0 to 100\n"
 "(50 by default). The SID's analog filtering meant that each chip was\n"
-"physically unique.\n"
+"physically unique."
 msgstr ""
 "The SID's analog filtering meant that each chip was physically unique.\n"
 "Adjusts the 6581's filtering strength as a percent from 0 to 100.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_8580FILTER"
 msgid ""
 "Adjusts the 8580's filtering strength as a percentage from 0 to 100\n"
-"(50 by default).\n"
-msgstr ""
-"Adjusts the 8580's filtering strength as a percent from 0 to 100.\n"
+"(50 by default)."
+msgstr "Adjusts the 8580's filtering strength as a percent from 0 to 100."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5032,7 +4991,7 @@ msgctxt "CONFIG_INNOVATION_FILTER"
 msgid ""
 "Filter for the Innovation audio output:\n"
 "  off:       Don't filter the output (default).\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Innovation audio output:\n"
 "  off:       Don't filter the output (default).\n"
@@ -5063,7 +5022,7 @@ msgid ""
 msgstr ""
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_PCSPEAKER"
 msgid ""
 "PC speaker emulation model:\n"
@@ -5072,7 +5031,7 @@ msgid ""
 "             in a small number of programs.\n"
 "  discrete:  Legacy simplified PC speaker emulation; only use this on specific\n"
 "             titles that give you problems with the 'impulse' model.\n"
-"  none/off:  Don't emulate the PC speaker.\n"
+"  none/off:  Don't emulate the PC speaker."
 msgstr "Activer l'émulation du haut-parleur PC."
 
 #: src/config/setup.cpp:274
@@ -5082,7 +5041,7 @@ msgid ""
 "Filter for the PC speaker output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the PC Speaker output:\n"
 "  on:        Filter the output (default).\n"
@@ -5092,15 +5051,14 @@ msgstr ""
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_ZERO_OFFSET"
-msgid ""
-"DC-offset is now eliminated globally from the master mixer output.\n"
+msgid "DC-offset is now eliminated globally from the master mixer output."
 msgstr ""
 "Neutralise et empêche DC-offset du haut-parleur PC d'endommager d'autres sources.\n"
 "'auto' active ceci pour les systèmes non-Windows et le désactive pour Windows.\n"
 "Si votre OS corrige lui-même le DC-offset, alors paramétrez ceci à 'false'.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_TANDY"
 msgid ""
 "Set the Tandy/PCjr 3 Voice sound emulation:\n"
@@ -5110,9 +5068,8 @@ msgid ""
 "         Most games also need the machine set to 'tandy' or 'pcjr' to work.\n"
 "  psg:   Only enable the card's three-voice programmable sound generator\n"
 "         without DAC to avoid conflicts with other cards using DMA 1.\n"
-"  off:   Disable Tandy/PCjr sound.\n"
-msgstr ""
-"Activer l'émulation du Tandy Sound System. Pour 'auto', l'émulation est présente seulement si la machine est paramétrée sur 'tandy'.\n"
+"  off:   Disable Tandy/PCjr sound."
+msgstr "Activer l'émulation du Tandy Sound System. Pour 'auto', l'émulation est présente seulement si la machine est paramétrée sur 'tandy'."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5131,7 +5088,7 @@ msgid ""
 "Filter for the Tandy synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Tandy synth output:\n"
 "  on:        Filter the output (default).\n"
@@ -5145,7 +5102,7 @@ msgid ""
 "Filter for the Tandy DAC output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the Tandy DAC output:\n"
 "  on:        Filter the output (default).\n"
@@ -5159,7 +5116,7 @@ msgid ""
 "  disney:    Disney Sound Source.\n"
 "  covox:     Covox Speech Thing.\n"
 "  ston1:     Stereo-on-1 DAC, in stereo up to 30 kHz.\n"
-"  none/off:  Don't use a parallel port DAC (default).\n"
+"  none/off:  Don't use a parallel port DAC (default)."
 msgstr ""
 "Type of DAC plugged into the parallel port:\n"
 "  disney:    Disney Sound Source.\n"
@@ -5174,7 +5131,7 @@ msgid ""
 "Filter for the LPT DAC audio device(s):\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the LPT DAC audio device(s):\n"
 "  on:        Filter the output (default).\n"
@@ -5182,14 +5139,13 @@ msgstr ""
 "  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_DISNEY"
 msgid "Use 'lpt_dac = disney' to enable the Disney Sound Source."
-msgstr ""
-"Activer l'émulation Disney Sound Source. (compatible Covox Voice Master et Speech Thing).\n"
+msgstr "Activer l'émulation Disney Sound Source. (compatible Covox Voice Master et Speech Thing)."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_PS1AUDIO"
 msgid "Enable IBM PS/1 Audio emulation ('off' by default)."
 msgstr "Enable IBM PS/1 Audio emulation."
@@ -5201,7 +5157,7 @@ msgid ""
 "Filter for the PS/1 Audio synth output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the PS/1 Audio synth output:\n"
 "  on:        Filter the output (default).\n"
@@ -5215,7 +5171,7 @@ msgid ""
 "Filter for the PS/1 Audio DAC output:\n"
 "  on:        Filter the output (default).\n"
 "  off:       Don't filter the output.\n"
-"  <custom>:  Custom filter definition; see 'sb_filter' for details.\n"
+"  <custom>:  Custom filter definition; see 'sb_filter' for details."
 msgstr ""
 "Filter for the PS/1 Audio DAC output:\n"
 "  on:        Filter the output (default).\n"
@@ -5269,7 +5225,7 @@ msgid ""
 "             for mapping.\n"
 "  disabled:  Fully disable joysticks: won't be polled, mapped,\n"
 "             or visible in DOS.\n"
-"Remember to reset DOSBox's mapperfile if you saved it earlier.\n"
+"Remember to reset DOSBox's mapperfile if you saved it earlier."
 msgstr ""
 "Type de manette à émuler : auto (défaut),\n"
 "aucun (désactive l'émulation du joystick)\n"
@@ -5282,56 +5238,50 @@ msgstr ""
 "(Rappelez-vous de réinitialiser le fichier de correspondance des touches DOSBox si vous l'avez sauvé plus tôt)\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_TIMED"
 msgid ""
 "Enable timed intervals for axis ('on' by default).\n"
-"Experiment with this option, if your joystick drifts away.\n"
-msgstr ""
-"Activer des intervalles de temps pour les axes. Tester cette option si votre manette dérive.\n"
+"Experiment with this option, if your joystick drifts away."
+msgstr "Activer des intervalles de temps pour les axes. Tester cette option si votre manette dérive."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_AUTOFIRE"
-msgid ""
-"Fire continuously as long as the button is pressed ('off' by default)\n"
+msgid "Fire continuously as long as the button is pressed ('off' by default)"
 msgstr "Tirer continuellement tant que le bouton est pressé."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SWAP34"
 msgid ""
 "Swap the 3rd and the 4th axis ('off' by default). Can be useful for certain\n"
-"joysticks.\n"
-msgstr ""
-"Échanger les 3ème et 4ème axes. Peut être utile avec certaines manettes.\n"
+"joysticks."
+msgstr "Échanger les 3ème et 4ème axes. Peut être utile avec certaines manettes."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_BUTTONWRAP"
-msgid ""
-"Enable button wrapping at the number of emulated buttons ('off' by default).\n"
-msgstr ""
-"Activer l'inversion de bouton pour le nombre de boutons émulés.\n"
+msgid "Enable button wrapping at the number of emulated buttons ('off' by default)."
+msgstr "Activer l'inversion de bouton pour le nombre de boutons émulés."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
 msgctxt "CONFIG_CIRCULARINPUT"
 msgid ""
 "Enable translation of circular input to square output ('off' by default).\n"
-"Try enabling this if your left analog stick can only move in a circle.\n"
+"Try enabling this if your left analog stick can only move in a circle."
 msgstr ""
 "Activer la translation d'entrée circulaire vers une sortie carrée.\n"
 "Essayez d'activer ceci si votre stick analogique gauche peut seulement bouger dans un cercle.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_DEADZONE"
 msgid ""
 "Percentage of motion to ignore (10 by default).\n"
-"100 turns the stick into a digital one.\n"
-msgstr ""
-"Pourcentage de mouvement à ignorer. 100 transforme le stick en un stick digital.\n"
+"100 turns the stick into a digital one."
+msgstr "Pourcentage de mouvement à ignorer. 100 transforme le stick en un stick digital."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5350,7 +5300,7 @@ msgid ""
 "    respectively.\n"
 "Each tap will report X or Y calibration values you can set below. When you find\n"
 "parameters that work, quit the game, switch this setting back to disabled, and\n"
-"populate the reported calibration parameters.\n"
+"populate the reported calibration parameters."
 msgstr ""
 "Activates hotkeys to allow realtime calibration of the joystick's x and y axis.\n"
 "Only consider this if in-game calibration fails and other settings have been tried.\n"
@@ -5365,20 +5315,16 @@ msgstr ""
 "quit the game, switch this setting back to false, and populate the reported calibration parameters.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_JOY_X_CALIBRATION"
-msgid ""
-"Apply X-axis calibration parameters from the hotkeys ('auto' by default).\n"
-msgstr ""
-"Apply x-axis calibration parameters from the hotkeys. Default is 'auto'.\n"
+msgid "Apply X-axis calibration parameters from the hotkeys ('auto' by default)."
+msgstr "Apply x-axis calibration parameters from the hotkeys. Default is 'auto'."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_JOY_Y_CALIBRATION"
-msgid ""
-"Apply Y-axis calibration parameters from the hotkeys ('auto' by default).\n"
-msgstr ""
-"Apply Y-axis calibration parameters from the hotkeys. Default is 'auto'.\n"
+msgid "Apply Y-axis calibration parameters from the hotkeys ('auto' by default)."
+msgstr "Apply Y-axis calibration parameters from the hotkeys. Default is 'auto'."
 
 #: src/config/setup.cpp:274
 #, c-format, no-wrap
@@ -5396,7 +5342,7 @@ msgid ""
 "                      transparent, port, inhsocket, sock (all optional).\n"
 "The 'sock' parameter specifies the protocol to use at both sides of the\n"
 "connection. Valid values are 0 for TCP, and 1 for ENet reliable UDP.\n"
-"Example: serial1=modem listenport:5000 sock:1\n"
+"Example: serial1=modem listenport:5000 sock:1"
 msgstr ""
 "Définir le type de périphérique connecté au port série.\n"
 "Peut être 'disabled' (désactivé), 'dummy' (factice), 'modem', 'nullmodem', 'direct'.\n"
@@ -5410,34 +5356,33 @@ msgstr ""
 "Exemple : 'serial1=modem listenport:5000'.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SERIAL2"
 msgid "See 'serial1' ('dummy' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SERIAL3"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_SERIAL4"
 msgid "See 'serial1' ('disabled' by default)."
 msgstr "Voir serial1"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_PHONEBOOKFILE"
 msgid ""
 "File used to map fake phone numbers to addresses\n"
-"('phonebook.txt' by default).\n"
-msgstr ""
-"Fichier utilisé pour relier de faux numéros de téléphone à des adresses.\n"
+"('phonebook.txt' by default)."
+msgstr "Fichier utilisé pour relier de faux numéros de téléphone à des adresses."
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_XMS"
 msgid "Enable XMS support ('on' by default)."
 msgstr "Activer la prise en charge de mémoire XMS (ou étendue)."
@@ -5448,7 +5393,7 @@ msgctxt "CONFIG_EMS"
 msgid ""
 "Enable EMS support ('on' by default). Enabled provides the best compatibility\n"
 "but certain applications may run better with other choices, or require EMS\n"
-"support to be disabled to work at all.\n"
+"support to be disabled to work at all."
 msgstr ""
 "Activer la prise en charge de mémoire EMS (ou paginée). La valeur par défaut (=true) fournie\n"
 "la meilleure compatibilité mais certaines applications peuvent fonctionner mieux\n"
@@ -5456,11 +5401,10 @@ msgstr ""
 "pour fonctionner.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_UMB"
 msgid "Enable UMB support ('on' by default)."
-msgstr ""
-"Activer la prise en charge des UMB (bloc mémoire supérieure).\n"
+msgstr "Activer la prise en charge des UMB (bloc mémoire supérieure)."
 
 #: src/config/setup.cpp:274
 #, fuzzy, c-format, no-wrap
@@ -5479,7 +5423,7 @@ msgctxt "CONFIG_VER"
 msgid ""
 "Set DOS version (5.0 by default). Specify in major.minor format.\n"
 "A single number is treated as the major version.\n"
-"Common settings are 3.3, 5.0, 6.22, and 7.1.\n"
+"Common settings are 3.3, 5.0, 6.22, and 7.1."
 msgstr ""
 "Paramétrer la version de DOS (5.0 par défaut). Formater selon majeure.mineure.\n"
 "Un nombre seul est traité comme une version majeure.\n"
@@ -5508,7 +5452,7 @@ msgid ""
 "formats. If set to 'auto', selects the country code reflecting the host\n"
 "OS settings.\n"
 "The list of country codes can be displayed using '--list-countries'\n"
-"command-line argument.\n"
+"command-line argument."
 msgstr ""
 "Set DOS country code which will affect country-specific\n"
 "information such as date, time, and decimal formats.\n"
@@ -5516,7 +5460,7 @@ msgstr ""
 "selected keyboard layout will be used.\n"
 
 #: src/config/setup.cpp:274
-#, c-format, no-wrap
+#, fuzzy, c-format, no-wrap
 msgctxt "CONFIG_KEYBOARDLAYOUT"
 msgid "Renamed to 'keyboard_layout'."
 msgstr "Code langue pour la disposition du clavier (ou aucun)."
@@ -5541,7 +5485,7 @@ msgctxt "CONFIG_EXPAND_SHELL_VARIABLE"
 msgid ""
 "Enable expanding environment variables such as %%PATH%% in the DOS command shell\n"
 "(auto by default, enabled if DOS version >= 7.0).\n"
-"FreeDOS and MS-DOS 7/8 COMMAND.COM supports this behavior.\n"
+"FreeDOS and MS-DOS 7/8 COMMAND.COM supports this behavior."
 msgstr ""
 "Enable expanding environment variables such as %%PATH%%\n"
 "while in the DOS command shell. FreeDOS and MS-DOS 7/8\n"
@@ -5654,7 +5598,7 @@ msgid ""
 msgstr ""
 
 #: src/dosbox.cpp:1419
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "AUTOEXEC_CONFIGFILE_HELP"
 msgid ""
 "Each line in this section is executed at startup as a DOS command.\n"
@@ -5662,9 +5606,10 @@ msgid ""
 msgstr ""
 "Les lignes de cette section seront lancées au démarrage.\n"
 "Vous pouvez mettre vos commandes MOUNT ici.\n"
+"\n"
 
 #: src/dosbox.cpp:1423
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "CONFIGFILE_INTRO"
 msgid ""
 "# This is the configuration file for DOSBox Staging (%s).\n"
@@ -5672,6 +5617,7 @@ msgid ""
 msgstr ""
 "# Ceci est le fichier de configuration pour DOSBox-Staging (%s).\n"
 "# Les lignes commençant avec un '#' sont des commentaires.\n"
+"\n"
 
 #: src/dos/programs.cpp:924
 #, fuzzy, c-format, no-wrap
@@ -5680,7 +5626,7 @@ msgid "No config file loaded\n"
 msgstr "Aucun fichier de configuration chargé !\n"
 
 #: src/dos/programs.cpp:926
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_PRIMARY_CONF"
 msgid ""
 "[color=white]Primary config file:[reset]\n"
@@ -5688,6 +5634,7 @@ msgid ""
 msgstr ""
 "Fichier de configuration primaire : \n"
 "%s\n"
+"\n"
 
 #: src/dos/programs.cpp:929
 #, fuzzy, c-format, no-wrap
@@ -5699,7 +5646,7 @@ msgid ""
 msgstr "Fichiers de configuration additionnels:\n"
 
 #: src/dos/programs.cpp:932
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_CONFDIR"
 msgid ""
 "[color=white]DOSBox Staging %s configuration directory:[reset]\n"
@@ -5709,9 +5656,10 @@ msgstr ""
 "Répertoire de configuration de DOSBox Staging %s : \n"
 "%s\n"
 "\n"
+"\n"
 
 #: src/dos/programs.cpp:936
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_FILE_ERROR"
 msgid ""
 "\n"
@@ -5719,6 +5667,7 @@ msgid ""
 msgstr ""
 "\n"
 "Impossible d'ouvrir le fichier %s\n"
+"\n"
 
 #: src/dos/programs.cpp:937
 #, fuzzy, c-format, no-wrap
@@ -5727,7 +5676,7 @@ msgid "Writing current config to '%s'\n"
 msgstr "Écriture du fichier de configuration %s\n"
 
 #: src/dos/programs.cpp:940
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CONFIG_HELP_LONG"
 msgid ""
 "Perform configuration management and other miscellaneous actions.\n"
@@ -5815,15 +5764,17 @@ msgstr ""
 "-startmapper démarre le keymapper.\n"
 "-get \"section propriété\" affiche la valeur de la propriété.\n"
 "-set \"section propriété=valeur\" change la valeur.\n"
+"\n"
 
 #: src/dos/programs.cpp:1002
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_PROPHLP"
 msgid ""
 "[color=white]Description of the [color=light-green]'%s'[color=white] setting in the [color=light-cyan][%s][color=white] section:[reset]\n"
 "\n"
 msgstr ""
 "Utilité de la propriété \"%s\" (contenue dans la section \"%s\"):\n"
+"\n"
 "\n"
 
 #: src/dos/programs.cpp:1006
@@ -5872,11 +5823,12 @@ msgid "[color=white]List of settings in the [color=light-cyan][%s][color=white] 
 msgstr "La section %s contient les propriétés suivantes :\n"
 
 #: src/dos/programs.cpp:1029
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_HLP_SECTLIST"
 msgid "[color=white]List of configuration sections:[reset]\n"
 msgstr ""
 "La configuration de DOSBox contient les sections suivantes :\n"
+"\n"
 "\n"
 
 #: src/dos/programs.cpp:1032
@@ -5904,7 +5856,7 @@ msgid "Usage: [color=light-green]config[reset] -get [color=light-cyan][SECTION][
 msgstr "Syntaxe correcte : config -get \"section propriété\".\n"
 
 #: src/dos/programs.cpp:1044
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_CONFIG_PRINT_STARTUP"
 msgid ""
 "\n"
@@ -5914,6 +5866,7 @@ msgstr ""
 "\n"
 "DOSBox a été lancé avec les paramètres de ligne de commande suivants :\n"
 "%s\n"
+"\n"
 
 #: src/dos/programs.cpp:1048
 #, fuzzy, c-format, no-wrap
@@ -6140,7 +6093,7 @@ msgid "https://github.com/dosbox-staging/dosbox-staging/wiki"
 msgstr "https://github.com/dosbox-staging/dosbox-staging/wiki"
 
 #: src/dos/programs/autotype.cpp:149
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_AUTOTYPE_HELP_LONG"
 msgid ""
 "Perform scripted keyboard entry into a running DOS game.\n"
@@ -6190,10 +6143,10 @@ msgstr ""
 "  [color=light-green]autotype[reset] -w [color=white]1[reset] -p [color=white]0.3[reset] [color=light-cyan]up enter , right enter[reset]\n"
 "  [color=light-green]autotype[reset] -p [color=white]0.2[reset] [color=light-cyan]f1 kp_8 , , enter[reset]\n"
 "  [color=light-green]autotype[reset] -w [color=white]1.3[reset] [color=light-cyan]esc enter , p l a y e r enter\n"
-"[reset]"
+"[reset]\n"
 
 #: src/dos/programs/boot.cpp:534
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_HELP_LONG"
 msgid ""
 "Boot DOSBox Staging from a DOS drive or disk image.\n"
@@ -6233,6 +6186,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]boot[reset] [color=white]c:[reset]\n"
 "  [color=light-green]boot[reset] [color=light-cyan]disk1.ima disk2.ima[reset]\n"
+"\n"
 
 #: src/dos/programs/boot.cpp:553
 #, fuzzy, c-format, no-wrap
@@ -6253,7 +6207,7 @@ msgid "Image file is read-only! Might create problems.\n"
 msgstr "Le fichier image est en lecture seule ! Cela peut créer des problèmes.\n"
 
 #: src/dos/programs/boot.cpp:556
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_BOOT_PRINT_ERROR"
 msgid ""
 "This command boots DOSBox Staging from either a floppy or hard disk image.\n"
@@ -6278,6 +6232,7 @@ msgstr ""
 "La syntaxe de cette commande est :\n"
 "\n"
 "[color=light-blue]BOOT [diskimg1.img diskimg2.img] [-l lettre_de_lecteur][reset]\n"
+"\n"
 
 #: src/dos/programs/boot.cpp:564
 #, fuzzy, c-format, no-wrap
@@ -6469,7 +6424,7 @@ msgid "Mounted read-only\n"
 msgstr ""
 
 #: src/dos/programs/imgmount.cpp:594
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_HELP_LONG"
 msgid ""
 "Mount a CD-ROM, floppy, or disk image to a drive letter.\n"
@@ -6519,6 +6474,7 @@ msgstr ""
 "  [color=light-green]imgmount[reset] [color=white]A[reset] [color=light-cyan]disquette1.img disquette2.img disquette3.img[reset] -t floppy\n"
 "  [color=light-green]imgmount[reset] [color=white]C[reset] [color=light-cyan]~/dos/lecteur_c.img[reset] -t hdd\n"
 "  [color=light-green]imgmount[reset] [color=white]C[reset] [color=light-cyan]demarrage.img[reset] -t hdd -fs none -size 512,63,32,1023\n"
+"\n"
 
 #: src/dos/programs/imgmount.cpp:619
 #, fuzzy, c-format, no-wrap
@@ -6561,7 +6517,7 @@ msgid "Must specify drive number (0 or 3) to mount image at (0,1=fda,fdb; 2,3=hd
 msgstr "Vous devez spécifier le numéro de lecteur (0 ou 3) sur lequel monter l'image (0,1=fda,fdb;2,3=hda,hdb).\n"
 
 #: src/dos/programs/imgmount.cpp:637
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_SPECIFY_GEOMETRY"
 msgid ""
 "For CD-ROM images:\n"
@@ -6575,6 +6531,7 @@ msgstr ""
 "Pour les images de [color=brown]disque dur[reset] : vous devez spécifier la géométrie du disque dur :\n"
 "bytes_par_secteur, secteurs_par_cylindre, têtes_par_cylindre, cylindres.\n"
 "[color=light-blue]IMGMOUNT lettre-lecteur localisation-image -size bps,spc,tpc,cyl[reset]\n"
+"\n"
 
 #: src/dos/programs/imgmount.cpp:644
 #, fuzzy, c-format, no-wrap
@@ -6589,7 +6546,7 @@ msgid "No available IDE controllers. Drive will not have IDE emulation.\n"
 msgstr "No available IDE controllers. Drive will not have IDE emulation.\n"
 
 #: src/dos/programs/imgmount.cpp:649
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_INVALID_IMAGE"
 msgid ""
 "Could not load image file.\n"
@@ -6597,9 +6554,10 @@ msgid ""
 msgstr ""
 "Ne peut pas charger le fichier image.\n"
 "Vérifiez que le chemin est correct et que l'image est accessible.\n"
+"\n"
 
 #: src/dos/programs/imgmount.cpp:653
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
 msgid ""
 "Could not extract drive geometry from image.\n"
@@ -6607,6 +6565,7 @@ msgid ""
 msgstr ""
 "Ne peut pas extraire la géométrie du lecteur depuis l'image.\n"
 "Utilisez le paramètre -size bps,spc,tpc,cyl pour spécifier la géométrie.\n"
+"\n"
 
 #: src/dos/programs/imgmount.cpp:657
 #, fuzzy, c-format, no-wrap
@@ -6669,7 +6628,7 @@ msgid "Display a full-screen introduction to DOSBox Staging.\n"
 msgstr "Displays a full-screen introduction to DOSBox Staging.\n"
 
 #: src/dos/programs/intro.cpp:96
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -6703,9 +6662,10 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]intro[reset]\n"
 "  [color=light-green]intro[reset] [color=white]cdrom[reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:112
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO"
 msgid ""
 "[erases=entire][color=light-green]Welcome to DOSBox Staging[reset], an x86 emulator with sound and graphics.\n"
@@ -6729,9 +6689,10 @@ msgstr ""
 "https://github.com/dosbox-staging/dosbox-staging/wiki[reset]\n"
 "\n"
 "[color=light-red]DOSBox s'arrêtera/quittera sans avertissement si une erreur survient ![reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:123
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_MOUNT_START"
 msgid ""
 "[erases=entire][color=light-green]Here are some commands to get you started:[reset]\n"
@@ -6743,9 +6704,10 @@ msgstr ""
 "Avant de pouvoir utiliser les fichiers présents sur votre propre système de fichiers,\n"
 "vous devez monter les répertoires contenant les fichiers.\n"
 "\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:129
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_MOUNT_WINDOWS"
 msgid ""
 "[bgcolor=blue][color=white]╔═════════════════════════════════════════════════════════════════════════╗\n"
@@ -6755,13 +6717,14 @@ msgid ""
 "╚═════════════════════════════════════════════════════════════════════════╝[reset]\n"
 msgstr ""
 "[bgcolor=blue][color=white]╔═════════════════════════════════════════════════════════════════════════╗\n"
-"║ [color=green]mount c c:\\dosgames\\[color=white] créera un lecteur C avec c:\\dosgames pour contenu. ║\n"
+"║ [color=green]mount c c:\dosgames\[color=white] créera un lecteur C avec c:\dosgames pour contenu. ║\n"
 "║                                                                         ║\n"
-"║ [color=green]c:\\dosgames\\[color=white] est un exemple. Remplacez-le par votre propre répertoire.  [color=white]║\n"
+"║ [color=green]c:\dosgames\[color=white] est un exemple. Remplacez-le par votre propre répertoire.  [color=white]║\n"
 "╚═════════════════════════════════════════════════════════════════════════╝[reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:136
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_MOUNT_OTHER"
 msgid ""
 "[bgcolor=blue][color=white]╔══════════════════════════════════════════════════════════════════════╗\n"
@@ -6775,9 +6738,10 @@ msgstr ""
 "║                                                                             ║\n"
 "║ [color=green]~/dosgames[color=white] est un exemple. Remplacez-le par votre propre répertoire de jeux.[color=white]║\n"
 "╚═════════════════════════════════════════════════════════════════════════════╝[reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:143
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_MOUNT_END"
 msgid ""
 "After successfully mounting the disk you can type [color=light-blue]c:[reset] to go to your freshly\n"
@@ -6789,9 +6753,10 @@ msgstr ""
 "sur votre nouveau lecteur C monté. Taper [color=light-blue]dir[reset] à cet endroit montrera son contenu. [color=light-blue]cd[reset] vous permettra\n"
 "d'entrer dans un répertoire (reconnaissable par les [color=yellow][][reset] dans le listing du répertoire).\n"
 "Vous pouvez exécutez des programmes/fichiers finissant par [color=red].exe .bat[reset] et [color=red].com[reset].\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:150
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_CDROM_WINDOWS"
 msgid ""
 "[erases=entire][color=light-green]How to mount a real/virtual CD-ROM Drive in DOSBox:[reset]\n"
@@ -6811,23 +6776,24 @@ msgstr ""
 "\n"
 "The [color=brown]basic[reset] level works on all normal directories, which installs MSCDEX\n"
 "and marks the files read-only. Usually this is enough for most games:\n"
-"[color=light-blue]mount D C:\\example -t cdrom[reset]\n"
+"[color=light-blue]mount D C:\example -t cdrom[reset]\n"
 "If it doesn't work you might have to tell DOSBox the label of the CD-ROM:\n"
-"[color=light-blue]mount D C:\\example -t cdrom -label CDLABEL[reset]\n"
+"[color=light-blue]mount D C:\example -t cdrom -label CDLABEL[reset]\n"
 "\n"
 "The [color=brown]next[reset] level adds some low-level support.\n"
 "Therefore only works on CD-ROM drives:\n"
-"[color=light-blue]mount d [color=red]D:\\[color=light-blue] -t cdrom -usecd [color=brown]0[reset]\n"
-"Replace [color=red]D:\\[reset] with the location of your CD-ROM.\n"
+"[color=light-blue]mount d [color=red]D:\[color=light-blue] -t cdrom -usecd [color=brown]0[reset]\n"
+"Replace [color=red]D:\[reset] with the location of your CD-ROM.\n"
 "Replace the [color=yellow]0[reset] in [color=light-blue]-usecd [color=brown]0[reset] with the number reported for your CD-ROM if you type:\n"
 "[color=light-blue]mount -listcd[reset]\n"
 "\n"
 "Additionally, you can use imgmount to mount iso or cue/bin images:\n"
-"[color=light-blue]imgmount D C:\\cd.iso -t cdrom[reset]\n"
-"[color=light-blue]imgmount D C:\\cd.cue -t cdrom[reset]\n"
+"[color=light-blue]imgmount D C:\cd.iso -t cdrom[reset]\n"
+"[color=light-blue]imgmount D C:\cd.cue -t cdrom[reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:162
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_CDROM_OTHER"
 msgid ""
 "[erases=entire][color=light-green]How to mount a real/virtual CD-ROM Drive in DOSBox:[reset]\n"
@@ -6862,9 +6828,10 @@ msgstr ""
 "Additionally, you can use imgmount to mount iso or cue/bin images:\n"
 "[color=light-blue]imgmount D ~/cd.iso -t cdrom[reset]\n"
 "[color=light-blue]imgmount D ~/cd.cue -t cdrom[reset]\n"
+"\n"
 
 #: src/dos/programs/intro.cpp:174
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_INTRO_SPECIAL"
 msgid ""
 "[erases=entire][color=light-green]Special keys:[reset]\n"
@@ -6902,9 +6869,10 @@ msgstr ""
 "[color=yellow]%s+F11[reset]   %s : Ralentir l'émulation.\n"
 "[color=yellow]%s+F12[reset]   %s : Accélérer l'émulation.\n"
 "[color=yellow]%sF12[reset]      : Débloquer la vitesse (bouton turbo/avance rapide).\n"
+"\n"
 
 #: src/dos/programs/keyb.cpp:339
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_HELP_LONG"
 msgid ""
 "Configure a keyboard layout and screen font.\n"
@@ -6969,6 +6937,7 @@ msgstr ""
 "  [color=light-green]KEYB[reset] [color=light-cyan]uk[reset]\n"
 "  [color=light-green]KEYB[reset] [color=light-cyan]sp[reset] [color=white]850[reset]\n"
 "  [color=light-green]KEYB[reset] [color=light-cyan]de[reset] [color=white]858[reset] mycp.cpi\n"
+"\n"
 
 #: src/dos/programs/keyb.cpp:378
 #, fuzzy, c-format, no-wrap
@@ -7093,7 +7062,7 @@ msgid "No keyboard layout '%s' for code page %d.\n"
 msgstr ""
 
 #: src/dos/programs/loadfix.cpp:75
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADFIX_HELP_LONG"
 msgid ""
 "Load a program in the specific memory region and then run it.\n"
@@ -7140,6 +7109,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]loadfix[reset] [color=light-cyan]mygame[reset] [color=white]args[reset]\n"
 "  [color=light-green]loadfix[reset] /d\n"
+"\n"
 
 #: src/dos/programs/loadfix.cpp:100
 #, fuzzy, c-format, no-wrap
@@ -7166,7 +7136,7 @@ msgid "Memory allocation error.\n"
 msgstr "Erreur d'allocation mémoire.\n"
 
 #: src/dos/programs/loadrom.cpp:107
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_LOADROM_HELP_LONG"
 msgid ""
 "Load a ROM image of the video BIOS or IBM BASIC.\n"
@@ -7198,6 +7168,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]loadrom[reset] [color=light-cyan]bios.rom[reset]\n"
+"\n"
 
 #: src/dos/programs/loadrom.cpp:122
 #, fuzzy, c-format, no-wrap
@@ -7266,7 +7237,7 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs/mem.cpp:96
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MEM_HELP_LONG"
 msgid ""
 "Display the DOS memory information.\n"
@@ -7298,6 +7269,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]mem[reset]\n"
+"\n"
 
 #: src/dos/programs/mem.cpp:111
 #, fuzzy, c-format, no-wrap
@@ -7324,7 +7296,7 @@ msgid "%10d KB free upper memory in %d blocks (largest UMB %d KB)\n"
 msgstr "%10d kB de mémoire supérieure (UMB) libres dans %d bloc(s) (plus gros bloc UMB %d kB)\n"
 
 #: src/dos/programs/mixer.cpp:790
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_HELP_LONG"
 msgid ""
 "Display or change the sound mixer settings.\n"
@@ -7379,7 +7351,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]mixer[reset] [color=light-cyan]cdda[reset] [color=white]50[reset] [color=light-cyan]sb[reset] [color=white]reverse[reset] /noshow\n"
-"  [color=light-green]mixer[reset] [color=white]x30[reset] [color=light-cyan]fm[reset] [color=white]150 r50 c30[reset] [color=light-cyan]sb[reset] [color=white]x10[reset]"
+"  [color=light-green]mixer[reset] [color=white]x30[reset] [color=light-cyan]fm[reset] [color=white]150 r50 c30[reset] [color=light-cyan]sb[reset] [color=white]x10[reset]\n"
 
 #: src/dos/programs/mixer.cpp:820
 #, fuzzy, c-format, no-wrap
@@ -7747,7 +7719,7 @@ msgid "Map physical folders or drives to a virtual drive letter.\n"
 msgstr "relie les dossiers ou lecteurs physiques à une lettre de lecteur virtuel.\n"
 
 #: src/dos/programs/mount.cpp:402
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_MOUNT_HELP_LONG"
 msgid ""
 "Mount a directory from the host OS to a drive letter.\n"
@@ -7792,6 +7764,7 @@ msgstr ""
 "  [color=light-green]mount[reset] [color=white]C[reset] [color=light-cyan]~/jeuxdos[reset]\n"
 "  [color=light-green]mount[reset] [color=white]D[reset] [color=light-cyan]\"/media/USERNAME/JEU CD\"[reset] -t cdrom\n"
 "  [color=light-green]mount[reset] [color=white]C[reset] [color=light-cyan]mes_fichiers_de_sauvegarde[reset] -t overlay\n"
+"\n"
 
 #: src/dos/programs/mount.cpp:421
 #, fuzzy, c-format, no-wrap
@@ -8178,7 +8151,7 @@ msgid ""
 msgstr ""
 
 #: src/dos/programs/rescan.cpp:48
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_RESCAN_HELP_LONG"
 msgid ""
 "Scan for changes on mounted DOS drives.\n"
@@ -8216,6 +8189,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]rescan[reset] [color=light-cyan]c:[reset]\n"
 "  [color=light-green]rescan[reset] /a\n"
+"\n"
 
 #: src/dos/programs/rescan.cpp:66
 #, fuzzy, c-format, no-wrap
@@ -8224,7 +8198,7 @@ msgid "Drive re-scanned.\n"
 msgstr "Cache de lecteur vidé.\n"
 
 #: src/dos/programs/serial.cpp:178
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "PROGRAM_SERIAL_HELP_LONG"
 msgid ""
 "Manage the serial ports.\n"
@@ -8276,6 +8250,7 @@ msgstr ""
 "  [color=light-green]SERIAL[reset] [color=white]3[reset] [color=light-cyan]MODEM[reset] LISTENPORT:5000 SOCK:1        : Listen on UDP:5000 as server\n"
 "  [color=light-green]SERIAL[reset] [color=white]4[reset] [color=light-cyan]DIRECT[reset] REALPORT:ttyUSB0             : Use a physical port on Linux\n"
 "  [color=light-green]SERIAL[reset] [color=white]1[reset] [color=light-cyan]MOUSE[reset] TYPE:MSM                      : Mouse Systems mouse\n"
+"\n"
 
 #: src/dos/programs/serial.cpp:203
 #, fuzzy, c-format, no-wrap
@@ -8581,7 +8556,7 @@ msgid "This command cannot be executed under Microsoft Windows.\n"
 msgstr ""
 
 #: src/shell/shell.cpp:562
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_HELP"
 msgid ""
 "If you want a list of all supported commands, run [color=yellow]help /all[reset]\n"
@@ -8589,9 +8564,10 @@ msgid ""
 msgstr ""
 "Pour avoir une liste de toutes les commandes supportées, tapez [color=yellow]help /all[reset] .\n"
 "Liste rapide des commandes les plus utilisées :\n"
+"\n"
 
 #: src/shell/shell.cpp:564
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_COMMAND_HELP_LONG"
 msgid ""
 "Start the DOSBox Staging command shell.\n"
@@ -8634,6 +8610,7 @@ msgstr ""
 "  [color=light-green]command[reset]\n"
 "  [color=light-green]command[reset] /c [color=light-cyan]echo[reset] [color=white]Hello world![reset]\n"
 "  [color=light-green]command[reset] /init [color=light-cyan]dir[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:586
 #, fuzzy, c-format, no-wrap
@@ -8660,7 +8637,7 @@ msgid "Hint: To change to a different drive, run [color=yellow]%c:[reset]\n"
 msgstr "Astuce : pour changer de lecteur, tapez [color=red]%c:[reset]\n"
 
 #: src/shell/shell.cpp:592
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_HINT_2"
 msgid ""
 "Directory name is longer than 8 characters and/or contains spaces.\n"
@@ -8668,6 +8645,7 @@ msgid ""
 msgstr ""
 "Le nom de répertoire est plus long que 8 caractères et/ou contient des espaces.\n"
 "Essayez [color=red]cd %s[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:595
 #, fuzzy, c-format, no-wrap
@@ -8706,7 +8684,7 @@ msgid "Run [color=yellow]date %s[reset] to change the current date.\n"
 msgstr "Tapez 'date MM-JJ-AAAA' pour changer\n"
 
 #: src/shell/shell.cpp:603
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DATE_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -8733,6 +8711,7 @@ msgstr ""
 "  /F:         Rebascule sur l'heure interne de DOSBox (contraire de /S)\n"
 "  /T:         Affiche seulement la date\n"
 "  /H:         Synchronise avec l'hôte\n"
+"\n"
 
 #: src/shell/shell.cpp:622
 #, fuzzy, c-format, no-wrap
@@ -8759,7 +8738,7 @@ msgid "Run [color=yellow]time %s[reset] to change the current time.\n"
 msgstr "Type 'time %s' to change.\n"
 
 #: src/shell/shell.cpp:626
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_TIME_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -8783,6 +8762,7 @@ msgstr ""
 "TIME [/T] [/H]\n"
 "  /T:         Affiche seulement l'heure\n"
 "  /H:         Synchronise avec l'hôte\n"
+"\n"
 
 #: src/shell/shell.cpp:645
 #, fuzzy, c-format, no-wrap
@@ -8857,7 +8837,7 @@ msgid "Duplicate redirection: %s\n"
 msgstr "Duplicate redirection - %s\n"
 
 #: src/shell/shell.cpp:664
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_FAILED_PIPE"
 msgid ""
 "\n"
@@ -8865,6 +8845,7 @@ msgid ""
 msgstr ""
 "\n"
 "Failed to create/open a temporary file for piping. Check the %%TEMP%% variable.\n"
+"\n"
 
 #: src/shell/shell.cpp:666
 #, fuzzy, c-format, no-wrap
@@ -8891,7 +8872,7 @@ msgid "%17d dir(s)  %21s bytes free\n"
 msgstr "%17d répertoire(s)  %21s bytes libres\n"
 
 #: src/shell/shell.cpp:671
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_EXECUTE_DRIVE_NOT_FOUND"
 msgid ""
 "Drive %c does not exist!\n"
@@ -8899,6 +8880,7 @@ msgid ""
 msgstr ""
 "Le lecteur %c n'existe pas !\n"
 "Vous devez le [color=red]monter[reset] auparavant. Tapez [color=yellow]intro[reset] ou [color=yellow]intro mount[reset] pour plus d'informations.\n"
+"\n"
 
 #: src/shell/shell.cpp:674
 #, fuzzy, c-format, no-wrap
@@ -8919,7 +8901,7 @@ msgid "Wait for a keystroke to continue.\n"
 msgstr "Attendre l'appui sur 1 touche pour continuer.\n"
 
 #: src/shell/shell.cpp:678
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_PAUSE_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -8949,6 +8931,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]pause[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:693
 #, fuzzy, c-format, no-wrap
@@ -8969,17 +8952,17 @@ msgid "Unable to remove, drive not in use.\n"
 msgstr "Impossible d'enlever, lecteur non utilisé.\n"
 
 #: src/shell/shell.cpp:696
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SUBST_FAILURE"
 msgid ""
 "SUBST failed, the target drive may already exist.\n"
 "Note it is only possible to use SUBST on local drives."
 msgstr ""
 "SUBST a échoué. Vous avez fait une erreur dans votre ligne de commande ou le lecteur cible est déjà utilisé.\n"
-"Il n'est possible d'utiliser SUBST que sur les lecteurs locaux."
+"Il n'est possible d'utiliser SUBST que sur les lecteurs locaux.\n"
 
 #: src/shell/shell.cpp:698
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_BEGIN"
 msgid ""
 "[bgcolor=blue][color=white]╔════════════════════════════════════════════════════════════════════╗\n"
@@ -9003,9 +8986,10 @@ msgstr ""
 "║ Pour plus d'informations, lisez le fichier [color=light-cyan]README[color=white] dans le répertoire de    ║\n"
 "║ DOSBox.                                                                    ║\n"
 "║                                                                            ║\n"
+"\n"
 
 #: src/shell/shell.cpp:708
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_CGA"
 msgid ""
 "║ DOSBox supports Composite CGA mode.                                ║\n"
@@ -9017,9 +9001,10 @@ msgstr ""
 "║ Utilisez [color=red]F12[color=white] pour régler la sortiecomposite sur ON, OFF, ou AUTO (défaut). ║\n"
 "║ [color=light-red]F10[color=white] selects the CGA settings to change and [color=light-red](%s+)F11[color=white] changes it.           ║\n"
 "║                                                                            ║\n"
+"\n"
 
 #: src/shell/shell.cpp:713
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_CGA_MONO"
 msgid ""
 "║ Use [color=light-red]F11[color=white] to cycle through green, amber, white and paper-white mode, ║\n"
@@ -9028,9 +9013,10 @@ msgid ""
 msgstr ""
 "║ Utilisez [color=red]F11[color=white] pour passer au vert, ambre, blanc et blanc-papier,            ║\n"
 "║ et [color=red]%s+F11[color=white] pour changer le contraste/la luminosité.                        ║\n"
+"\n"
 
 #: src/shell/shell.cpp:717
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_HERC"
 msgid ""
 "║ Use [color=light-red]F11[color=white] to cycle through white, amber, and green monochrome color. ║\n"
@@ -9038,9 +9024,10 @@ msgid ""
 msgstr ""
 "║ Utilisez [color=red]F11[color=white] pour passer au blanc, ambre, et vert monochrome.              ║\n"
 "║                                                                            ║\n"
+"\n"
 
 #: src/shell/shell.cpp:720
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_DEBUG"
 msgid ""
 "║ Press [color=light-red]%s+Pause[color=white] to enter the debugger or start the exe with [color=yellow]DEBUG[color=white]. ║\n"
@@ -9048,9 +9035,10 @@ msgid ""
 msgstr ""
 "║ Pressez [color=red]%sPause[color=white] pour démarrer le debugger ou lancez l'exécutable avec [color=brown]DEBUG[color=white]. ║\n"
 "║                                                                    ║\n"
+"\n"
 
 #: src/shell/shell.cpp:723
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_STARTUP_END"
 msgid ""
 "║ [color=yellow]https://www.dosbox-staging.org[color=white]                                     ║\n"
@@ -9059,6 +9047,7 @@ msgid ""
 msgstr ""
 "║ [color=brown]https://www.dosbox-staging.org[color=white]                                             ║\n"
 "╚════════════════════════════════════════════════════════════════════════════╝[reset]\n"
+"\n"
 "\n"
 
 #: src/shell/shell.cpp:728
@@ -9074,7 +9063,7 @@ msgid "Display or change the current directory.\n"
 msgstr "Affiche/change le répertoire courant.\n"
 
 #: src/shell/shell.cpp:732
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHDIR_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9101,6 +9090,7 @@ msgstr ""
 "\n"
 "Tapez 'CD lecteur': pour afficher le répertoire courant dans le lecteur spécifié.\n"
 "Tapez 'CD' sans paramètres pour afficher le lecteur et le répertoire courant.\n"
+"\n"
 
 #: src/shell/shell.cpp:748
 #, fuzzy, c-format, no-wrap
@@ -9109,7 +9099,7 @@ msgid "Clear the DOS screen.\n"
 msgstr "Effacer l'écran.\n"
 
 #: src/shell/shell.cpp:749
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CLS_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9133,10 +9123,11 @@ msgstr ""
 "\n"
 "Notes:\n"
 "  Running [color=light-green]cls[reset] clears all text on the DOS screen, except for the command\n"
-"  prompt (e.g., [color=white]Z:\\>[reset] or [color=white]C:\\GAMES>[reset]) on the top-left corner of the screen.\n"
+"  prompt (e.g., [color=white]Z:\>[reset] or [color=white]C:\GAMES>[reset]) on the top-left corner of the screen.\n"
 "\n"
 "Examples:\n"
 "  [color=light-green]cls[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:763
 #, fuzzy, c-format, no-wrap
@@ -9145,7 +9136,7 @@ msgid "Display a list of files and subdirectories in a directory.\n"
 msgstr "Affiche une liste de fichiers et sous-répertoires dans un répertoire.\n"
 
 #: src/shell/shell.cpp:765
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DIR_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9184,6 +9175,7 @@ msgstr ""
 "               -  Préfixe pour inverser l'ordre de tri\n"
 "  clef de tri  N  par Nom (alphabétique)        S  par taille (plus petit d'abord)\n"
 "               E  par Extension (alphabétique)  D  par date & heure (plus ancien d'abord)\n"
+"\n"
 
 #: src/shell/shell.cpp:789
 #, fuzzy, c-format, no-wrap
@@ -9192,7 +9184,7 @@ msgid "Display messages and enable/disable command echoing.\n"
 msgstr "Affiche des messages et active/désactive la commande ECHO.\n"
 
 #: src/shell/shell.cpp:791
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ECHO_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9226,6 +9218,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]echo[reset] [color=light-cyan]off[reset]\n"
 "  [color=light-green]echo[reset] [color=light-cyan]Hello world![reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:808
 #, fuzzy, c-format, no-wrap
@@ -9234,7 +9227,7 @@ msgid "Exit from the DOS shell.\n"
 msgstr "Sortir du shell.\n"
 
 #: src/shell/shell.cpp:809
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_EXIT_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9262,6 +9255,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]exit[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:823
 #, fuzzy, c-format, no-wrap
@@ -9270,7 +9264,7 @@ msgid "Display help information for DOS commands.\n"
 msgstr "Montrer l'aide.\n"
 
 #: src/shell/shell.cpp:825
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_HELP_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9306,6 +9300,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]help[reset] [color=light-cyan]dir[reset]\n"
 "  [color=light-green]help[reset] /all\n"
+"\n"
 
 #: src/shell/shell.cpp:843
 #, fuzzy, c-format, no-wrap
@@ -9314,7 +9309,7 @@ msgid "Create a directory.\n"
 msgstr "Créer un répertoire.\n"
 
 #: src/shell/shell.cpp:844
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_MKDIR_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9334,6 +9329,7 @@ msgid ""
 msgstr ""
 "MKDIR [lecteur:][chemin]\n"
 "MD [lecteur:][chemin]\n"
+"\n"
 
 #: src/shell/shell.cpp:860
 #, fuzzy, c-format, no-wrap
@@ -9342,7 +9338,7 @@ msgid "Remove a directory.\n"
 msgstr "Supprimer un répertoire.\n"
 
 #: src/shell/shell.cpp:861
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_RMDIR_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9360,6 +9356,7 @@ msgid ""
 msgstr ""
 "RMDIR [lecteur:][chemin]\n"
 "RD [lecteur:][chemin]\n"
+"\n"
 
 #: src/shell/shell.cpp:875
 #, fuzzy, c-format, no-wrap
@@ -9368,7 +9365,7 @@ msgid "Display or change environment variables.\n"
 msgstr "Changer les variables d'environnement.\n"
 
 #: src/shell/shell.cpp:876
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SET_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9402,6 +9399,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]set[reset]\n"
 "  [color=light-green]set[reset] [color=white]name[reset]=[color=light-cyan]value[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:893
 #, fuzzy, c-format, no-wrap
@@ -9410,7 +9408,7 @@ msgid "Perform conditional processing in batch programs.\n"
 msgstr "Effectuer un processus avec condition dans les programmes batch.\n"
 
 #: src/shell/shell.cpp:895
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_IF_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9456,6 +9454,7 @@ msgstr ""
 "  [color=light-green]if[reset] [color=light-cyan]errorlevel[reset] [color=white]2[reset] dir\n"
 "  [color=light-green]if[reset] [color=white]\"%%myvar%%\"==\"mystring\"[reset] echo Hello world!\n"
 "  [color=light-green]if[reset] [color=light-magenta]not[reset] [color=light-cyan]exist[reset] [color=white]file.txt[reset] exit\n"
+"\n"
 
 #: src/shell/shell.cpp:918
 #, fuzzy, c-format, no-wrap
@@ -9464,7 +9463,7 @@ msgid "Jump to a labeled line in a batch program.\n"
 msgstr "Aller à la ligne de l'étiquette définie dans un script batch.\n"
 
 #: src/shell/shell.cpp:920
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_GOTO_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9492,6 +9491,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]goto[reset] [color=light-cyan]mylabel[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:934
 #, fuzzy, c-format, no-wrap
@@ -9500,7 +9500,7 @@ msgid "Left-shift command-line parameters in a batch program.\n"
 msgstr "Décaler les paramètres de ligne de commande vers la gauche dans un script batch.\n"
 
 #: src/shell/shell.cpp:935
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SHIFT_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9528,6 +9528,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]shift[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:949
 #, fuzzy, c-format, no-wrap
@@ -9591,7 +9592,7 @@ msgid "Rename one or more files.\n"
 msgstr "Renomme un ou plusieurs fichiers.\n"
 
 #: src/shell/shell.cpp:983
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_RENAME_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9614,6 +9615,7 @@ msgstr ""
 "REN [lecteur:][chemin]nomfichier1 nomfichier2.\n"
 "\n"
 "Notez que vous ne pouvez pas spécifier un nouveau lecteur ou chemin pour votre fichier cible.\n"
+"\n"
 
 #: src/shell/shell.cpp:1000
 #, fuzzy, c-format, no-wrap
@@ -9622,7 +9624,7 @@ msgid "Remove one or more files.\n"
 msgstr "Supprimer un ou plusieurs fichiers.\n"
 
 #: src/shell/shell.cpp:1001
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_DELETE_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9662,6 +9664,7 @@ msgstr ""
 "  [color=light-green]del[reset] [color=light-cyan]test.bat[reset]\n"
 "  [color=light-green]del[reset] [color=light-cyan]c*.*[reset]\n"
 "  [color=light-green]del[reset] [color=light-cyan]a?b.c*[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1021
 #, fuzzy, c-format, no-wrap
@@ -9670,7 +9673,7 @@ msgid "Copy one or more files.\n"
 msgstr "Copier des fichiers.\n"
 
 #: src/shell/shell.cpp:1022
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_COPY_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9707,7 +9710,8 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]copy[reset] [color=white]source.bat[reset] [color=light-cyan]new.bat[reset]\n"
 "  [color=light-green]copy[reset] [color=white]file1.txt+file2.txt[reset] [color=light-cyan]file3.txt[reset]\n"
-"  [color=light-green]copy[reset] [color=white]..\\c*.*[reset]\n"
+"  [color=light-green]copy[reset] [color=white]..\c*.*[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1041
 #, fuzzy, c-format, no-wrap
@@ -9716,7 +9720,7 @@ msgid "Start a batch program from within another batch program.\n"
 msgstr "Lancer un fichier batch à partir d'un autre fichier batch..\n"
 
 #: src/shell/shell.cpp:1043
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CALL_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9748,6 +9752,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]call[reset] [color=white]mybatch.bat[reset]\n"
 "  [color=light-green]call[reset] [color=white]file.bat[reset] [color=light-cyan]Hello world![reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1058
 #, fuzzy, c-format, no-wrap
@@ -9756,7 +9761,7 @@ msgid "Assign an internal directory to a drive.\n"
 msgstr "Assigner un répertoire interne à un lecteur.\n"
 
 #: src/shell/shell.cpp:1059
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_SUBST_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9788,8 +9793,9 @@ msgstr ""
 "  You can remove an assigned drive with the /d option.\n"
 "\n"
 "Examples:\n"
-"  [color=light-green]subst[reset] [color=white]d:[reset] [color=light-cyan]c:\\games[reset]\n"
+"  [color=light-green]subst[reset] [color=white]d:[reset] [color=light-cyan]c:\games[reset]\n"
 "  [color=light-green]subst[reset] [color=white]e:[reset] [color=light-cyan]/d[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1076
 #, fuzzy, c-format, no-wrap
@@ -9798,7 +9804,7 @@ msgid "Load a DOS program into upper memory.\n"
 msgstr "Charger un programme en mémoire haute (requiert xms=true et umb=true).\n"
 
 #: src/shell/shell.cpp:1077
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_LOADHIGH_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9832,6 +9838,7 @@ msgstr ""
 "\n"
 "Examples:\n"
 "  [color=light-green]lh[reset] [color=light-cyan]tsrapp[reset] [color=white]args[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1094
 #, fuzzy, c-format, no-wrap
@@ -9840,7 +9847,7 @@ msgid "Display or change file attributes.\n"
 msgstr "Ne fait rien. Fourni pour la compatibilité.\n"
 
 #: src/shell/shell.cpp:1096
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_ATTRIB_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9879,6 +9886,7 @@ msgstr ""
 "Examples:\n"
 "  [color=light-green]attrib[reset] [color=light-cyan]file.txt[reset]\n"
 "  [color=light-green]attrib[reset] [color=white]+R[reset] [color=white]-A[reset] [color=light-cyan]*.txt[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1115
 #, fuzzy, c-format, no-wrap
@@ -9899,7 +9907,7 @@ msgid "Wait for a keypress and set an ERRORLEVEL value.\n"
 msgstr "Attendre l'appui sur une touche et définir le ERRORLEVEL.\n"
 
 #: src/shell/shell.cpp:1120
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHOICE_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9928,9 +9936,10 @@ msgstr ""
 "  /N  -  N'affiche pas les choix à la fin du prompt.\n"
 "  /S  -  Active la sensibilité à la casse des choix.\n"
 "  texte  -  Texte à afficher comme prompt.\n"
+"\n"
 
 #: src/shell/shell.cpp:1141
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHOICE_EOF"
 msgid ""
 "\n"
@@ -9938,9 +9947,10 @@ msgid ""
 msgstr ""
 "\n"
 "[color=light-red]Choice failed[reset]: the input stream ended without a valid choice.\n"
+"\n"
 
 #: src/shell/shell.cpp:1142
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_CHOICE_ABORTED"
 msgid ""
 "\n"
@@ -9948,6 +9958,7 @@ msgid ""
 msgstr ""
 "\n"
 "[color=yellow]Choice aborted.[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1144
 #, fuzzy, c-format, no-wrap
@@ -9956,7 +9967,7 @@ msgid "Display or set a search path for executable files.\n"
 msgstr "Fourni pour la compatibilité.\n"
 
 #: src/shell/shell.cpp:1146
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_PATH_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -9985,11 +9996,12 @@ msgstr ""
 "\n"
 "Notes:\n"
 "  Parameter with a semi-colon (;) only clears all search path settings.\n"
-"  The path can also be set using [color=light-green]set[reset] command, e.g. [color=light-green]set[reset] [color=white]path[reset]=[color=light-cyan]Z:\\[reset]\n"
+"  The path can also be set using [color=light-green]set[reset] command, e.g. [color=light-green]set[reset] [color=white]path[reset]=[color=light-cyan]Z:\[reset]\n"
 "\n"
 "Examples:\n"
 "  [color=light-green]path[reset]\n"
-"  [color=light-green]path[reset] [color=light-cyan]Z:\\;C:\\DOS[reset]\n"
+"  [color=light-green]path[reset] [color=light-cyan]Z:\;C:\DOS[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1163
 #, fuzzy, c-format, no-wrap
@@ -9998,7 +10010,7 @@ msgid "Display the DOS version.\n"
 msgstr "Voir ou régler la version de DOS reportée.\n"
 
 #: src/shell/shell.cpp:1164
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_VER_HELP_LONG"
 msgid ""
 "Usage:\n"
@@ -10030,9 +10042,10 @@ msgstr ""
 "Exemples :\n"
 "  [color=light-green]ver[reset] [color=white]set[reset] [color=light-cyan]6.22[reset]\n"
 "  [color=light-green]ver[reset] [color=white]set[reset] [color=light-cyan]7 10[reset]\n"
+"\n"
 
 #: src/shell/shell.cpp:1177
-#, fuzzy, c-format, no-wrap
+#, c-format, no-wrap
 msgctxt "SHELL_CMD_VER_VER"
 msgid ""
 "DOSBox Staging version %s\n"
@@ -10040,6 +10053,7 @@ msgid ""
 msgstr ""
 "DOSBox Staging version %s\n"
 "DOS version %d.%02d\n"
+"\n"
 
 #: src/shell/shell.cpp:1179
 #, fuzzy, c-format, no-wrap
