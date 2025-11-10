@@ -1395,25 +1395,25 @@ msgstr "Russe, avec symbole UAH"
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58152"
 msgid "Kazakh, with EUR symbol"
-msgstr ""
+msgstr "Kazakh, avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58210"
 msgid "Azeri Cyrillic and Russian"
-msgstr ""
+msgstr "Azéri cyrillique et russe"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58335"
 msgid "Kashubian, Mazovia-based, with PLN symbol"
-msgstr ""
+msgstr "Kachoube, basé sur Mazovia, avec symbole PLN"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58601"
 msgid "Lithuanian, accented, LST 1590-4, with EUR symbol"
-msgstr ""
+msgstr "Lituanien, accentué, LST 1590-4, avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1431,19 +1431,19 @@ msgstr "Géorgien"
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_60258"
 msgid "Azeri Latin and Russian"
-msgstr ""
+msgstr "Azéri latin et russe"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_60853"
 msgid "Georgian with capital letters"
-msgstr ""
+msgstr "Géorgien avec lettres majuscules"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_62306"
 msgid "Uzbek"
-msgstr ""
+msgstr "Ouzbek"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1455,199 +1455,199 @@ msgstr "Arménien, encodage ArmSCII-8"
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_813"
 msgid "ISO-8859-7 (Greek), with EUR symbol"
-msgstr ""
+msgstr "ISO-8859-7 (Grec), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_819"
 msgid "ISO-8859-1 (Western European)"
-msgstr ""
+msgstr "ISO-8859-1 (Europe occidentale)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_901"
 msgid "ISO-8859-13 (Baltic), with EUR symbol"
-msgstr ""
+msgstr "ISO-8859-13 (Baltique), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_912"
 msgid "ISO-8859-2 (Central European)"
-msgstr ""
+msgstr "ISO-8859-2 (Europe centrale)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_913"
 msgid "ISO-8859-3 (South European)"
-msgstr ""
+msgstr "ISO-8859-3 (Europe du Sud)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_914"
 msgid "ISO-8859-4 (North European)"
-msgstr ""
+msgstr "ISO-8859-4 (Europe du Nord)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_915"
 msgid "ISO-8859-5 (Cyrillic)"
-msgstr ""
+msgstr "ISO-8859-5 (Cyrillique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_919"
 msgid "ISO-8859-10 (Nordic)"
-msgstr ""
+msgstr "ISO-8859-10 (Nordique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_920"
 msgid "ISO-8859-9 (Turkish)"
-msgstr ""
+msgstr "ISO-8859-9 (Turc)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_921"
 msgid "ISO-8859-13 (Baltic)"
-msgstr ""
+msgstr "ISO-8859-13 (Baltique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_923"
 msgid "ISO-8859-15 (Western European), with EUR symbol"
-msgstr ""
+msgstr "ISO-8859-15 (Europe occidentale), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_1124"
 msgid "ISO 8859-5 (modified for Ukrainian)"
-msgstr ""
+msgstr "ISO 8859-5 (modifié pour l'ukrainien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58163"
 msgid "ISO-8859-14 (Celtic)"
-msgstr ""
+msgstr "ISO-8859-14 (Celtique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58258"
 msgid "ISO-8859-4 (North European), with EUR symbol"
-msgstr ""
+msgstr "ISO-8859-4 (Europe du Nord), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_61235"
 msgid "ISO-8859-1 (Western European), with EUR symbol"
-msgstr ""
+msgstr "ISO-8859-1 (Europe occidentale), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_63283"
 msgid "ISO-8859-1 (modified for Lithuanian)"
-msgstr ""
+msgstr "ISO-8859-1 (modifié pour le lituanien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_65500"
 msgid "ISO-8859-16 (South-Eastern European)"
-msgstr ""
+msgstr "ISO-8859-16 (Europe du Sud-Est)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_902"
 msgid "ISO-8 (Estonian), with EUR symbol"
-msgstr ""
+msgstr "ISO-8 (Estonien), avec symbole EUR"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_922"
 msgid "ISO-8 (Estonian)"
-msgstr ""
+msgstr "ISO-8 (Estonien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58259"
 msgid "ISO-IR-201 (Volgaic)"
-msgstr ""
+msgstr "ISO-IR-201 (Volgaïque)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_59187"
 msgid "ISO-IR-197 (Saami)"
-msgstr ""
+msgstr "ISO-IR-197 (Sami)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_59283"
 msgid "ISO-IR-200 (Uralic)"
-msgstr ""
+msgstr "ISO-IR-200 (Ouralien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_60211"
 msgid "ISO-IR-209 (Saami and Finnish Romani)"
-msgstr ""
+msgstr "ISO-IR-209 (Sami et romani finlandais)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_65501"
 msgid "ISO-IR-123 (Canadian and Spanish)"
-msgstr ""
+msgstr "ISO-IR-123 (Canadien et espagnol)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_65502"
 msgid "ISO-IR-143 (Technical Set)"
-msgstr ""
+msgstr "ISO-IR-143 (Ensemble technique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_65503"
 msgid "ISO-IR-181 (Electrotechnical Set)"
-msgstr ""
+msgstr "ISO-IR-181 (Ensemble électrotechnique)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_65504"
 msgid "ISO-IR-39 (African)"
-msgstr ""
+msgstr "ISO-IR-39 (Africain)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_878"
 msgid "KOI8-R (Russian)"
-msgstr ""
+msgstr "KOI8-R (Russe)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_58222"
 msgid "KOI8-U (Russian and Ukrainian)"
-msgstr ""
+msgstr "KOI8-U (Russe et ukrainien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_59246"
 msgid "KOI8-RU (Russian, Belarusian, Ukrainian)"
-msgstr ""
+msgstr "KOI8-RU (Russe, biélorusse, ukrainien)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_60270"
 msgid "KOI8-F (full Slavic)"
-msgstr ""
+msgstr "KOI8-F (slave complet)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_61294"
 msgid "KOI8-CA (full Slavic and non-Slavic)"
-msgstr ""
+msgstr "KOI8-CA (slave et non-slave complet)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
 msgctxt "CODE_PAGE_DESCRIPTION_62318"
 msgid "KOI8-T (Russian and Tajik)"
-msgstr ""
+msgstr "KOI8-T (Russe et tadjik)"
 
 #: src/dos/dos_locale.cpp:1718
 #, fuzzy, c-format, no-wrap
@@ -1965,37 +1965,37 @@ msgstr "Belge (AZERTY)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BX"
 msgid "Belgian (international, AZERTY)"
-msgstr ""
+msgstr "Belge (international, AZERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BG"
 msgid "Bulgarian (QWERTY/national)"
-msgstr ""
+msgstr "Bulgare (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BG103"
 msgid "Bulgarian (QWERTY/phonetic)"
-msgstr ""
+msgstr "Bulgare (QWERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BG241"
 msgid "Bulgarian (JCUKEN/national)"
-msgstr ""
+msgstr "Bulgare (JCUKEN/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BN"
 msgid "Beninese (AZERTY)"
-msgstr ""
+msgstr "Béninois (AZERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_BR"
 msgid "Brazilian (ABNT layout, QWERTY)"
-msgstr ""
+msgstr "Brésilien (disposition ABNT, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2103,85 +2103,85 @@ msgstr "Finnois (QWERTY/ASERTT)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_FO"
 msgid "Faroese (QWERTY)"
-msgstr ""
+msgstr "Féroïen (QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_FR"
 msgid "French (standard, AZERTY)"
-msgstr ""
+msgstr "Français (standard, AZERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_FX"
 msgid "French (international, AZERTY)"
-msgstr ""
+msgstr "Français (international, AZERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_GK"
 msgid "Greek (319, QWERTY/national)"
-msgstr ""
+msgstr "Grec (319, QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_GK220"
 msgid "Greek (220, QWERTY/national)"
-msgstr ""
+msgstr "Grec (220, QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_GK459"
 msgid "Greek (459, non-standard/national)"
-msgstr ""
+msgstr "Grec (459, non-standard/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_HR"
 msgid "Croatian (QWERTZ/national)"
-msgstr ""
+msgstr "Croate (QWERTZ/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_HU"
 msgid "Hungarian (101-key, QWERTY)"
-msgstr ""
+msgstr "Hongrois (101 touches, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_HU208"
 msgid "Hungarian (102-key, QWERTZ)"
-msgstr ""
+msgstr "Hongrois (102 touches, QWERTZ)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_HY"
 msgid "Armenian (QWERTY/national)"
-msgstr ""
+msgstr "Arménien (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_IL"
 msgid "Hebrew (QWERTY/national)"
-msgstr ""
+msgstr "Hébreu (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_IS"
 msgid "Icelandic (101-key, QWERTY)"
-msgstr ""
+msgstr "Islandais (101 touches, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_IS161"
 msgid "Icelandic (102-key, QWERTY)"
-msgstr ""
+msgstr "Islandais (102 touches, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_IT"
 msgid "Italian (standard, QWERTY/national)"
-msgstr ""
+msgstr "Italien (standard, QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2193,7 +2193,7 @@ msgstr "Italien (142, QWERTY/national)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_IX"
 msgid "Italian (international, QWERTY)"
-msgstr ""
+msgstr "Italien (international, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2211,13 +2211,13 @@ msgstr "Kazakh (QWERTY/national)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_KK476"
 msgid "Kazakh (476, QWERTY/national)"
-msgstr ""
+msgstr "Kazakh (476, QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_KY"
 msgid "Kyrgyz (QWERTY/national)"
-msgstr ""
+msgstr "Kirghize (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2229,79 +2229,79 @@ msgstr "Amérique latine (QWERTY)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LT"
 msgid "Lithuanian (Baltic, QWERTY/phonetic)"
-msgstr ""
+msgstr "Lituanien (Baltique, QWERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LT210"
 msgid "Lithuanian (programmers, QWERTY/phonetic)"
-msgstr ""
+msgstr "Lituanien (programmeurs, QWERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LT211"
 msgid "Lithuanian (AZERTY/phonetic)"
-msgstr ""
+msgstr "Lituanien (AZERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LT221"
 msgid "Lithuanian (LST 1582, AZERTY/phonetic)"
-msgstr ""
+msgstr "Lituanien (LST 1582, AZERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LT456"
 msgid "Lithuanian (QWERTY/AZERTY/phonetic)"
-msgstr ""
+msgstr "Lituanien (QWERTY/AZERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LV"
 msgid "Latvian (standard, QWERTY/phonetic)"
-msgstr ""
+msgstr "Letton (standard, QWERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_LV455"
 msgid "Latvian (QWERTY/UGJRMV/phonetic)"
-msgstr ""
+msgstr "Letton (QWERTY/UGJRMV/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_MK"
 msgid "Macedonian (QWERTZ/national)"
-msgstr ""
+msgstr "Macédonien (QWERTZ/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_MN"
 msgid "Mongolian (QWERTY/national)"
-msgstr ""
+msgstr "Mongol (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_MT"
 msgid "Maltese (UK layout, QWERTY)"
-msgstr ""
+msgstr "Maltais (disposition UK, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_MT103"
 msgid "Maltese (US layout, QWERTY)"
-msgstr ""
+msgstr "Maltais (disposition US, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_NE"
 msgid "Nigerien (AZERTY)"
-msgstr ""
+msgstr "Nigérien (AZERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_NG"
 msgid "Nigerian (QWERTY)"
-msgstr ""
+msgstr "Nigérian (QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2313,25 +2313,25 @@ msgstr "Néerlandais (QWERTY)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_NO"
 msgid "Norwegian (QWERTY/ASERTT)"
-msgstr ""
+msgstr "Norvégien (QWERTY/ASERTT)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_PH"
 msgid "Filipino (QWERTY)"
-msgstr ""
+msgstr "Philippin (QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_PL"
 msgid "Polish (programmers, QWERTY/phonetic)"
-msgstr ""
+msgstr "Polonais (programmeurs, QWERTY/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_PL214"
 msgid "Polish (typewriter, QWERTZ/phonetic)"
-msgstr ""
+msgstr "Polonais (machine à écrire, QWERTZ/phonétique)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2343,7 +2343,7 @@ msgstr "Portugais (QWERTY)"
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_PX"
 msgid "Portuguese (international, QWERTY)"
-msgstr ""
+msgstr "Portugais (international, QWERTY)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
@@ -2421,13 +2421,13 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_SV"
 msgid "Swedish (QWERTY/ASERTT)"
-msgstr ""
+msgstr "Suédois (QWERTY/ASERTT)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
 msgctxt "KEYBOARD_LAYOUT_NAME_TJ"
 msgid "Tajik (QWERTY/national)"
-msgstr ""
+msgstr "Tadjik (QWERTY/national)"
 
 #: src/dos/dos_locale.cpp:1733
 #, fuzzy, c-format, no-wrap
