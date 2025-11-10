@@ -7011,61 +7011,66 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_CODE_PAGE"
 msgid "Code page"
-msgstr ""
+msgstr "Page de codes"
 
 #: src/dos/programs/keyb.cpp:379
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_ROM_FONT"
 msgid "ROM font"
-msgstr ""
+msgstr "Police ROM"
 
 #: src/dos/programs/keyb.cpp:380
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_KEYBOARD_LAYOUT"
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Disposition de clavier"
 
 #: src/dos/programs/keyb.cpp:381
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_KEYBOARD_SCRIPT"
 msgid "Keyboard script"
-msgstr ""
+msgstr "Script de clavier"
 
 #: src/dos/programs/keyb.cpp:382
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_NOT_LOADED"
 msgid "not loaded"
-msgstr ""
+msgstr "non chargé"
 
 #: src/dos/programs/keyb.cpp:384
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_INVALID_CODE_PAGE"
 msgid "Invalid code page.\n"
-msgstr ""
+msgstr "Page de codes invalide.
+"
 
 #: src/dos/programs/keyb.cpp:386
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_CPI_FILE_NOT_FOUND"
 msgid "Code page information file not found.\n"
-msgstr ""
+msgstr "Fichier d'information de page de codes introuvable.
+"
 
 #: src/dos/programs/keyb.cpp:388
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_CPI_READ_ERROR"
 msgid "Error reading code page information file.\n"
-msgstr ""
+msgstr "Erreur de lecture du fichier d'information de page de codes.
+"
 
 #: src/dos/programs/keyb.cpp:390
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_INVALID_CPI_FILE"
 msgid "Invalid code page information file.\n"
-msgstr ""
+msgstr "Fichier d'information de page de codes invalide.
+"
 
 #: src/dos/programs/keyb.cpp:392
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_CPI_FILE_TOO_LARGE"
 msgid "Code page information file too large.\n"
-msgstr ""
+msgstr "Fichier d'information de page de codes trop volumineux.
+"
 
 #: src/dos/programs/keyb.cpp:394
 #, fuzzy, c-format, no-wrap
@@ -7079,55 +7084,64 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_PRINTER_CPI_FILE"
 msgid "This is a printer code page information file, it does not contain screen fonts.\n"
-msgstr ""
+msgstr "Ceci est un fichier d'information de page de codes d'imprimante, il ne contient pas de polices d'écran.
+"
 
 #: src/dos/programs/keyb.cpp:399
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_SCREEN_FONT_UNUSABLE"
 msgid "Code page %d found, but the screen font could not be used.\n"
-msgstr ""
+msgstr "Page de codes %d trouvée, mais la police d'écran n'a pas pu être utilisée.
+"
 
 #: src/dos/programs/keyb.cpp:401
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_NO_BUNDLED_CPI_FILE"
 msgid "No bundled code page information file for code page %d.\n"
-msgstr ""
+msgstr "Aucun fichier d'information de page de codes intégré pour la page de codes %d.
+"
 
 #: src/dos/programs/keyb.cpp:403
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_NO_CODE_PAGE_IN_FILE"
 msgid "No code page %d in the code page information file.\n"
-msgstr ""
+msgstr "Aucune page de codes %d dans le fichier d'information de page de codes.
+"
 
 #: src/dos/programs/keyb.cpp:405
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_INCOMPATIBLE_MACHINE"
 msgid "Can't change the screen font; EGA machine or better is required.\n"
-msgstr ""
+msgstr "Impossible de changer la police d'écran ; une machine EGA ou supérieure est requise.
+"
 
 #: src/dos/programs/keyb.cpp:408
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_LAYOUT_FILE_NOT_FOUND"
 msgid "File with keyboard layout '%s' not found.\n"
-msgstr ""
+msgstr "Fichier avec la disposition de clavier '%s' introuvable.
+"
 
 #: src/dos/programs/keyb.cpp:410
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_INVALID_LAYOUT_FILE"
 msgid "Invalid file with keyboard layout '%s'.\n"
-msgstr ""
+msgstr "Fichier invalide avec la disposition de clavier '%s'.
+"
 
 #: src/dos/programs/keyb.cpp:412
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_LAYOUT_NOT_KNOWN"
 msgid "Keyboard layout '%s' not known.\n"
-msgstr ""
+msgstr "Disposition de clavier '%s' inconnue.
+"
 
 #: src/dos/programs/keyb.cpp:413
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_KEYB_NO_LAYOUT_FOR_CODE_PAGE"
 msgid "No keyboard layout '%s' for code page %d.\n"
-msgstr ""
+msgstr "Aucune disposition de clavier '%s' pour la page de codes %d.
+"
 
 #: src/dos/programs/loadfix.cpp:75
 #, c-format, no-wrap
@@ -7449,7 +7463,7 @@ msgstr "Stereo"
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_CHANNEL_REVERSE"
 msgid "Reverse"
-msgstr ""
+msgstr "Inversé"
 
 #: src/dos/programs/mixer.cpp:829
 #, c-format, no-wrap
@@ -7461,19 +7475,19 @@ msgstr "Mono"
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_INACTIVE_CHANNEL"
 msgid "Channel [color=light-cyan]%s[reset] is not active"
-msgstr ""
+msgstr "Le canal [color=light-cyan]%s[reset] n'est pas actif"
 
 #: src/dos/programs/mixer.cpp:834
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_INVALID_GLOBAL_COMMAND"
 msgid "Invalid global command: [color=white]%s[reset]"
-msgstr ""
+msgstr "Commande globale invalide : [color=white]%s[reset]"
 
 #: src/dos/programs/mixer.cpp:837
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_INVALID_VOLUME_COMMAND"
 msgid "Invalid volume for the [color=light-cyan]%s[reset] channel: [color=white]%s[reset]"
-msgstr ""
+msgstr "Volume invalide pour le canal [color=light-cyan]%s[reset] : [color=white]%s[reset]"
 
 #: src/dos/programs/mixer.cpp:841
 #, fuzzy, c-format, no-wrap
@@ -7575,19 +7589,19 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_MISSING_CHANNEL_COMMAND"
 msgid "Missing command for the [color=light-cyan]%s[reset] channel"
-msgstr ""
+msgstr "Commande manquante pour le canal [color=light-cyan]%s[reset]"
 
 #: src/dos/programs/mixer.cpp:898
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_INVALID_CHANNEL_COMMAND"
 msgid "Invalid command for the [color=light-cyan]%s[reset] channel: [color=white]%s[reset]"
-msgstr ""
+msgstr "Commande invalide pour le canal [color=light-cyan]%s[reset] : [color=white]%s[reset]"
 
 #: src/dos/programs/mixer.cpp:902
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MIXER_CHANNEL_DEPRECATED"
 msgid "Channel name [color=light-cyan]%s[reset] is deprecated, use [color=light-cyan]%s[reset] instead"
-msgstr ""
+msgstr "Le nom de canal [color=light-cyan]%s[reset] est obsolète, utilisez [color=light-cyan]%s[reset] à la place"
 
 #: src/dos/programs/mode.cpp:258
 #, fuzzy, c-format, no-wrap
@@ -7694,31 +7708,31 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_NO_FILE"
 msgid "No input file found."
-msgstr ""
+msgstr "Aucun fichier d'entrée trouvé."
 
 #: src/dos/programs/more.cpp:196
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_END"
 msgid "[reset][color=brown]--- end of input ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- fin de l'entrée ---[reset]"
 
 #: src/dos/programs/more.cpp:198
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_NEW_FILE"
 msgid "[reset][color=brown]--- file %s ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- fichier %s ---[reset]"
 
 #: src/dos/programs/more.cpp:200
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_NEW_DEVICE"
 msgid "[reset][color=brown]--- device %s ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- périphérique %s ---[reset]"
 
 #: src/dos/programs/more.cpp:202
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_SINGLE"
 msgid "[reset][color=brown]--- press SPACE for next page, ENTER for next line, Q to quit ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- appuyez sur ESPACE pour la page suivante, ENTRÉE pour la ligne suivante, Q pour quitter ---[reset]"
 
 #: src/dos/programs/more.cpp:204
 #, c-format, no-wrap
@@ -7730,55 +7744,55 @@ msgstr "-- Plus -- (%d%%)"
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_MULTI"
 msgid "[reset][color=brown]--- press SPACE or ENTER for more, N for next file, Q to quit ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- appuyez sur ESPACE ou ENTRÉE pour continuer, N pour le fichier suivant, Q pour quitter ---[reset]"
 
 #: src/dos/programs/more.cpp:208
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_SHORT"
 msgid "[reset][color=brown]--- more ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- suite ---[reset]"
 
 #: src/dos/programs/more.cpp:210
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_SHORT_PERCENT"
 msgid "[reset][color=brown]--- (%d%%) more ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- (%d%%) suite ---[reset]"
 
 #: src/dos/programs/more.cpp:212
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_PROMPT_LINE"
 msgid "[reset][color=brown]--- line %u ---[reset]"
-msgstr ""
+msgstr "[reset][color=brown]--- ligne %u ---[reset]"
 
 #: src/dos/programs/more.cpp:214
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_OPEN_ERROR"
 msgid "[reset][color=light-red]--- could not open %s ---[reset]"
-msgstr ""
+msgstr "[reset][color=light-red]--- impossible d'ouvrir %s ---[reset]"
 
 #: src/dos/programs/more.cpp:216
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_TERMINATE"
 msgid "[reset][color=brown](terminated)[reset]"
-msgstr ""
+msgstr "[reset][color=brown](terminé)[reset]"
 
 #: src/dos/programs/more.cpp:218
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_NEXT_FILE"
 msgid "[reset][color=brown](next file)[reset]"
-msgstr ""
+msgstr "[reset][color=brown](fichier suivant)[reset]"
 
 #: src/dos/programs/more.cpp:220
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_SKIPPED"
 msgid "[reset][color=brown](skipped content)[reset]"
-msgstr ""
+msgstr "[reset][color=brown](contenu ignoré)[reset]"
 
 #: src/dos/programs/more.cpp:222
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MORE_HOW_MANY_LINES"
 msgid "[reset][color=brown]how many lines?[reset]"
-msgstr ""
+msgstr "[reset][color=brown]combien de lignes ?[reset]"
 
 #: src/dos/programs/mount.cpp:399
 #, c-format, no-wrap
@@ -8059,19 +8073,22 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_SYNTAX_PATTERN"
 msgid "Incorrect syntax, only ASCII characters allowed in pattern.\n"
-msgstr ""
+msgstr "Syntaxe incorrecte, seuls les caractères ASCII sont autorisés dans le motif.
+"
 
 #: src/dos/programs/mousectl.cpp:580
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_SYNTAX_SENSITIVITY"
 msgid "Incorrect syntax, sensitivity needs to be in -999 to +999 range.\n"
-msgstr ""
+msgstr "Syntaxe incorrecte, la sensibilité doit être entre -999 et +999.
+"
 
 #: src/dos/programs/mousectl.cpp:582
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_SYNTAX_DUPLICATED"
 msgid "Incorrect syntax, duplicated mouse interfaces.\n"
-msgstr ""
+msgstr "Syntaxe incorrecte, interfaces de souris dupliquées.
+"
 
 #: src/dos/programs/mousectl.cpp:584
 #, fuzzy, c-format, no-wrap
@@ -8085,115 +8102,123 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MAPPING_NO_MOUSE"
 msgid "Mapping not available in no-mouse mode.\n"
-msgstr ""
+msgstr "Mappage non disponible en mode sans souris.
+"
 
 #: src/dos/programs/mousectl.cpp:589
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MAPPING_BLOCKED_BY_DRIVER"
 msgid "Mapping not possible with current guest mouse driver.\n"
-msgstr ""
+msgstr "Mappage impossible avec le pilote de souris invité actuel.
+"
 
 #: src/dos/programs/mousectl.cpp:592
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MANYMOUSE_NOT_BUILT"
 msgid "Individual physical mice not supported in this build.\n"
-msgstr ""
+msgstr "Souris physiques individuelles non prises en charge dans cette version.
+"
 
 #: src/dos/programs/mousectl.cpp:594
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MANYMOUSE_RAW_INPUT"
 msgid "Individual physical mice not supported if 'mouse_raw_input' is enabled.\n"
-msgstr ""
+msgstr "Souris physiques individuelles non prises en charge si 'mouse_raw_input' est activé.
+"
 
 #: src/dos/programs/mousectl.cpp:597
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_NO_INTERFACES"
 msgid "No mouse interfaces available.\n"
-msgstr ""
+msgstr "Aucune interface de souris disponible.
+"
 
 #: src/dos/programs/mousectl.cpp:599
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MISSING_INTERFACES"
 msgid "Mouse interface not available.\n"
-msgstr ""
+msgstr "Interface de souris non disponible.
+"
 
 #: src/dos/programs/mousectl.cpp:601
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_NO_PHYSICAL_MICE"
 msgid "No physical mice detected.\n"
-msgstr ""
+msgstr "Aucune souris physique détectée.
+"
 
 #: src/dos/programs/mousectl.cpp:603
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_NO_MATCH"
 msgid "No available mouse found matching the pattern.\n"
-msgstr ""
+msgstr "Aucune souris disponible correspondant au motif.
+"
 
 #: src/dos/programs/mousectl.cpp:606
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_HEADER1"
 msgid "[color=white]Interface      Sensitivity      Rate (Hz)     Status[reset]"
-msgstr ""
+msgstr "[color=white]Interface      Sensibilité      Taux (Hz)     État[reset]"
 
 #: src/dos/programs/mousectl.cpp:608
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_LAYOUT1"
 msgid "[color=light-cyan]%-4s[reset]          X:%+.3d Y:%+.3d       %1s %3s       %s"
-msgstr ""
+msgstr "[color=light-cyan]%-4s[reset]          X:%+.3d Y:%+.3d       %1s %3s       %s"
 
 #: src/dos/programs/mousectl.cpp:611
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_HEADER2"
 msgid "[color=white]Interface     Mouse Name[reset]"
-msgstr ""
+msgstr "[color=white]Interface     Nom de souris[reset]"
 
 #: src/dos/programs/mousectl.cpp:613
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_LAYOUT2"
 msgid "[color=light-cyan]%-4s[reset]          %s"
-msgstr ""
+msgstr "[color=light-cyan]%-4s[reset]          %s"
 
 #: src/dos/programs/mousectl.cpp:615
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_LAYOUT2_UNMAPPED"
 msgid "not mapped    %s"
-msgstr ""
+msgstr "non mappée    %s"
 
 #: src/dos/programs/mousectl.cpp:617
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_STATUS_HOST"
 msgid "uses system pointer"
-msgstr ""
+msgstr "utilise le pointeur système"
 
 #: src/dos/programs/mousectl.cpp:618
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_STATUS_MAPPED"
 msgid "mapped physical mouse"
-msgstr ""
+msgstr "souris physique mappée"
 
 #: src/dos/programs/mousectl.cpp:619
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_STATUS_DISCONNECTED"
 msgid "[color=light-red]mapped mouse disconnected[reset]"
-msgstr ""
+msgstr "[color=light-red]souris mappée déconnectée[reset]"
 
 #: src/dos/programs/mousectl.cpp:621
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_STATUS_DISABLED"
 msgid "disabled"
-msgstr ""
+msgstr "désactivée"
 
 #: src/dos/programs/mousectl.cpp:623
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_HINT_RATE_COM"
 msgid "Sampling rates for mice on [color=light-cyan]COM[reset] interfaces are estimations only."
-msgstr ""
+msgstr "Les taux d'échantillonnage pour les souris sur interfaces [color=light-cyan]COM[reset] sont des estimations uniquement."
 
 #: src/dos/programs/mousectl.cpp:625
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_TABLE_HINT_RATE_MIN"
 msgid "Sampling rates with minimum value set are marked with '*'."
-msgstr ""
+msgstr "Les taux d'échantillonnage avec valeur minimale définie sont marqués d'un '*'."
 
 #: src/dos/programs/mousectl.cpp:628
 #, fuzzy, c-format, no-wrap
@@ -8208,7 +8233,7 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_MOUSECTL_MAP_CANCEL"
 msgid "(mapping cancelled)"
-msgstr ""
+msgstr "(mappage annulé)"
 
 #: src/dos/programs/mousectl.cpp:633
 #, fuzzy, c-format, no-wrap
@@ -8383,73 +8408,73 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_WRONG_TABLE"
 msgid "Only version table in Z:\\ directory is supported."
-msgstr ""
+msgstr "Seule la table de versions dans le répertoire Z:\ est prise en charge."
 
 #: src/dos/programs/setver.cpp:719
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_INVALID_VERSION"
 msgid "Invalid DOS version."
-msgstr ""
+msgstr "Version DOS invalide."
 
 #: src/dos/programs/setver.cpp:721
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_UPDATED"
 msgid "Version table updated."
-msgstr ""
+msgstr "Table de versions mise à jour."
 
 #: src/dos/programs/setver.cpp:722
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_CLEARED"
 msgid "Version table cleared."
-msgstr ""
+msgstr "Table de versions effacée."
 
 #: src/dos/programs/setver.cpp:723
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_ALREADY_EMPTY"
 msgid "Version table already empty."
-msgstr ""
+msgstr "Table de versions déjà vide."
 
 #: src/dos/programs/setver.cpp:724
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_ENTRY_REMOVED"
 msgid "Entry removed from version table."
-msgstr ""
+msgstr "Entrée supprimée de la table de versions."
 
 #: src/dos/programs/setver.cpp:726
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_ENTRY_NOT_FOUND"
 msgid "Entry not found in version table."
-msgstr ""
+msgstr "Entrée introuvable dans la table de versions."
 
 #: src/dos/programs/setver.cpp:729
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_TABLE_EMPTY"
 msgid "Version table is empty."
-msgstr ""
+msgstr "La table de versions est vide."
 
 #: src/dos/programs/setver.cpp:730
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_GLOBAL"
 msgid "Global reported version"
-msgstr ""
+msgstr "Version globale rapportée"
 
 #: src/dos/programs/setver.cpp:732
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_BATCH_GLOBAL"
 msgid "rule for every executable"
-msgstr ""
+msgstr "règle pour chaque exécutable"
 
 #: src/dos/programs/setver.cpp:733
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_BATCH_BY_FILE_NAME"
 msgid "rules for matching by file name only"
-msgstr ""
+msgstr "règles de correspondance par nom de fichier uniquement"
 
 #: src/dos/programs/setver.cpp:735
 #, fuzzy, c-format, no-wrap
 msgctxt "PROGRAM_SETVER_BATCH_BY_FILE_PATH"
 msgid "rules for matching by file name with path"
-msgstr ""
+msgstr "règles de correspondance par nom de fichier avec chemin"
 
 #: src/dos/programs/tree.cpp:411
 #, fuzzy, c-format, no-wrap
@@ -8867,7 +8892,8 @@ msgstr "Pas assez d'espace d'environnement disponible.\n"
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_SET_OPTION_P_UNSUPPORTED"
 msgid "Option /P is not supported; please use the CHOICE command.\n"
-msgstr ""
+msgstr "L'option /P n'est pas prise en charge ; veuillez utiliser la commande CHOICE.
+"
 
 #: src/shell/shell.cpp:655
 #, c-format, no-wrap
@@ -10151,7 +10177,8 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MOVE_HELP"
 msgid "Move files and rename files and directories.\n"
-msgstr ""
+msgstr "Déplace et renomme des fichiers et répertoires.
+"
 
 #: src/shell/shell.cpp:1204
 #, fuzzy, c-format, no-wrap
@@ -10182,13 +10209,15 @@ msgstr ""
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_MOVE_MULTIPLE_TO_SINGLE"
 msgid "Cannot move multiple files to a single file.\n"
-msgstr ""
+msgstr "Impossible de déplacer plusieurs fichiers vers un seul fichier.
+"
 
 #: src/shell/shell.cpp:1226
 #, fuzzy, c-format, no-wrap
 msgctxt "SHELL_CMD_FOR_HELP"
 msgid "Run a specified command for each string in a set.\n"
-msgstr ""
+msgstr "Exécute une commande spécifiée pour chaque chaîne d'un ensemble.
+"
 
 #: src/shell/shell.cpp:1228
 #, fuzzy, c-format, no-wrap
